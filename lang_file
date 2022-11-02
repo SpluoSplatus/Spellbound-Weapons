@@ -1,0 +1,190 @@
+{
+
+
+
+  "(splatus example:) Original text": "(splatus ejemplo: el Original texto",
+  "Default Text From Spellbound Example": "Translated Text From Spellbound Example",
+  "Anytime text includes a \n or space please put it into the translation as well": "Anytime text includes a \n or space please put it into the translation as well",
+  "These 4 example translations do not have to be translated. Translate everything else below": "These 4 example translations do not have to be translated. Translate everything else below",
+  
+
+
+
+
+  "\nClick the name of an item to receive it\n": "\nClick the name of an item to receive it\n",
+  "Page": "Page",
+  "Return": "Return",
+  "Click to give": "Click to give",
+  "Next Page": "Next Page",
+  "Previous Page": "Previous Page",
+
+  "Hover to View Recipe": "Hover to View Recipe",
+  "Locked": "Locked",
+
+  "Recipe unlocks after getting a ": "Recipe unlocks after getting a ",
+  
+
+  "Drop these items onto the ground to craft this weapon\n": "Drop these items onto the ground to craft this weapon\n",
+  "Fire Staff: ": "Fire Staff: ",
+  "Ice Staff: ": "Ice Staff: ",
+  "Electric Staff: ": "Electric Staff: ",
+  
+  "Recipe unlocks after finding an Empty Staff in a bastion": "Recipe unlocks after finding an Empty Staff in a bastion",
+  
+  "Recipe unlocks after finding a Broken Crucible in a bastion": "Recipe unlocks after finding a Broken Crucible in a bastion",
+  
+
+
+  "You have learned a new weapon recipe, ": "You have learned a new weapon recipe, ",
+  ". Use /trigger spellbound_recipes in chat to view your current recipes": ". Use /trigger spellbound_recipes in chat to view your current recipes",
+
+
+
+
+  "Page 2 -->": "Page 2 -->",
+  "Page 3 -->": "Page 3 -->",
+  "Page 4 -->": "Page 4 -->",
+  "Page 5 -->": "Page 5 -->",
+  "Page 6 -->": "Page 6 -->",
+  "Page 7 -->": "Page 7 -->",
+  "Page 8 -->": "Page 8 -->",
+  
+  "<-- Page 1": "<-- Page 1",
+  "<-- Page 2": "<-- Page 2",
+  "<-- Page 3": "<-- Page 3",
+  "<-- Page 4": "<-- Page 4",
+  "<-- Page 5": "<-- Page 5",
+  "<-- Page 6": "<-- Page 6",
+  "<-- Page 7": "<-- Page 7",
+
+  "<-- Return": "<-- Return",
+
+
+
+
+  "Description:": "Description:",
+  "Click to change this setting:": "Click to change this setting",
+  "Enabled:": "Enabled:",
+  "Disabled:": "Disabled:",
+  "Weapons Achieveable: ": "Weapons Achieveable: ",
+  "Weapon Cooldowns: ": "Weapon Cooldowns: ",
+  "Weapon Recipes Notification: ": "Weapon Recipes Notification: ",
+  "Weapon Tips: ": "Weapon Tips: ",
+
+  "The cooldowns for weapons that take time to charge like the Staffs, when cooldowns are disabled they will immediately reach their final charge state.": "The cooldowns for weapons that take time to charge like the Staffs, when cooldowns are disabled they will immediately reach their final charge state.",
+  "Determines whether Spellbound Weapons can be naturally found in Survival Mode (chests, mob drops, etc) otherwise if disabled, weapons can only be accessed through commands": "Determines whether Spellbound Weapons can be naturally found in Survival Mode (chests, mob drops, etc) otherwise if disabled, weapons can only be accessed through commands",
+  "Messages in chat that display to the player when the required item for a certain weapon's recipe is achieved": "Messages in chat that display to the player when the required item for a certain weapon's recipe is achieved",
+  "The tips that display when using Bone Wand, Windswept Sword and Evokers Wrath": "The tips that display when using Bone Wand, Windswept Sword and Evokers Wrath",
+  
+
+
+
+
+  "Weapon Tip:": "Weapon Tip:",
+  " Triple clicking ": " Triple clicking ",
+  " will break your currently existing bone blocks.": " will break your currently existing bone blocks.",
+  " Holding ": " Holding ",
+  " whilst aiming will make your suction area deal 0 damage and use less durability": " whilst aiming will make your suction area deal 0 damage and use less durability",
+  " When you notice sand particles around you, you can triple click ": " When you notice sand particles around you, you can triple click ",
+  " to unleash a wave of sand": " to unleash a wave of sand",
+
+
+
+
+
+
+  "Spellbound Conqueror": "Spellbound Conqueror",
+  "Discover every Spellbound Weapon": "Discover every Spellbound Weapon",
+  
+
+
+  "Nether Staffs": "Nether Staffs",
+  "End Excalibur": "End Excalibur",
+  "Blazing Sword": "Blazing Sword",
+  "Cursed Sea Blade": "Cursed Sea Blade",
+  "Dagger": "Dagger",
+  "Fire Staff": "Fire Staff",
+  "Ice Staff": "Ice Staff",
+  "Electric Staff": "Electric Staff",
+  "Empty Staff": "Empty Staff",
+  "Crucible": "Crucible",
+  "Windswept Sword": "Windswept Sword",
+  "Withering Sword": "Withering Sword",
+  "Witherblade": "Witherblade",
+  "Mega Hammer": "Mega Hammer",
+  "Evokers Wrath": "Evokers Wrath",
+  "Bone Wand": "Bone Wand",
+  "Warped Crossbow": "Warped Crossbow",
+  "Blowgun": "Blowgun",
+  "Chainfiring Crossbow": "Chainfiring Crossbow",
+  "Endlight Bow": "Endlight Bow",
+  "Golden Sea Blade": "Golden Sea Blade",
+  "Broken Crucible": "Broken Crucible",
+  "Moonlight Edge": "Moonlight Edge",
+  "Magmus Bow": "Magmus Bow",
+  "Magmus Charger": "Magmus Charger",
+  "Echo Wand": "Echo Wand",
+
+
+
+  "Your Fire Staff is at low durability! Repair it with a fishing rod in a grindstone or anvil": "Your Fire Staff is at low durability! Repair it with a fishing rod in a grindstone or anvil",
+  "Your Ice Staff is at low durability! Repair it with a fishing rod in a grindstone or anvil": "Your Ice Staff is at low durability! Repair it with a fishing rod in a grindstone or anvil",
+  "Your Electric Staff is at low durability! Repair it with a fishing rod in a grindstone or anvil": "Your Electric Staff is at low durability! Repair it with a fishing rod in a grindstone or anvil",
+ 
+  "Charging Wave...": "Charging Wave...",
+  "Ready! Press ": "Ready! Press ",
+  " to Release a Wave - 40/40": " to Release a Wave - 40/40",
+
+  "Charging beam... - ": "Charging beam... - ",
+  " to release beam - 60/60": " to release beam - 60/60",
+
+  "Energy - ": "Energy - ",
+  "Energy Maxed! Press ": "Energy Maxed! Press ",
+  " to release stored energy - 500": " to release stored energy - 500",
+
+
+  " is charged!": " is charged!",
+  "Shoot fireballs and set flames": "Shoot fireballs and set flames",
+  "Shoot ice blocks that freeze your": "Shoot ice blocks that freeze your",
+  "enemies in place": "enemies in place",
+  "Casts a line of electricity that fires": "Casts a line of electricity that fires",
+  "instantly and can go through walls": "instantly and can go through walls",
+"Witherblade has absorbed max souls! Hold down ": "Witherblade has absorbed max souls! Hold down ",
+" to heal": " to heal",
+
+
+  "Color: Red": "Color: Red",
+  "Color: Orange": "Color: Orange",
+  "Color: Yellow": "Color: Yellow",
+  "Color: Green": "Color: Green",
+  "Color: Lime": "Color: Lime",
+  "Color: Light Blue": "Color: Light Blue",
+  "Color: Blue": "Color: Blue",
+  "Color: Purple": "Color: Purple",
+  "Color: Magenta": "Color: Magenta",
+  "Color: Cyan": "Color: Cyan",
+  "Color: Pink": "Color: Pink",
+  "Color: Brown": "Color: Brown",
+  "Color: White": "Color: White",
+  "Color: Light Gray": "Color: Light Gray",
+  "Color: Gray": "Color: Gray",
+  "Color: Black": "Color: Black",
+  
+  "Your weapon burned whilst converting to netherite. Drop it on the ground to revert it back": "Your weapon burned whilst converting to netherite. Drop it on the ground to revert it back"
+,
+"You can't use two ranged weapons on your mainhand and offhand at the same time": "You can't use two ranged weapons on your mainhand and offhand at the same time"
+
+
+
+
+
+
+
+
+,
+
+
+
+
+"Discovered": "Discovered",
+"Swipes super fast, but deals low damage, additionally gives a small speed boost.": "Swipes super fast, but deals low damage, additionally gives a small speed boost.",
