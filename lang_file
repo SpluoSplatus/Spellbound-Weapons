@@ -1,7 +1,6 @@
 {
 
 
-
   "(splatus example:) Original text": "(splatus ejemplo: el Original texto",
   "Default Text From Spellbound Example": "Translated Text From Spellbound Example",
   "Anytime text includes a \n or space please put it into the translation as well": "Anytime text includes a \n or space please put it into the translation as well",
@@ -29,9 +28,6 @@
   "Ice Staff: ": "Ice Staff: ",
   "Electric Staff: ": "Electric Staff: ",
   
-  "Recipe unlocks after finding an Empty Staff in a bastion": "Recipe unlocks after finding an Empty Staff in a bastion",
-  
-  "Recipe unlocks after finding a Broken Crucible in a bastion": "Recipe unlocks after finding a Broken Crucible in a bastion",
   
 
 
@@ -186,5 +182,39 @@
 
 
 
-"Discovered": "Discovered",
-"Swipes super fast, but deals low damage, additionally gives a small speed boost.": "Swipes super fast, but deals low damage, additionally gives a small speed boost.",
+"#COMMENT // The translations below are part of Spellbound Weapons v4.0.0": "this specific line does not need to be translated",
+
+" was blown up by ": " was blown up by ",
+" was shot by ": " was shot by ",
+" was stunned by ": " was stunned by ",
+" energy from ": " energy from ",
+" was electricuted by ": " was electricuted by ",
+" was frozen by ": " was frozen by ",
+" was exploded by arrow from ": " was exploded by arrow from ",
+" perished by a light beam from ": " perished by a light beam from ",
+" perished by a heavy light beam from ": " perished by a heavy light beam from ",
+" was slain by ": " was slain by ",
+" was pricked to death by thorns from": " was pricked to death by thorns from",
+" was swept in wind by ": " was swept in wind by ",
+" hit themself whilst thorn grappling": " hit themself whilst thorn grappling",
+
+"Determines whether players can create weapon variants like dyed Crucibles and dagger variants": "Determines whether players can create weapon variants like dyed Crucibles and dagger variants",
+
+"Windsweeper": "Windsweeper",
+"Blazeblade": "Blazeblade",
+"Thorn Blossom": "Thorn Blossom",
+" charged! Hold ": " charged! Hold ",
+" to release flames": " to release flames",
+
+"Spellbound Master": "Spellbound Master",
+"Obtain every Spellbound Weapon": "Obtain every Spellbound Weapon",
+
+"Variant: Iron-Plated": "Variant: Iron-Plated",
+"Variant: Diamond-Plated": "Variant: Diamond-Plated",
+"Variant: Gold-Plated": "Variant: Gold-Plated",
+
+"Drop these items ontop of a crafting table to craft": "Drop these items ontop of a crafting table to craft this weapon",
+
+
+
+}
