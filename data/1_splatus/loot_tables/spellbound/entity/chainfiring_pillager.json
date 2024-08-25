@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        
+        {
+            "rolls": 1,
+            "entries": [
+                
+              {
+                "type": "minecraft:loot_table",
+                "name": "1_splatus:spellbound/item/chainfiring"
+              ,
+                "functions": [
+                    {
+                        "function": "minecraft:set_damage",
+                        "damage": {
+                          "min": -0.7,
+                          "max": -0.2
+                        },
+                        "add": true
+                      }
+                  
+                ]
+              }
+              
+            ]
+          
+          }
+        ]
+  }
+  

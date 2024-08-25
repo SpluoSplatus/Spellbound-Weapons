@@ -1,0 +1,13 @@
+
+
+
+
+
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {"translate":"Chainfiring Crossbow","color":"#84b2b3","italic":false}
+    
+  }
+]

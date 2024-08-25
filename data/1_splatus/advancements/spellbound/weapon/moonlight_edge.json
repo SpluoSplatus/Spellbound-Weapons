@@ -1,0 +1,22 @@
+{
+    "__comment": "Spellbound",
+    
+    
+    "criteria": {
+      
+      "moonlight_edge": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:diamond_sword"
+              ],
+              "nbt": "{SpellboundMoonlightEdge:1}"
+            }
+          ]
+        }
+      }
+       
+    }
+}

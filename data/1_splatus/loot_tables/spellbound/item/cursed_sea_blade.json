@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stone_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:47006,Unbreakable:1b,SpellboundItem:1,CursedSeaBlade:1,display:{Name:'{\"translate\":\"Cursed Sea Blade\",\"color\":\"#71ebc6\",\"italic\":false}',Lore:['{\"translate\":\"Curse of Fish I\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}']}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

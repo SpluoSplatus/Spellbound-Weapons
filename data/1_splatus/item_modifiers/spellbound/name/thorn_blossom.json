@@ -1,0 +1,11 @@
+
+
+
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": {"translate":"Thorn Blossom","color":"#ff40a6","italic":false}
+      
+    }
+  ]

@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:crossbow",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{SpellboundItem:1,CustomModelData:47033,SpellboundZGCrossbow:1,display:{Name:'{\"translate\":\"Warped Crossbow\",\"color\":\"#00a67f\",\"italic\":false}',Lore:['[{\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false},{\"translate\":\"item.minecraft.crossbow\"}]','{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}']}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

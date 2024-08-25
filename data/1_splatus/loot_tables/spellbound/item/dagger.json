@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_shovel",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:47018,SpellboundItem:1,display:{Name:'{\"translate\":\"Dagger\",\"color\":\"#91e060\",\"italic\":false}',Lore:['{\"translate\":\"Variant: Iron-Plated\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false},{\"translate\":\"item.minecraft.iron_shovel\"}]','{\"translate\":\"Spellbound Weapons\",\"color\":\"#676E75\",\"italic\":true}']},SpellboundDagger:1}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

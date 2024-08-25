@@ -1,0 +1,22 @@
+{
+    "__comment": "Spellbound",
+    
+    
+    "criteria": {
+       
+          "dagger": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:iron_shovel"
+                  ],
+                  "nbt": "{SpellboundDagger:1}"
+                }
+              ]
+            }
+          }
+         
+    }
+}

@@ -1,0 +1,1 @@
+summon bat ~ ~ ~ {Tags:["spellbound_dusties","refresh_entity_misc"],Invulnerable:1b,Silent:1b}

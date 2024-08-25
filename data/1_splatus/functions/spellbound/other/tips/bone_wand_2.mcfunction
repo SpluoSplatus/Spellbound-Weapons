@@ -1,0 +1,1 @@
+execute if score spellbound_tips spellbound_count matches 1 run title @s[tag=!1_splatus_actionbar_disabled] actionbar [{"translate":"Hold "},{"keybind":"key.sneak"},{"translate":" and then press "},{"keybind":"key.use"},{"translate":" to place a Bone Wall"}]

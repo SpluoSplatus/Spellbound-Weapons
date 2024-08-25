@@ -1,0 +1,16 @@
+
+
+
+
+
+
+
+
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {"translate":"Crucible","color":"#EB3868","italic":false}
+    
+  }
+]

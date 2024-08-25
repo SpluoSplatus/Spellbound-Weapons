@@ -1,0 +1,9 @@
+
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": {"translate":"Mega Hammer","color":"yellow","italic":false}
+      
+    }
+  ]

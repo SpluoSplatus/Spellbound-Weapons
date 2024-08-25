@@ -1,0 +1,62 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "1_splatus:item/endlight_resting"
+    },
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ -80, 260, -40 ],
+            "translation": [ 0, -3.25, -2.5 ],
+            "scale": [ 1.09, 1.09, 1.09 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ -80, 260, -40 ],
+            "translation": [ 0, -4, -2.5 ],
+            "scale": [ 1.09, 1.09, 1.09 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, -90, 25 ],
+            "translation": [ 1.13, 1.2, 1.13 ],
+            "scale": [ 1.09, 1.09, 1.09 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 90, -25 ],
+            "translation": [ 1.13, 1.2, 1.13 ],
+            "scale": [ 1.09, 1.09, 1.09 ]
+        }
+    },
+    "overrides": [
+ 
+
+        
+        {
+            "predicate": {
+                "custom_model_data": 47031
+            },
+            "model": "1_splatus:item/endlight_resting"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 47031,
+                "pulling": 1
+            },
+            "model": "1_splatus:item/endlight_pulling_0"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 47031,
+                "pulling": 1,
+                "pull": 0.65
+            },
+            "model": "1_splatus:item/endlight_pulling_1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 47031,
+                "pulling": 1,
+                "pull": 0.9
+            },
+            "model": "1_splatus:item/endlight_pulling_2"
+        }
+    ]
+}

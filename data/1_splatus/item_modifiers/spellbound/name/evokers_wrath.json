@@ -1,0 +1,16 @@
+
+
+
+
+
+
+
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": {"translate":"Evokers Wrath","color":"#cbcfa9","italic":false}
+      
+    }
+  ]
+  

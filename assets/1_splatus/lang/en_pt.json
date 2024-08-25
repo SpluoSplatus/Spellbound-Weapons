@@ -1,0 +1,455 @@
+{
+
+
+
+
+  "{t:} Translator": "LimeSplatus#4730",
+
+  "(splatus example:) Original text": "Translated Text",
+  "Anytime text includes a \n or space please put it into the translation as well": "Anytime text includes a \n or space please put it into the translation as well",
+  "These 3 example translations do not have to be translated. Translate everything else below": "These 3 example translations do not have to be translated. Translate everything else below",
+  
+
+
+
+
+  "\nClick the name of an item to receive it\n": "\nChoose yer gold to get it\n",
+  "Page": "Deck",
+  "Return": "Backwards",
+  "Click to give": "Choose to get it",
+
+  "Hover to View Recipe": "Hover to see secrets",
+  "Locked": "Sealed",
+
+  "Recipe unlocks after getting a ": "It ain't gonna show ya secrets till you get some ",
+  
+
+  "Drop these items onto the ground to craft this weapon\n": "Drop this stuff on the deck to create magic\n",
+  "Fire Staff: ": "Hot Stick: ",
+  "Ice Staff: ": "Cold Stick: ",
+  "Electric Staff: ": "Zapper: ",
+  
+  "Recipe unlocks after finding an Empty Staff in a bastion": "It ain't gonna show ya secrets till you find uh Empty Stick ina bastion",
+  
+  "Recipe unlocks after finding a Broken Crucible in a bastion": "It ain't gonna show ya secrets till you find uh Ruined Really Hot Cutlass ina bastion",
+  
+
+
+  "You have learned a new weapon recipe, ": "Ya discovered some secret magic, ",
+  ". Use /trigger spellbound_recipes in chat to view your current recipes": ". Perform /trigger spellbound_recipes in chat to view your current recipes",
+
+
+
+
+
+  "Page 2 -->": "Deck 2 -->",
+  "Page 3 -->": "Deck 3 -->",
+  "Page 4 -->": "Deck 4 -->",
+  "Page 5 -->": "Deck 5 -->",
+  "Page 6 -->": "Deck 6 -->",
+  "Page 7 -->": "Deck 7 -->",
+  "Page 8 -->": "Deck 8 -->",
+  
+  "<-- Page 1": "<-- Deck 1",
+  "<-- Page 2": "<-- Deck 2",
+  "<-- Page 3": "<-- Deck 3",
+  "<-- Page 4": "<-- Deck 4",
+  "<-- Page 5": "<-- Deck 5",
+  "<-- Page 6": "<-- Deck 6",
+  "<-- Page 7": "<-- Deck 7",
+
+  "<-- Return": "<-- Backweerds",
+
+
+
+
+  "Description:": "Da Descriptors:",
+  "Click to change this setting:": "Select to get it swapped",
+  "Enabled:": "Enabled:",
+  "Disabled:": "Disabled:",
+  "Weapons Achieveable: ": "Aquirable Battle Magic: ",
+  "Weapon Cooldowns: ": "Magic Cooldowns: ",
+  "Weapon Recipes Notification: ": "Magic Secrets Notification: ",
+  "Weapon Tips: ": "Tips About o' Magic: ",
+
+  "The cooldowns for weapons that take time to charge like the Staffs, when cooldowns are disabled they will immediately reach their final charge state.": "The cooler for da dark magic like for dem scary sticks",
+  "Determines whether Spellbound Weapons can be naturally found in Survival Mode (chests, mob drops, etc) otherwise if disabled, weapons can only be accessed through commands": "Can da treasures be found?",
+  "Messages in chat that display to the player when the required item for a certain weapon's recipe is achieved": "Reveals the sealed secrets",
+  "The tips that display when using Bone Wand, Windswept Sword and Evokers Wrath": "Gives ya a lil' help with dem weapons popup thingamajiggy",
+  
+
+
+
+
+  "Weapon Tip:": "Lil Help:",
+  " Triple clicking ": " Pushing down ",
+  " will break your currently existing bone blocks.": " alot shall break your distant bones!",
+  " Holding ": " Holding ",
+  " whilst aiming will make your suction area deal 0 damage and use less durability": " whilst aiming yer echo will make ur blackhole weak and keep it good durab",
+  " When you notice sand particles around you, you can triple click ": " When yer sand curse sets sails, you can triple click ",
+  " to unleash a wave of sand": " to unleash a wave of sand",
+
+
+
+
+
+
+  "Spellbound Conqueror": "The Spell Magic Completioner",
+  "Discover every Spellbound Weapon": "Discover al the Spellbound magic",
+  
+
+
+  "Nether Staffs": "Scary Sticks",
+  "End Excalibur": "End o' Excaliburied",
+  "Blazing Sword": "Blazing Cutlass",
+  "Cursed Sea Blade": "Davy Jones Cutlass",
+  "Dagger": "Pincher",
+  "Fire Staff": "Hot Stick",
+  "Ice Staff": "Cold Stick",
+  "Electric Staff": "Zapper",
+  "Empty Staff": "Empty Stick",
+  "Crucible": "Really Hot Cutlass",
+  "Windswept Sword": "Swept 'n Cutlass",
+  "Withering Sword": "Wither'd Cutlass",
+  "Witherblade": "Witherbladin",
+  "Mega Hammer": "Big Hammer",
+  "Evokers Wrath": "Growl Caster",
+  "Bone Wand": "Wand of yer lost Bones",
+  "Warped Crossbow": "Unusual Crossbow",
+  "Blowgun": "Pew Pew",
+  "Chainfiring Crossbow": "Device Crossbow",
+  "Endlight Bow": "Bright Flintlock",
+  "Golden Sea Blade": "Cutlass of the Seven Seas",
+  "Broken Crucible": "Ruined Really Hot Cutlass",
+  "Moonlight Edge": "Beamer",
+  "Magmus Bow": "Volacano Flintlock",
+  "Magmus Charger": "Volacano Flintlock",
+  "Echo Wand": "Ghost Wand",
+
+
+
+
+  "Your Fire Staff is at low durability! Repair it with a fishing rod in a grindstone or anvil": "Yer Hot Stick is at low durability! Repair it with a fishing rod in a grindstone or anvil",
+  "Your Ice Staff is at low durability! Repair it with a fishing rod in a grindstone or anvil": "Yer Ice Stick is at low durability! Repair it with a fishing rod in a grindstone or anvil",
+  "Your Electric Staff is at low durability! Repair it with a fishing rod in a grindstone or anvil": "Yer Zapper is at low durability! Repair it with a fishing rod in a grindstone or anvil",
+ 
+  "Charging Wave...": "Charging Seas...",
+  "Ready! Press ": "Yarr! Press ",
+  " to Release a Wave - 40/40": " to Release the Seas - 40/40",
+
+  "Charging... - ": "Charging... - ",
+
+  "Charging beam... - ": "Charging beam... - ",
+  " to release beam - 60/60": " to release beam - 60/60",
+
+  "Energy - ": "Power - ",
+  "Energy Maxed! Press ": "Yarr! Press ",
+  " to release stored energy - 500": " to release yer power!!! - 500",
+
+
+  "Color: Red": "Color: The Seas Common",
+  "Color: Orange": "Color: A bit different",
+  "Color: Yellow": "Color: Gold'n",
+  "Color: Green": "Color: Cactus",
+  "Color: Lime": "Color: Limeade",
+  "Color: Light Blue": "Color: Sky",
+  "Color: Blue": "Color: Lapis",
+  "Color: Purple": "Color: Magic",
+  "Color: Magenta": "Color: Light Magic",
+  "Color: Cyan": "Color: The Water",
+  "Color: Pink": "Color: Unseen Bloom",
+  "Color: Brown": "Color: Lava",
+  "Color: White": "Color: REAL BRIGHT!!",
+  "Color: Light Gray": "Color: Bright",
+  "Color: Gray": "Color: Boring",
+  "Color: Black": "Color: Void",
+
+
+
+
+
+  
+  "Your weapon burned whilst converting to netherite. Drop it on the ground to revert it back": "Yer magic got fried by Davy Jones whilst turning into netherite. Throw it on the deck to revert yer mistakes"
+
+
+
+
+
+
+
+
+  ,
+
+
+
+
+  "#COMMENT // The translations below are part of Spellbound Weapons v4.0.0": "this does not need to be translated",
+  
+  " was blown up by ": " was blown up by ",
+  " was shot by ": " was shot into pieces by ",
+  " was stunned by ": " was left stunned by ",
+  " energy from ": " goop from ",
+  " was electricuted by ": " was stingrayed by ",
+  " was frozen by ": " was froze'n to the core by ",
+  " was exploded by arrow from ": " was blown up into a quadrillion pieces by arrow from ",
+  " perished by a light beam from ": " disappeared by a moon beam from ",
+  " perished by a heavy light beam from ": " disappeared by a big moon beam from ",
+  " was slain by ": " was cut in half by ",
+  " was pricked to death by thorns from": " was prodded into foul waters by prickles from",
+  " was swept in wind by ": " was swept by the tides cold flow by ",
+  " hit themself whilst thorn grappling": " wrecklessly bonked their brain whilst prickly grappling",
+  
+  "Determines whether players can create weapon variants like dyed Crucibles and dagger variants": "Determines whether players can create weapon variants like dyed Crucibles and dagger variants",
+  
+  "Windsweeper": "Tideswind",
+  "Blazeblade": "Blaze Cutlass",
+  "Thorn Blossom": "Pricky Bloom",
+  " charged! Hold ": " Yarr! Hold ",
+  " to release flames": " to release dynamite flames",
+  
+  "Spellbound Master": "Yer Spellbound Finder",
+  "Obtain every Spellbound Weapon": "Obtain every last one of them Spellbound Weapons",
+  
+  "Variant: Iron-Plated": "Variant: Steel",
+  "Variant: Diamond-Plated": "Variant: Shiney Blue",
+  "Variant: Gold-Plated": "Variant: GOLD!!!!",
+  
+  "Drop these items ontop of a crafting table to craft": "Drop these er items atop yer craftin' table to forge this weapon",
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "Please Select A Category": "I ask o' clicket a scroll",
+    "Click to Summon": "Clicket to Steal",
+    "Summon Bosses": "Awaken o' Scaries",
+    "Settings": "Scribble",
+    "Boss Items": "Scaries Treasure",
+    "Operator Commands": "You cant do that",
+    "Enable": "Aye",
+    "Disable": "Nay",
+    
+ 
+
+    "Corrupted Enderman": "Lost Tall Man",
+    "Giant": "Big Green",
+    "Blaze King": "Smokey",
+    "Ultra Wither": "Timber John Cackles",
+    "Sanctum Keeper": "Keeper of the Deck",
+    "Phantom Swarm": "Moony Scaries",
+    "Illusioner": "Man o' Illusioners",
+    "Shulker Stone": "Yellowstone",
+
+  
+    
+    "Ultra Corrupted Enderman": "Incredible Tall Man",
+    "Ultra Giant": "Incredible Big Green",
+    "Ultra Blaze King": "Incredible Smokey",
+    "Ultra Ultra Wither": "Incredible Timber John Cackles",
+    "Ultra Sanctum Keeper": "Incredible Keeper of the Deck",
+    "Ultra Phantom Swarm": "Incredible Moony Scaries",
+    "Ultra Illusioner": "Incredible Illusions O' T' Sea",
+    "Ultra Shulker Stone": "Incredible Yellowstone",
+
+
+
+
+    "Ominous Command Block": "Thingamajigy Block",
+    "Ominous Eye of Ender": "Thingamajigy Eye",
+    "Ominous Pearl": "Thingamajigy",
+    "Spirit Bow": "Plundered Souls Shooty",
+    "Blaze King's Helmet": "Treasure Helmet",
+    "Shulker Shell Helmet": "Box Helmet",
+    "Giant Stompers": "Green Booties",
+    "Endstone Key": "Key to the Deck",
+    "Corrupt Dust": "Ruby Powder",
+
+  
+
+
+
+    " cannot function with netherite. Drop it on the ground to revert it.": " cannot function with netherite. Drop it on the ground to revert it.",
+
+  
+
+
+
+    "Deep Vision I": "Deep Vision I",
+    "The Shulker Shell of the": "Da shell of der ",
+    "Shulker Stone. When equipped,": "Yellowstone. When put on,",
+    "the bearer will give surrounding": "yer noggin, youll see",
+    "mobs a glow effect, and all": "everythin' and everyone, and",
+    "end mobs will be passive.": "portal scaries will be friendly.",
+
+    "Split I": "Split I",
+    "A sacred bow that harnests the": "An arco that uses the",
+    "energy of souls in the air, once": "stuff of spirits in the air, once",
+    "charged will split your arrow into": "charged will combust your projectile into",
+    "mirrors of the Sanctum Keeper. To": "mirrors of Davy Jones. To",
+    "teleport, sneak/crouch while aiming": "disappear, sneak/crouch while pointing",
+
+    "Dropped by the Ultra Wither. When in": "Passed by Timber John Cackles. When you",
+    "player\\'s inventory they will": "hold it close to yer heart, you'll",
+    "gain 2 extra hearts": "become super healthy",
+
+    "The helmet of the Blaze King, amplifies": "The cap of Smokey... makes yer",
+    "the power and determination of": "body and soul realll strong when",
+    "the bearer when at low health": "yer at yer lowest point",
+
+    "Propells the bearer with the power of": "Lets yer feet hop off the ground",
+    "giants. Hold sneak and then jump to": "like Big Green. Hold sneak and then jump to",
+    "perform a high jump. Jump ontop of": "jump high like Big Green. Jump on ",
+    "mobs to deal damage": "foes heads to stomp.",
+    
+    "Used to reawaken the Shulker Stone": "Lets you wake up Yellowstone from its",
+    "from its deep sleep in its inverted": "nap in its egyptian floating pyramid",
+    "pyramid high above the End Cities": "straight above portal scary city",
+
+    "Created at a Sanctum, throw this": "Forged in Davy Jone's house, shove it",
+    "on an enderman to corrupt it": "into a portal scary to make dem scarier",
+
+    "Spirit Bow is charged! - 25/25": "Plundered Souls Shooty is charged! - 25/25",
+
+
+    
+
+
+
+    
+    "Mysterious Power": "Mysterious Treasure",
+    "Forge a Command Block in a Smithing Table with an ominous pearl and a gold block": "Forge a Command Block in a Smithing Table with an ominous pearl and a gold block",
+    "Ultris Conqueror": "Ye Darn Took Em All Down",
+    "Defeat every Ultris Boss": "Defeat every Ultris Boss",
+    "Corrupted": "Enemy Tall Man",
+    "Find and battle the corrupted Ultris Boss, Corrupted Enderman": "Find and battle the corrupted Ultris Boss, Corrupted Enderman",
+    "Weakened": "Gone",
+    "Defeat the Corrupted Enderman": "Defeat the Corrupted Enderman",
+    "No Giant Is Stronger Than Me!": "No one shalt takit me treasures!",
+    "Defeat the Giant": "Defeat the Giant",
+    "Green Giant": "Big Green",
+    "Throw a strength potion at a zombie and turn it into the Ultris Boss, the Giant.": "Throw a strength potion at a zombie and turn it into the Ultris Boss, the Giant.",
+    "Fountain of Youth?": "I ain't gon take cares that guy",
+    "Throw a weakness potion at a zombie and turn it into a... baby zombie.": "Throw a weakness potion at a zombie and turn it into a... baby zombie.",
+    "What Species is That?": "Creature! Creature!",
+    "Find a pig with strange purple particles...": "Find a pig with strange purple particles...",
+    "Porky Illusions": "Bacon.",
+    "Encounter the magical Ultris Boss, the Illusioner.": "Encounter the magical Ultris Boss, the Illusioner.",
+    "Shows Over!": "Magic Man Drowned",
+    "Defeat the Illusioner": "Defeat the Illusioner",
+    "Together In The Dark": "We discover deep oceans",
+    "Bring out the friends of the lone phantom and discover the Phantom Swarm": "Bring out the friends of the lone phantom and discover the Phantom Swarm",
+    "Phantom Slayer": "Destory the Scaries",
+    "Defeat the Phantom Swarm": "Defeat the Phantom Swarm",
+    "Alone In The Dark..?": "Lost Forever",
+    "Find a phantom all alone by itself in the vastness of the end...": "Find a phantom all alone by itself in the vastness of the end...",
+    "Flame Out!": "Booty In Flames!",
+    "Set flame to a phantom in the end and remove its abillity to summon other phantoms": "Set flame to a phantom in the end and remove its abillity to summon other phantoms",
+    "Ultris: Minecraft Boss Expansion": "Ultris: Crafty Deck Expansions",
+    "Venture further and discover the 8 Ultris Bosses. Follow through the advancements proceeding to find the paths to each boss.": "Venture further and discover the 8 Ultris Bosses. Follow through the advancements proceeding to find the paths to each boss.",
+    "Ultra Withering Heights": "Incredible Withering Heights",
+    "Throw an Enchanted Command Block at a Wither, summon the Ultris Boss, Ultra Wither": "Throw an Enchanted Command Block at a Wither, summon the Ultris Boss, Ultra Wither",
+    "Double It Up!": "Girthy",
+    "Throw a second command block at the Ultra Wither to receive more XP after defeation": "Throw a second command block at the Ultra Wither to receive more XP after defeation",
+    "Ultra Demise": "BOOM!",
+    "Defeat the Ultra Wither": "Defeat the Ultra Wither",
+    "The Kings Residence": "Smokeys House",
+    "Enter the Blaze Kings Tower inside a nether fortress": "Enter the Blaze Kings Tower inside a nether fortress",
+    "High Sky Pyramid": "Flipped Triangle",
+    "Discover a mysterious pyramid high above an end city": "Discover a mysterious pyramid high above an end city",
+    "Awaken": "Fire in the Hole!!!",
+    "Awaken the blazing Ultris Boss, Blaze King": "Awaken the blazing Ultris Boss, Blaze King",
+    "Into Ashes": "Weeere ouf of Fuel",
+    "Defeat the Blaze King": "Defeat the Blaze King",
+    "Sealed Secrets": "Fell Asleep for some time",
+    "Reach the top of the pyramid and insert an Endstone Key to the pedestal by right clicking its shimmering end rod": "Reach the top of the pyramid and insert an Endstone Key to the pedestal by right clicking its shimmering end rod",
+    "Awaken at Kingdom's End": "The Worlds In Hell Captain.",
+    "Awaken the Ultris boss, ruler of the shulkers, the Shulker Stone": "Awaken the Ultris boss, ruler of the shulkers, the Shulker Stone",
+    "True Form": "Shiney",
+    "Shoot a spectral arrow at the shulker stone, and question the mob it really is": "Shoot a spectral arrow at the shulker stone, and question the mob it really is",
+    "Back to Eternal Sleep": "Good Night oh dat was scary",
+    "Defeat the Shulker Stone": "Defeat the Shulker Stone",
+    "Ominous Compass": "Thingamajigy",
+    "Forge a Ominous Eye Of Ender in a Smithing Table with an ominous pearl and blaze powder": "Forge a Ominous Eye Of Ender in a Smithing Table with an ominous pearl and blaze powder",
+    "Collector of Souls": "It's Davey Jones!",
+    "Find the Ultris Boss, Sanctum Keeper": "Find the Ultris Boss, Sanctum Keeper",
+    "Free the Sanctum": "I saved the little guys",
+    "Defeat the Sanctum Keeper": "Defeat the Sanctum Keeper",
+    "Corruptions Birthplace": "Scary lab with the red stuff",
+    "Find the Corruption lab inside the Sanctum": "Find the Corruption lab inside the Sanctum",
+    "Mad Scienctist": "Insane Pirate",
+    "Create some corrupt dust within the Corruption Lab": "Create some corrupt dust within the Corruption Lab",
+    "The Sanctum's Corrupter": "Contributor to the Hate",
+    "Throw corrupt dust on a enderman and convert it into a Corrupted Enderman.": "Throw corrupt dust on a enderman and convert it into a Corrupted Enderman.",
+    "Feels Like Home": "Like me old boots",
+    "Hold an emerald in front of the Sanctum Keepers soul and lead it all the way to a village.": "Hold an emerald in front of the Sanctum Keepers soul and lead it all the way to a village.",
+    "Lost and Forgotten": "Gone to Old Wind",
+    "Find the sacred stronghold, the Sanctum": "Find the sacred stronghold, the Sanctum",
+    "Released": "Rented to o' Another Estate",
+    "Free a trapped soul from a glass container": "Free a trapped soul from a glass container",
+    "The Sanctum's Repairer": "Handyman in the Basements",
+    "Run out of the Fortified Sanctum's XP Machine uses, then throw a diamond on top of it to repair it": "Run out of the Fortified Sanctum's XP Machine uses, then throw a diamond on top of it to repair it",
+    "Bookshelves Everywhere!": "Informtion Allover the World!",
+    "Find the Fortified Sanctum's Library": "Find the Fortified Sanctum's Library",
+    "High Class": "Yer they Got Treasure",
+    "Find the the Sanctum varient, the Fortified Sanctum": "Find the the Sanctum varient, the Fortified Sanctum"
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+}

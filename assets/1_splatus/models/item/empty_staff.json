@@ -1,0 +1,6 @@
+{
+    "parent": "item/blaze_rod",
+    "textures": {
+        "layer0": "1_splatus:item/empty_staff"
+    }
+}

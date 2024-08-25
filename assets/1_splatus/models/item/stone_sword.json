@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/stone_sword"
+  },
+"overrides": [
+  {
+      "predicate": {
+        "custom_model_data": 27002
+      },
+      "model": "1_splatus:item/windswept"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 27003
+    },
+    "model": "1_splatus:item/withering_sword"
+}
+]
+}

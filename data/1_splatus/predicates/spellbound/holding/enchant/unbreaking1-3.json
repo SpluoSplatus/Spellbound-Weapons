@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "1_splatus:spellbound/holding/enchant/unbreaking1"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "1_splatus:spellbound/holding/enchant/unbreaking2"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "1_splatus:spellbound/holding/enchant/unbreaking3"
+    }
+  ]
+}
+
+
+
+  

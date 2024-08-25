@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:47044,SpellboundBrokenCrucible:1,display:{Name:'{\"translate\":\"Broken Crucible\",\"color\":\"#bcbccf\",\"italic\":false}',Lore:['{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}']}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

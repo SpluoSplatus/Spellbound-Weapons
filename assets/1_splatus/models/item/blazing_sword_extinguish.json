@@ -1,0 +1,6 @@
+{
+    "parent": "item/stone_sword",
+    "textures": {
+        "layer0": "1_splatus:item/blazing_sword_extinguish"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "item/nether_brick",
+    "textures": {
+        "layer0": "1_splatus:item/nether_fortress_notch"
+    }
+}

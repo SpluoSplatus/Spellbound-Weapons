@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:nether_brick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:47051,SpellboundNetherFortressNotch:1,display:{Name:'{\"translate\":\"Nether Fortress Core\",\"color\":\"#ffffff\",\"italic\":false}',Lore:['{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}']}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

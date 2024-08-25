@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:cod"
+          
+          
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:air"
+        }
+      ]
+    
+    }
+    
+    
+  ]
+}

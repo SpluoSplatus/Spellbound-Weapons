@@ -1,0 +1,19 @@
+{
+    "schemaVersion": 1,
+    "id": "spellbound_weapons_mr",
+    "version": "4.0.5m",
+    "name": "Spellbound Weapons",
+    "description": "Adds new weapons that enhance fighting and creates new strategies to combat foes",
+    "authors": [
+        "limesplatus"
+    ],
+    "contact": {
+        "homepage": "https://modrinth.com/datapack/spellbound-weapons"
+    },
+    "license": "LicenseRef-Custom",
+    "icon": "spellbound-weapons_pack.png",
+    "environment": "*",
+    "depends": {
+        "fabric-resource-loader-v0": "*"
+    }
+}

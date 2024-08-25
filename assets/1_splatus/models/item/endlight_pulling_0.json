@@ -1,0 +1,6 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "1_splatus:item/endlight_pulling_0"
+    }
+}

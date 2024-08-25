@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "blowgun": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "1_splatus:spellbound/unlocks/thorn_blossom"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "1_splatus:spellbound/other/action/recipe/thorn_blossom"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "item/netherite_sword",
+    "textures": {
+        "layer0": "1_splatus:item/unused/sword_covered_in_light_lol"
+    }
+}

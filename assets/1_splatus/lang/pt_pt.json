@@ -1,0 +1,205 @@
+{
+
+
+
+
+  "{t:} Translator": "YourDiscordNamehere#0000",
+
+  "(splatus example:) Original text": "Translated Text",
+  "Anytime text includes a \n or space please put it into the translation as well": "Anytime text includes a \n or space please put it into the translation as well",
+  "These 3 example translations do not have to be translated. Translate everything else below": "These 3 example translations do not have to be translated. Translate everything else below",
+  
+
+
+
+
+
+  "\nClick the name of an item to receive it\n": "\nClica no nome de um item para o receberes\n",
+  "Page": "Página",
+  "Return": "Voltar",
+  "Click to give": "Clica para dar",
+  "Next Page": "Página Seguinte",
+  "Previous Page": "Página Anterior",
+
+  "Hover to View Recipe": "Sobrevoa para ver receita",
+  "Locked": "Bloqueado",
+
+  "Recipe unlocks after getting a ": "Receita desbloqueia após receber um  ",
+  
+
+  "Drop these items onto the ground to craft this weapon\n": "Deita estes items para o chão para construir esta arma\n",
+  "Fire Staff: ": "Varinha do Fogo: ",
+  "Ice Staff: ": "Varinha do Gelo: ",
+  "Electric Staff: ": "Varinha elétrica: ",
+  
+  "Recipe unlocks after finding an Empty Staff in a bastion": "Receita desbloqueia após encontrar uma Varinha Vazia num bastião",
+  
+  "Recipe unlocks after finding a Broken Crucible in a bastion": "Receita desbloqueia após encontrar um Cadinho Estragado num bastião",
+  
+
+
+  "You have learned a new weapon recipe, ": "Aprendeste uma nova receita de arma, ",
+  ". Use /trigger spellbound_recipes in chat to view your current recipes": ". Usa /trigger spellbound_recipes no chat para ver as tuas receitas",
+
+
+
+
+  "Page 2 -->": "Página 2 -->",
+  "Page 3 -->": "Página 3 -->",
+  "Page 4 -->": "Página 4 -->",
+  "Page 5 -->": "Página 5 -->",
+  "Page 6 -->": "Página 6 -->",
+  "Page 7 -->": "Página 7 -->",
+  "Page 8 -->": "Página 8 -->",
+  
+  "<-- Page 1": "<-- Página 1",
+  "<-- Page 2": "<-- Página 2",
+  "<-- Page 3": "<-- Página 3",
+  "<-- Page 4": "<-- Página 4",
+  "<-- Page 5": "<-- Página 5",
+  "<-- Page 6": "<-- Página 6",
+  "<-- Page 7": "<-- Página 7",
+
+  "<-- Return": "<-- Voltar",
+
+
+
+
+  "Description:": "Descrição:",
+  "Click to change this setting:": "Clica para mudar esta definição:",
+  "Enabled:": "Ativado:",
+  "Disabled:": "Desativado:",
+  "Weapons Achieveable: ": "Armas alcançáveis: ",
+  "Weapon Cooldowns: ": "Cooldown das armas: ",
+  "Weapon Recipes Notification: ": "Notificação das receitas de armas: ",
+  "Weapon Tips: ": "Dicas para armas: ",
+
+  "The cooldowns for weapons that take time to charge like the Staffs, when cooldowns are disabled they will immediately reach their final charge state.": "Para armas que levam tempo a carregar como as Varinhas, se os cooldowns forem desativados, os seus cooldowns irão imediatamente chegar ao seu estado final.",
+  "Determines whether Spellbound Weapons can be naturally found in Survival Mode (chests, mob drops, etc) otherwise if disabled, weapons can only be accessed through commands": "Determina se as Armas Mágicas podem ser encontradas naturalmente no Modo Sobrevivência (baús, mobs, etc), se desativado, apenas podem ser acessadas por comandos",
+  "Messages in chat that display to the player when the required item for a certain weapon's recipe is achieved": "Mensagens no chat que aparecem ao jogador quando o item requerido para a receita de uma certa arma é obtido",
+  "The tips that display when using Bone Wand, Windswept Sword and Evokers Wrath": "As dicas que aparecem ao user a Varinha do Osso, Espada Ventosa e a Fúria do Invocador",
+  
+
+
+
+
+  "Weapon Tip:": "Dica de arma:",
+  " Triple clicking ": " Clicar três vezes ",
+  " will break your currently existing bone blocks.": " quebrará os teus blocos de osso atuais.",
+  " Holding ": " Manter pressionado ",
+  " whilst aiming will make your suction area deal 0 damage and use less durability": " enquanto miras fazerá a tua área de sucção dar 0 dano e usar menos durabilidade",
+  " When you notice sand particles around you, you can triple click ": " Quando reparares em partículas de areia à tua volta, clica três vezes em ",
+  " to unleash a wave of sand": " para desencadear uma onda de areia",
+
+
+
+
+
+
+  "Spellbound Conqueror": "Conquistador de Armas",
+  "Discover every Spellbound Weapon": "Descobre todas as armas",
+  
+
+
+  "Nether Staffs": "Varinhas do Nether",
+  "End Excalibur": "Excalibur do Fim",
+  "Blazing Sword": "Espada Flamejante",
+  "Cursed Sea Blade": "Lâmina do Mar Amaldiçoada",
+  "Dagger": "Punhal",
+  "Fire Staff": "Varinha do Fogo",
+  "Ice Staff": "Varinha do Gelo",
+  "Electric Staff": "Varinha Elétrica",
+  "Empty Staff": "Varinha Vazia",
+  "Crucible": "Cadinho",
+  "Windswept Sword": "Espada Ventosa",
+  "Withering Sword": "Espada do Wither",
+  "Witherblade": "Lâmina do Wither",
+  "Mega Hammer": "Mega Martelo",
+  "Evokers Wrath": "Fúria do Invocador",
+  "Bone Wand": "Varinha do Osso",
+  "Warped Crossbow": "Besta Deformada",
+  "Blowgun": "Zarabatana",
+  "Chainfiring Crossbow": "Besta de Disparo Contínuo",
+  "Endlight Bow": "Arco de Luz do Fim",
+  "Golden Sea Blade": "Lâmina do Mar Dourada",
+  "Broken Crucible": "Cadinho Estragado",
+  "Moonlight Edge": "Borda do Luar",
+  "Magmus Bow": "Arco Magmo",
+  "Magmus Charger": "Carregador do Magmo",
+  "Echo Wand": "Varinha do Eco",
+
+
+
+  "Your Fire Staff is at low durability! Repair it with a fishing rod in a grindstone or anvil": "A tua Varinha do Fogo tem pouca durabilidade! Repara-a com uma cana de pesca num rebolo ou bigorna",
+  "Your Ice Staff is at low durability! Repair it with a fishing rod in a grindstone or anvil": "A tua Varinha de Gelo tem pouca durabilidade! Repara-a com uma cana de pesca num rebolo ou bigorna",
+  "Your Electric Staff is at low durability! Repair it with a fishing rod in a grindstone or anvil": "A tua Varinha Elétrica tem pouca durabilidade! Repara-a com uma cana de pesca num rebolo ou bigorna",
+ 
+  "Charging Wave...": "Carregando onda...",
+  "Ready! Press ": "Pronto! Pressiona ",
+  " to Release a Wave - 40/40": " para soltar uma onda - 40/40",
+
+  "Charging... - ": "Carregando... - ",
+
+  "Charging beam... - ": "Carregando feixe... - ",
+  " to release beam - 60/60": " para soltar feixe - 60/60",
+
+  "Energy - ": "Energia - ",
+  "Energy Maxed! Press ": "Energia Máxima! Pressiona ",
+  " to release stored energy - 500": " para soltar energia acumulada - 500",
+
+
+  " is charged!": " está carregado!",
+  "Shoot fireballs and set flames": "Dispara bolas de fogo e cria chamas",
+  "Shoot ice blocks that freeze your": "Dispara blocos de gelo que congelam os teus",
+  "enemies in place": "inimigos no lugar",
+  "Casts a line of electricity that fires": "Invoca uma linha de eletricidade que dispara",
+  "instantly and can go through walls": "instantaneamente e atravessa paredes",
+"Witherblade has absorbed max souls! Hold down ": "Witherblade absorveu o máximo de almas! Segura ",
+" to heal": " para curar",
+
+
+  "Color: Red": "Cor: Vermelho",
+  "Color: Orange": "Cor: Laranja",
+  "Color: Yellow": "Cor: Amarelo",
+  "Color: Green": "Cor: Verde",
+  "Color: Lime": "Cor: Lima",
+  "Color: Light Blue": "Cor: Azul Claro",
+  "Color: Blue": "Cor: Azul",
+  "Color: Purple": "Cor: Roxo",
+  "Color: Magenta": "Cor: Magenta",
+  "Color: Cyan": "Cor: Ciano",
+  "Color: Pink": "Cor: Rosa",
+  "Color: Brown": "Cor: Castanho",
+  "Color: White": "Cor: Branco",
+  "Color: Light Gray": "Cor: Cinzento claro",
+  "Color: Gray": "Cor: Cinzento",
+  "Color: Black": "Cor: Preto",
+  
+  "Your weapon burned whilst converting to netherite. Drop it on the ground to revert it back": "A tua arma queimou ao converter para netherite. Atira-a para o chão para a reverter."
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+}

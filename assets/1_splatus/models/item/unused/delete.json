@@ -1,0 +1,6 @@
+{
+    "parent": "item/iron_sword",
+    "textures": {
+        "layer0": "1_splatus:item/unused/delete"
+    }
+}

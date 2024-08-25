@@ -1,0 +1,13 @@
+{
+    "condition": "minecraft:value_check",
+    "value": {
+      "type": "minecraft:score",
+      "target": "this",
+      "score": "spellbound_damage"
+    },
+    "range": {
+      "min": 1,
+      "max": 999
+    }
+  }
+  

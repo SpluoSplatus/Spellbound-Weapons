@@ -1,0 +1,1 @@
+give @s netherite_sword{SpellboundItem:1,CustomModelData:47995,SpellboundNetherlight:1,Lore:['{"translate":"Spellbound Weapons","color":"#676e75","italic": true}']}

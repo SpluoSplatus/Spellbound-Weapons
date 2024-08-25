@@ -1,0 +1,8 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {"translate":"Blowgun","color":"#588025","italic":false}
+    
+  }
+]

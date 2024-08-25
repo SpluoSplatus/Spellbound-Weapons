@@ -1,0 +1,159 @@
+
+- LETS GET MODDING / LEARNING
+
+Now that you have (hopefully!) read the license above, lets get started modding 
+and understanding this pack to your liking! Obviously, modified versions of this
+pack may NOT be redistributed to others, but many people (including myself, Splatus)
+like to look at other packs code, and take a bit on inspiration to learn to code
+themselves. This pack can be a great help to helping you make your own custom items
+as well.
+
+(Just please dont make a custom item and call it an addition to Spellbound Weapons,
+just be original, its not really an addon since most packs are already compatible
+with each other anyways. If you're confused about anything i just said, pls read 
+the license)
+
+
+
+
+
+============================================
+--- PRE MODDING STUFF ---
+============================================
+
+First things first, if you wanna be taking a look at my code, you're gonna need
+at least some basic understandings of minecraft commands. If you dont understand
+commands, you'll have to learn a bit about those first.
+
+Not like it'll be impossible to understand this without understanding commands
+but you will just be able to see everything and know it a bit better when you
+already have some knowledge about it prior
+
+Next make sure you know how datapacks work. Mainly all the packs code is located
+in data/1_splatus/functions/spellbound
+
+PLEASE ALSO MAKE SURE YOU HAVE VISUAL STUDIO CODE AND DATAPACK HELPER PLUS !!!
+you will make bad packs without this. believe. me. it makes everything. so much.
+EASIER !!!!
+
+
+
+
+
+
+============================================
+--- MAIN FUNCTION FILES AND INFO ---
+============================================
+
+
+
+/data/1_splatus/functions/spellbound/tick
+
+This is the main function file of the entiiiiire pack. Branching functions are run
+once certain actions are passed, such as a player holding a fire staff. Once
+a fire staff is detected, a bunch of function files are run
+
+
+
+
+/data/1_splatus/functions/spellbound/hit
+
+Detects when a player hits another player or another mob. This file is performed
+from the tick.mcfunction file covered above, when a scoreboard detecting damage
+dealt increments on a player, it'll perform this function as that player
+
+
+
+
+/data/1_splatus/functions/spellbound/[weapon_name]
+
+All the functions for a certain weapon. Most of these will only load when
+holding said weapon
+
+
+
+
+
+/data/1_splatus/functions/spellbound/other/check_item
+
+Runs this function when a player is detected holding a spellbound item. Then, 
+it'll check for the specific item they are holding, and then load the functions
+for that item in tick.mcfunction
+
+
+
+
+
+/data/1_splatus/functions/spellbound/main
+
+Main functions that aren't in the tick file for organization purposes. I dont
+really know why I still have this file though i should just move it to the tick
+file
+
+
+
+
+
+
+/data/minecraft/loot_tables
+
+All modified loot tables. They were changed to add the new weapons.
+
+
+
+
+
+/data/1_splatus/functions/spellbound/cooldowns
+
+Weapon cooldowns! Well, mainly resetting them when you remove them from
+your mainhand / offhand
+
+
+
+
+
+/data/1_splatus/item_modifiers
+
+Updates weapon textures when neccessary
+
+
+
+
+/data/1_splatus/predicates
+
+Performs small checks, like a percent check, or a check to see if a player
+is sneaking
+
+
+
+/data/1_splatus/functions/spellbound/other/hits/
+
+Not every hit is put here but mostly sword hits will be put here
+
+
+
+
+Most entities are tagged with the tag prefix "spellbound_" in their tags list
+Same with scoreboards, most also have this prefix.
+
+I've tried to help those who wanna learn from my code by using hashtag (#)
+comments throughout my code. They are there for organization purposes but also
+so everything is easier to read through
+
+
+Keep in mind optimization while you are coding your datapacks. Example, you dont
+want to be constantly checking for if a fireball fired from a weapon is currently
+at y100 when there's no players even holding the weapon. Don't run functions when
+they dont need to be run because slowly your commands performed per tick will increment
+into the hundreds and start lagging your datapack... A good goal is to have your datapack under 500 Commands per tick
+in singleplayer. (Spellbound Weapons on average being about 200 Commands Per Tick
+ in Singleplayer)
+
+
+
+
+
+
+
+
+

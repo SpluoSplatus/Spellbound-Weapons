@@ -1,0 +1,30 @@
+{
+    "replace": false,
+    "values": [
+  
+     
+      "minecraft:chicken",
+      "minecraft:wolf",
+      "minecraft:cat",
+      "minecraft:bee",
+      "minecraft:bat",
+      "minecraft:cave_spider",
+      "minecraft:axolotl",
+      "minecraft:pig",
+      "minecraft:allay",
+      "minecraft:tropical_fish",
+      "minecraft:salmon",
+      "minecraft:cod",
+      "minecraft:pufferfish",
+      "minecraft:silverfish",
+      "minecraft:endermite",
+      "minecraft:item",
+      "minecraft:item_frame",
+      "minecraft:glow_item_frame"
+      
+     
+  
+      
+    ]
+  }
+  

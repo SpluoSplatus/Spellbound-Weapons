@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "enchantments": [
+            {
+              "enchantment": "minecraft:fortune",
+              "levels": 2
+            }
+          ]
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,1 @@
+summon marker ~ ~ ~ {Tags:["spellbound_crucible_the_light_is_coming","spellbound_marker"]}

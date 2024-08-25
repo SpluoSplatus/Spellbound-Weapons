@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bow",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{SpellboundBlowgun:1,SpellboundItem:1,display:{Name:'{\"translate\":\"Blowgun\",\"color\":\"#588025\",\"italic\":false}',Lore:['[{\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false},{\"translate\":\"item.minecraft.bow\"}]','{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}']},CustomModelData:47032}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

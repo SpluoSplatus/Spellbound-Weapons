@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CrucibleDye:1,display:{Name:'{\"translate\":\"Crucible\",\"color\":\"#EB3868\",\"italic\":false}',Lore:['{\"translate\":\"Color: Red\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false},{\"translate\":\"item.minecraft.diamond_sword\"}]','{\"translate\":\"Spellbound Weapons\",\"color\":\"#676E75\",\"italic\":true}']},CustomModelData:47042,SpellboundItem:1,SpellboundCrucible:1}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

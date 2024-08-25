@@ -1,0 +1,9 @@
+
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": {"translate":"Moonlight Edge","color":"#9d64ed","italic":false}
+      
+    }
+  ]

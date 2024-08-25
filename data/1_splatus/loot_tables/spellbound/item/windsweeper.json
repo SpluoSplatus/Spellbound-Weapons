@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{SpellboundItem:1,display:{Name:'{\"translate\": \"Windsweeper\",\"italic\": false,\"color\": \"#e1e8a5\"}',Lore:['[{\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false},{\"translate\":\"item.minecraft.diamond_sword\"}]','{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}']},SpellboundWindsweptSword:1,CustomModelData:47014}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

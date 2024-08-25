@@ -1,0 +1,1 @@
+loot give @s loot 1_splatus:spellbound/item/empty_staff

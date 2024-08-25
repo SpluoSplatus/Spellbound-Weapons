@@ -1,0 +1,11 @@
+
+
+
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {"translate":"Bone Wand","color":"#c7c5db","italic":false}
+    
+  }
+]

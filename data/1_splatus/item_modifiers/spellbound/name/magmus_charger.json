@@ -1,0 +1,11 @@
+
+
+
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": {"translate":"Magmus Charger","color":"#cc081f","italic":false}
+      
+    }
+  ]

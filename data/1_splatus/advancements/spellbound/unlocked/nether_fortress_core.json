@@ -1,0 +1,21 @@
+{
+    "__comment": "Spellbound",
+    
+    "criteria": {
+        "blowgun": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "tag": "1_splatus:spellbound/unlocks/nether_fortress_core"
+                }
+              ],
+              "nbt": "{SpellboundNetherFortressNotch:1}"
+            
+            }
+          } 
+    },
+    "rewards": {
+      "function": "1_splatus:spellbound/other/action/recipe/nether_fortress_core"
+    }
+}

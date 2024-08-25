@@ -1,0 +1,18 @@
+
+
+
+
+
+
+
+
+
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": {"translate":"Fire Staff","color":"#ff371c","italic":false}
+      
+    }
+  ]
+  

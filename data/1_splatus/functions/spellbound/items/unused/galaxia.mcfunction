@@ -1,0 +1,1 @@
+give @s iron_sword{SpellboundItem:1,CustomModelData:47996,SpellboundNetherlight:1,Lore:['{"translate":"Spellbound Weapons","color":"#676e75","italic": true}']}

@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "1_splatus:item/fire_staff_ready"
+    }
+}

@@ -1,0 +1,8 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {"translate":"Blazeblade","color":"#ff8400","italic":false}
+    
+  }
+]

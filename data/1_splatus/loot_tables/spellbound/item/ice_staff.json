@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:47008,SpellboundItem:1,SpellboundIceStaff:1,display:{Name:'{\"translate\":\"Ice Staff\",\"color\":\"#1c99ff\",\"italic\":false}',Lore:['[{\"translate\":\"Grindstone Repair: Fishing Rod\",\"color\":\"gray\",\"italic\": false}]','{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}']},StoreDamage:64f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

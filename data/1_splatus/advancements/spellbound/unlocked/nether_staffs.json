@@ -1,0 +1,22 @@
+{
+  "__comment": "Spellbound",
+  
+  "criteria": {
+      "blowgun": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "items": [
+                  "minecraft:blaze_rod"
+                ],
+                "nbt": "{EmptyStaff:1}"
+              }
+            ]
+          }
+        } 
+  },
+  "rewards": {
+    "function": "1_splatus:spellbound/other/action/recipe/nether_staffs"
+  }
+}

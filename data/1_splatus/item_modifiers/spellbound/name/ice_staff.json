@@ -1,0 +1,9 @@
+
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": {"translate":"Ice Staff","color":"#1c99ff","italic":false}
+      
+    }
+  ]

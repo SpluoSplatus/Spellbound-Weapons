@@ -1,0 +1,377 @@
+{
+
+
+
+
+
+  "{t:spellbound_weapons} Translator": "Radical#4086",
+  "{t:ultris} Translator": "MickeyMiao#1186",
+
+  "(splatus example:) Original text": "Translated Text",
+  "Anytime text includes a \n or space please put it into the translation as well": "Anytime text includes a \n or space please put it into the translation as well",
+  "These 3 example translations do not have to be translated. Translate everything else below": "These 3 example translations do not have to be translated. Translate everything else below",
+  
+
+
+
+
+
+  "\n点击物品名以获得之\n": "\n点击物品名以获得之\n",
+  "Page": "页码",
+  "Return": "返回",
+  "Click to give": "点击获取",
+  "Next Page": "下一页",
+  "Previous Page": "当前页",
+
+  "Hover to View Recipe": "悬停以查阅配方",
+  "Locked": "已锁定",
+
+  "Recipe unlocks after getting a ": "配方自动解锁于获得",
+  
+
+  "Drop these items onto the ground to craft this weapon\n": "将这些物品丢到一块来制作这把武器\n",
+  "Fire Staff: ": "火焰法杖：",
+  "Ice Staff: ": "寒冰法杖：",
+  "Electric Staff: ": "闪电法杖：",
+  
+  "Recipe unlocks after finding an Empty Staff in a bastion": "配方将在找到猪灵堡垒中的空法杖后解锁",
+  
+  "Recipe unlocks after finding a Broken Crucible in a bastion": "配方将在找到猪灵堡垒中的破损的裁决之剑后解锁",
+  
+
+
+  "You have learned a new weapon recipe, ": "你已解锁新武器配方，",
+  ". Use /trigger spellbound_recipes in chat to view your current recipes": "使用/trigger spellbound_recipes指令以查阅当前配方",
+
+
+
+
+  "Page 2 -->": "第二页 -->",
+  "Page 3 -->": "第三页 -->",
+  "Page 4 -->": "第四页 -->",
+  "Page 5 -->": "第五页 -->",
+  "Page 6 -->": "第六页 -->",
+  "Page 7 -->": "第七页 -->",
+  "Page 8 -->": "第八页 -->",
+  
+  "<-- Page 1": "<-- 第一页",
+  "<-- Page 2": "<-- 第二页",
+  "<-- Page 3": "<-- 第三页",
+  "<-- Page 4": "<-- 第四页",
+  "<-- Page 5": "<-- 第五页",
+  "<-- Page 6": "<-- 第六页",
+  "<-- Page 7": "<-- 第七页",
+
+  "<-- Return": "<-- 返回",
+
+
+
+
+  "Description:": "简介：",
+  "Click to change this setting:": "点击以更改选项",
+  "Enabled:": "已激活：",
+  "Disabled:": "已禁用：",
+  "Weapons Achieveable: ": "可获取武器：",
+  "Weapon Cooldowns: ": "武器冷却：",
+  "Weapon Recipes Notification: ": "武器配方提示：",
+  "Weapon Tips: ": "武器提示：",
+
+  "The cooldowns for weapons that take time to charge like the Staffs, when cooldowns are disabled they will immediately reach their final charge state.": "武器冷却影响充能时间（如法杖），当冷却被禁用，充能将转为即刻触发",
+  "Determines whether Spellbound Weapons can be naturally found in Survival Mode (chests, mob drops, etc) otherwise if disabled, weapons can only be accessed through commands": "决定着魔系列武器是否能在生存模式中获取（箱子、生物掉落等等方式），禁用后，着魔系列武器只能通过指令获取",
+  "Messages in chat that display to the player when the required item for a certain weapon's recipe is achieved": "在玩家解锁特定武器配方时弹出提示信息",
+  "The tips that display when using Bone Wand, Windswept Sword and Evokers Wrath": "使用骨之法杖、暴风之刃以及唤魔者之怒时弹出提示",
+  
+
+
+
+
+  "Weapon Tip:": "武器提示：",
+  " Triple clicking ": "三连点",
+  " will break your currently existing bone blocks.": "将会破坏你现有的骨块",
+  " Holding ": "长按",
+  "whilst aiming will make your suction area deal 0 damage and use less durability": "与瞄准一并进行将让你的风场不造成伤害并消耗更少耐久度",
+  " When you notice sand particles around you, you can triple click ": "当你注意到沙子的粒子效果时，你可以通过三连点",
+  " to unleash a wave of sand": "来释放沙尘攻击",
+
+
+
+
+
+
+  "Spellbound Conqueror": "着魔系列征服者",
+  "Discover every Spellbound Weapon": "获得所有的着魔系列武器",
+  
+
+
+  "Nether Staffs": "下界法杖",
+  "End Excalibur": "终焉圣剑",
+  "Blazing Sword": "炽焰之剑",
+  "Cursed Sea Blade": "咒海之刃",
+  "Dagger": "小刀",
+  "Fire Staff": "火焰法杖",
+  "Ice Staff": "寒冰法杖",
+  "Electric Staff": "闪电法杖",
+  "Empty Staff": "空法杖",
+  "Crucible": "裁决之剑",
+  "Windswept Sword": "暴风之刃",
+  "Withering Sword": "腐化之剑",
+  "Witherblade": "凋零之刃",
+  "Mega Hammer": "巨锤",
+  "Evokers Wrath": "唤魔者之怒",
+  "Bone Wand": "骨之法杖",
+  "Warped Crossbow": "扭曲十字弩",
+  "Blowgun": "吹箭筒",
+  "Chainfiring Crossbow": "连射弩",
+  "Endlight Bow": "微光之弓",
+  "Golden Sea Blade": "金海之刃",
+  "Broken Crucible": "破损的裁决之剑",
+  "Moonlight Edge": "月光锋刃",
+  "Magmus Bow": "炎魔弓",
+  "Magmus Charger": "炎魔充能器",
+  "Echo Wand": "回响之杖",
+
+
+
+  "Your Fire Staff is at low durability! Repair it with a fishing rod in a grindstone or anvil": "你的烈焰法杖的耐久已经降低到了临界值！你可以用钓鱼竿在砂轮或铁砧上修复它",
+  "Your Ice Staff is at low durability! Repair it with a fishing rod in a grindstone or anvil": "你的寒冰法杖的耐久已经降低到了临界值！你可以用钓鱼竿在砂轮或铁砧上修复它",
+  "Your Electric Staff is at low durability! Repair it with a fishing rod in a grindstone or anvil": "你的闪电法杖的耐久已经降低到了临界值！你可以用钓鱼竿在砂轮或铁砧上修复它",
+ 
+  "Charging Wave...": "冲击波准备中...",
+  "Ready! Press ": "准备完毕！按住",
+  " to Release a Wave - 40/40": "以释放冲击波 - 40/40",
+
+  "Charging... - ": "充能中... - ",
+
+  "Charging beam... - ": "激光充能中 - ",
+  " to release beam - 60/60": "发射激光 - 60/60",
+
+  "Energy - ": "能量 - ",
+  "Energy Maxed! Press ": "充能完毕！按住",
+  " to release stored energy - 500": "以释放能量 - 500",
+
+
+  " is charged!": "已充能完毕！",
+  "Shoot fireballs and set flames": "发射火球并散布火焰",
+  "Shoot ice blocks that freeze your": "发射冰块来冻结你的敌人",
+  "enemies in place": "",
+  "Casts a line of electricity that fires": "立即向前方发射一道可穿墙的电流",
+  "instantly and can go through walls": "",
+"Witherblade has absorbed max souls! Hold down ": "凋零之刃吸收的灵魂已饱和 ！按住",
+" to heal": "以进行回复",
+
+
+  "Color: Red": "颜色：红",
+  "Color: Orange": "颜色：橙",
+  "Color: Yellow": "颜色：黄",
+  "Color: Green": "颜色：绿",
+  "Color: Lime": "颜色：黄绿",
+  "Color: Light Blue": "颜色：淡蓝",
+  "Color: Blue": "颜色：蓝",
+  "Color: Purple": "颜色：紫",
+  "Color: Magenta": "颜色：品红",
+  "Color: Cyan": "颜色：青",
+  "Color: Pink": "颜色：粉",
+  "Color: Brown": "颜色：棕",
+  "Color: White": "颜色：白",
+  "Color: Light Gray": "颜色：淡灰",
+  "Color: Gray": "颜色：灰",
+  "Color: Black": "颜色：黑",
+  
+  "Your weapon burned whilst converting to netherite. Drop it on the ground to revert it back": "你的武器在燃烧的过程中转化为了下界合金。再次丢出可以把它转化回来",
+
+
+
+
+
+    "Please Select A Category": "请选择一个类别",
+    "Click to Summon": "点击以召唤",
+    "Summon Bosses": "召唤Boss",
+    "Settings": "设置",
+    "Boss Items": "Boss战利品",
+    "Operator Commands": "Op命令",
+    "Enable": "启用",
+    "Disable": "取消",
+    
+ 
+
+    "Corrupted Enderman": "腐朽末影人",
+    "Giant": "巨人",
+    "Blaze King": "火焰之主",
+    "Ultra Wither": "终极凋零",
+    "Sanctum Keeper": "圣所守卫",
+    "Phantom Swarm": "幽灵群",
+    "Illusioner": "幻象师",
+    "Shulker Stone": "潜影石",
+
+  
+    
+    "Ultra Corrupted Enderman": "终极腐朽末影人",
+    "Ultra Giant": "终极巨人",
+    "Ultra Blaze King": "终极火焰之王",
+    "Ultra Ultra Wither": "终极凋零风暴",
+    "Ultra Sanctum Keeper": "终极圣所守卫",
+    "Ultra Phantom Swarm": "终极幽灵群",
+    "Ultra Illusioner": "终极幻象师",
+    "Ultra Shulker Stone": "终极潜影石",
+
+
+
+
+    "Ominous Pearl": "不详珍珠",
+    "Spirit Bow": "心灵之弓",
+    "Blaze King's Helmet": "火焰之王的头盔",
+    "Shulker Shell Helmet": "潜影贝头盔",
+    "Giant Stompers": "巨人践踏者",
+    "Endstone Key": "终末石之钥",
+    "Corrupt Dust": "腐化尘",
+    "Enchanted Core": "魔法核心",
+
+  
+
+
+
+    "Deep Vision I": "深度视觉 I",
+    "The Shulker Shell of the": "潜影贝的",
+    "Shulker Stone. When equipped,": "外壳. 装备时,",
+    "the bearer will give surrounding": "持有者会给周围的实体生物",
+    "mobs a glow effect, and all": "带来发光效果",
+    "end mobs will be passive.": "而所有的终界实体则是无效的",
+
+    "Split I": "分裂 I",
+    "A sacred bow that harnests the": "一把神圣的弓，",
+    "energy of souls in the air, once": "可以吸收空气中灵魂的能量，",
+    "charged will split your arrow into": "一旦射出，它会把你的箭",
+    "mirrors of the Sanctum Keeper. To": "分裂成圣所守卫的镜象",
+    "teleport, sneak/crouch while aiming": "要使用传送功能，瞄准时需要按住潜行",
+
+    "Dropped by the Ultra Wither. When in": "被终极凋零丢弃,",
+    "player's inventory they will": "当在玩家的背包中时",
+    "gain 2 extra hearts": "会给予玩家两格额外生命值",
+
+    "The helmet of the Blaze King, amplifies": "烈焰之王的头盔,",
+    "the power and determination of": "在生命垂危时增强了",
+    "the bearer when at low health": "持有者的力量和决心",
+
+    "Propells the bearer with the power of": "Propells the bearer with the power of",
+    "giants. Hold sneak and then jump to": "giants. Hold sneak and then jump to",
+    "perform a high jump. Jump ontop of": "perform a high jump. Jump ontop of",
+    "mobs to deal damage": "mobs to deal damage",
+    
+    "Used to reawaken the Shulker Stone": "用来唤醒在末地城",
+    "from its deep sleep in its inverted": "空中倒悬的金字塔",
+    "pyramid high above the End Cities": "中的潜影石",
+
+    "Created at a Sanctum, throw this": "在圣所中制作",
+    "on an enderman to corrupt it": "充能中",
+
+    "Spirit Bow is charged! - 25/25": "心灵之弓已充能完毕! - 25/25",
+
+
+    
+    "Mysterious Power": "神秘力量",
+    "Forge a Command Block in a Smithing Table with an ominous pearl and a gold block": "用一颗不祥珍珠和一块金块在锻造台上锻造一个命令方块",
+    "Ultris Conqueror": "最后的征服者",
+    "Defeat every Ultris Boss": "击败所有Boss",
+    "Corrupted": "腐化",
+    "Find and battle the corrupted Ultris Boss, Corrupted Enderman": "找到并与腐化Boss:腐朽末影人战斗",
+    "Weakened": "虚弱",
+    "Defeat the Corrupted Enderman": "击败腐朽末影人",
+    "No Giant Is Stronger Than Me!": "没有任何巨人比我更强！",
+    "Defeat the Giant": "击败巨人",
+    "Green Giant": "绿巨人",
+    "Throw a strength potion at a zombie and turn it into the Ultris Boss, the Giant.": "向僵尸投掷一种力量药水,将其变成巨人",
+    "Fountain of Youth?": "不老泉?",
+    "Throw a weakness potion at a zombie and turn it into a... baby zombie.": "向僵尸投掷一种虚弱药水，然后将其变成...小僵尸",
+    "What Species is That?": "那是什么物种？",
+    "Find a pig with strange purple particles...": "找到一只有奇怪紫色粒子的猪...",
+    "Porky Illusions": "猪猪幻象",
+    "Encounter the magical Ultris Boss, the Illusioner.": "遇到魔法Boss:幻象师",
+    "Shows Over!": "演出结束!",
+    "Defeat the Illusioner": "击败幻象师",
+    "Together In The Dark": "我们同在黑暗",
+    "Bring out the friends of the lone phantom and discover the Phantom Swarm": "带出孤独幽灵的朋友，发现幽灵群",
+    "Phantom Slayer": "幽灵杀手",
+    "Defeat the Phantom Swarm": "击败幽灵群",
+    "Alone In The Dark..?": "独处于黑暗..?",
+    "Find a phantom all alone by itself in the vastness of the end...": "在浩瀚的末地独自寻找一个幽灵...",
+    "Flame Out!": "熄火!",
+    "Set flame to a phantom in the end and remove its abillity to summon other phantoms": "最后点燃一个幽灵，并移除它召唤其他幽灵的能力",
+    "Ultris: Minecraft Boss Expansion": "Ultris:Minecraft Boss扩展",
+    "Venture further and discover the 8 Ultris Bosses. Follow through the advancements proceeding to find the paths to each boss.": "进一步探索,发现8个UltrisBoss,跟随线索,找到通往每位Boss的路",
+    "Ultra Withering Heights": "终极凋零山庄",
+    "Throw an Enchanted Command Block at a Wither, summon the Ultris Boss, Ultra Wither": "向凋零扔一个附魔命令方块,召唤UltrisBoss,终极凋零",
+    "Double It Up!": "加倍!",
+    "Throw a second command block at the Ultra Wither to receive more XP after defeation": "在终极凋零投掷第二个命令方块，在击败它后获得更多经验值",
+    "Ultra Demise": "终极的终焉",
+    "Defeat the Ultra Wither": "击败终极凋零",
+    "The Kings Residence": "王的官邸",
+    "Enter the Blaze Kings Tower inside a nether fortress": "进入一个下届要塞内的烈焰之王塔",
+    "High Sky Pyramid": "高空金字塔",
+    "Discover a mysterious pyramid high above an end city": "在末地城上空发现一座神秘的金字塔",
+    "Awaken": "唤醒",
+    "Awaken the blazing Ultris Boss, Blaze King": "唤醒燃烧的Ultris Boss:烈焰之王",
+    "Into Ashes": "变成灰烬",
+    "Defeat the Blaze King": "击败烈焰之王",
+    "Sealed Secrets": "尘封的秘密",
+    "Reach the top of the pyramid and insert an Endstone Key to the pedestal by right clicking its shimmering end rod": "到达金字塔顶部，右击其微光末地烛，将终末石之钥插入基座",
+    "Awaken at Kingdom's End": "在王国的终末中醒来",
+    "Awaken the Ultris boss, ruler of the shulkers, the Shulker Stone": "唤醒Ultris boss:潜影贝的统治者--潜影石",
+    "True Form": "原码",
+    "Shoot a spectral arrow at the shulker stone, and question the mob it really is": "向潜影石射出一支幽灵之箭，并质问它到底是什么",
+    "Back to Eternal Sleep": "回到永恒的沉睡",
+    "Defeat the Shulker Stone": "击败潜影石",
+    "Ominous Compass": "不祥指南针",
+    "Forge a Ominous Eye Of Ender in a Smithing Table with an ominous pearl and blaze powder": "用不祥珍珠和烈焰粉在锻造台上锻造不祥的末影之眼",
+    "Collector of Souls": "灵魂收藏家",
+    "Find the Ultris Boss, Sanctum Keeper": "找到Ultris Boss:圣所守卫",
+    "Free the Sanctum": "解放圣所",
+    "Defeat the Sanctum Keeper": "击败圣所守卫",
+    "Corruptions Birthplace": "腐朽的根源",
+    "Find the Corruption lab inside the Sanctum": "在圣所内找到腐朽实验室",
+    "Mad Scienctist": "疯狂科学家",
+    "Create some corrupt dust within the Corruption Lab": "在腐朽实验室里制造一些腐化尘",
+    "The Sanctum's Corrupter": "圣所的腐朽之人",
+    "Throw corrupt dust on a enderman and convert it into a Corrupted Enderman.": "把腐化尘撒在一个末影人身上，把他变成一个腐朽末影人",
+    "Feels Like Home": "宛如归家",
+    "Hold an emerald in front of the Sanctum Keepers soul and lead it all the way to a village.": "在圣所守卫的灵魂面前拿着一块绿宝石，把它一路带到一个村庄。",
+    "Lost and Forgotten": "迷失和遗忘",
+    "Find the sacred stronghold, the Sanctum": "找到神圣的据点:圣所",
+    "Released": "释放",
+    "Free a trapped soul from a glass container": "从玻璃容器中释放被困的灵魂",
+    "The Sanctum's Repairer": "圣所维修者",
+    "Run out of the Fortified Sanctum's XP Machine uses, then throw a diamond on top of it to repair it": "用尽强化圣所的经验维修机, 然后在上面扔一颗钻石来修复它",
+    "Bookshelves Everywhere!": "到处都是书架!",
+    "Find the Fortified Sanctum's Library": "找到强化圣所的图书馆",
+    "High Class": "高级",
+    "Find the the Sanctum varient, the Fortified Sanctum": "找到圣所变种，强化圣所"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+}

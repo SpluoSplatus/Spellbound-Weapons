@@ -1,0 +1,21 @@
+{
+    "__comment": "Spellbound",
+    
+    
+    "criteria": {
+      "blazeblade": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:iron_sword"
+              ],
+              "nbt": "{BlazingSword:1}"
+            }
+          ]
+        }
+      }
+       
+    }
+}

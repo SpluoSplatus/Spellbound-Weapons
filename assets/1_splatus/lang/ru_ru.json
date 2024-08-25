@@ -1,0 +1,411 @@
+{
+
+
+
+
+  "{t:} Translator": "v_muted#9624",
+
+  "(splatus example:) Original text": "Translated Text",
+  "Anytime text includes a \n or space please put it into the translation as well": "Anytime text includes a \n or space please put it into the translation as well",
+  "These 3 example translations do not have to be translated. Translate everything else below": "These 3 example translations do not have to be translated. Translate everything else below",
+  
+
+
+  "\nClick the name of an item to receive it\n": "\nНажми на название предмета чтобы получить его\n",
+  "Page": "Страница",
+  "Return": "Назад",
+  "Click to give": "Нажми для получения",
+  "Next Page": "Следующая Страница",
+  "Previous Page": "Предыдущая Страница",
+
+  "Hover to View Recipe": "Наведи чтобы получить Рецепт",
+  "Locked": "Заблокировано",
+
+  "Recipe unlocks after getting a ": "Рецепты разблокируются после получения ",
+  
+
+  "Drop these items onto the ground to craft this weapon\n": "Брось предметы на землю чтобы скрафтить оружие\n",
+  "Fire Staff: ": "Посох Огня: ",
+  "Ice Staff: ": "Посох Льда: ",
+  "Electric Staff: ": "Посох Молнии: ",
+  
+  
+
+
+  "You have learned a new weapon recipe, ": "Вы выучили новый рецепт оружия, ",
+  ". Use /trigger spellbound_recipes in chat to view your current recipes": ". Используй команду /trigger spellbound_recipes в чате чтобы посмотреть текущие рецепты",
+
+
+
+
+  "Page 2 -->": "Страница 2 -->",
+  "Page 3 -->": "Страница 3 -->",
+  "Page 4 -->": "Страница 4 -->",
+  "Page 5 -->": "Страница 5 -->",
+  "Page 6 -->": "Страница 6 -->",
+  "Page 7 -->": "Страница 7 -->",
+  "Page 8 -->": "Страница 8 -->",
+  "Page 9 -->": "Страница 9 -->",
+  "Page 10 -->": "Страница 10 -->",
+  
+  "<-- Page 1": "<-- Страница 1",
+  "<-- Page 2": "<-- Страница 2",
+  "<-- Page 3": "<-- Страница 3",
+  "<-- Page 4": "<-- Страница 4",
+  "<-- Page 5": "<-- Страница 5",
+  "<-- Page 6": "<-- Страница 6",
+  "<-- Page 7": "<-- Страница 7",
+  "<-- Page 8": "<-- Страница 8",
+  "<-- Page 9": "<-- Страница 9",
+  "<-- Page 10": "<-- Страница 10",
+
+  "<-- Return": "<-- Назад",
+
+
+
+
+  "Description:": "Описание:",
+  "Click to change this setting:": "Нажми для изменения настроек",
+  "Enabled:": "Включено:",
+  "Disabled:": "Выключено:",
+  "Weapons Achieveable: ": "Достижения Оружия: ",
+  "Weapon Cooldowns: ": "Перезарядка Оружия: ",
+  "Weapon Recipes Notification: ": "Уведомление о Рецепте Оружия: ",
+  "Weapon Tips: ": "Подсказки для Оружий: ",
+
+  "The cooldowns for weapons that take time to charge like the Staffs, when cooldowns are disabled they will immediately reach their final charge state.": "Оружие, требующее времени на перезарядку (например Посохи), сразу достигает конечного состояния зарядов при отключении кулдауна.",
+  "Determines whether Spellbound Weapons can be naturally found in Survival Mode (chests, mob drops, etc) otherwise if disabled, weapons can only be accessed through commands": "Определяет, можно ли найти Spellbound оружие в режиме выживания естественным путем (сундуки, дроп с боссов и т.д). Если отключено, оружие можно получить только с помощью команд",
+  "Messages in chat that display to the player when the required item for a certain weapon's recipe is achieved": "Сообщения в чате, которые отображаются игроку, когда он получает необходимый предмет для рецепта определенного оружия",
+  "The tips that display when using Bone Wand, Windswept Sword and Evokers Wrath": "Подсказки, которые отображаются при использовании Костяного Жезла, Меча Ветра и Гнева Эвокера",
+  
+
+
+
+
+  "Weapon Tip:": "Советы по оружию:",
+  " Triple clicking ": " Тройное нажатие ",
+  " will break your currently existing bone blocks.": " сломает существующие костяные блоки.",
+  " Holding ": " При удержании ",
+  " whilst aiming will make your suction area deal 0 damage and use less durability": " во время прицеливания площадь всасывания не будет наносить урона и будет использовать меньше прочности",
+  " When you notice sand particles around you, you can triple click ": " Когда вы заметили песочные частицы вокруг себя, нажмите три раза ",
+  " to unleash a wave of sand": " чтобы выпустить волну песка",
+
+
+
+
+
+
+  "Spellbound Conqueror": "Завоеватель Spellbound",
+  "Discover every Spellbound Weapon": "Изучите каждое оружие Spellbound",
+  
+
+
+  "Nether Staffs": "Посох Незера",
+  "End Excalibur": "Экскалибур Края",
+  "Blazing Sword": "Пылающий Меч",
+  "Cursed Sea Blade": "Клинок Проклятого Моря",
+  "Dagger": "Кинжал",
+  "Fire Staff": "Посох Огня",
+  "Ice Staff": "Посох Льда",
+  "Electric Staff": "Посох Молнии",
+  "Empty Staff": "Пустой Посох",
+  "Crucible": "Тигель",
+  "Windswept Sword": "Меч Ветра",
+  "Withering Sword": "Меч Увядания",
+  "Witherblade": "Меч Иссушения",
+  "Mega Hammer": "Мега Молот",
+  "Evokers Wrath": "Гнев Вызывателя",
+  "Bone Wand": "Костяной Жезл",
+  "Warped Crossbow": "Искривленный Арбалет",
+  "Blowgun": "Духовая Трубка",
+  "Chainfiring Crossbow": "Цепной Арбалет",
+  "Endlight Bow": "Лук Затмения",
+  "Golden Sea Blade": "Клинок Золотого Моря",
+  "Broken Crucible": "Сломанный Тигель",
+  "Moonlight Edge": "Клинок Лунного Света",
+  "Magmus Bow": "Магмовый Лук",
+  "Magmus Charger": "Магмовый Заряд",
+  "Echo Wand": "Жезл Эха",
+
+
+
+  "Your Fire Staff is at low durability! Repair it with a fishing rod in a grindstone or anvil": "У вашего Посоха Огня низкая прочность! Почините его, используя удочку в наковальне или точило",
+  "Your Ice Staff is at low durability! Repair it with a fishing rod in a grindstone or anvil": "У вашего Посоха Льда низкая прочность! Почините его, используя удочку в наковальне или точило",
+  "Your Electric Staff is at low durability! Repair it with a fishing rod in a grindstone or anvil": "У вашего Посоха Молнии низкая прочность! Почините его, используя удочку в наковальне или точило",
+ 
+  "Charging Wave...": "Волна заряжается...",
+  "Ready! Press ": "Готово! Нажмите ",
+  " to Release a Wave - 40/40": " чтобы выпустить Волну - 40/40",
+
+  "Charging beam... - ": "Луч заряжается... - ",
+  " to release beam - 60/60": " чтобы выпустить Луч - 60/60",
+
+  "Energy - ": "Энергия - ",
+  "Energy Maxed! Press ": "Максимальная Энергия! Нажмите ",
+  " to release stored energy - 500": " для высвобождения Энергии - 500",
+
+
+  " is charged!": " заряжено!",
+  "Shoot fireballs and set flames": "Выстреливает огненными шарами и поджигает местность",
+  "Shoot ice blocks that freeze your": "Выстреливает кусками льда которые замораживают",
+  "enemies in place": "ваших противников",
+  "Casts a line of electricity that fires": "Создает луч электричества, который мгновенно",
+  "instantly and can go through walls": "выстреливает и проходит сквозь стены",
+"Witherblade has absorbed max souls! Hold down ": "Меч Иссушения поглотил максимальное количество душ! Присядьте ",
+" to heal": " чтобы исцелиться",
+
+
+  "Color: Red": "Цвет: Красный",
+  "Color: Orange": "Цвет: Оранжевый",
+  "Color: Yellow": "Цвет: Желтый",
+  "Color: Green": "Цвет: Зеленый",
+  "Color: Lime": "Цвет: Лаймовый",
+  "Color: Light Blue": "Цвет: Голубой",
+  "Color: Blue": "Цвет: Синий",
+  "Color: Purple": "Цвет: Фиолетовый",
+  "Color: Magenta": "Цвет: Пурпурный",
+  "Color: Cyan": "Цвет: Аквамариновый",
+  "Color: Pink": "Цвет: Розовый",
+  "Color: Brown": "Цвет: Коричневый",
+  "Color: White": "Цвет: Белый",
+  "Color: Light Gray": "Цвет: Светло-серый",
+  "Color: Gray": "Цвет: Серый",
+  "Color: Black": "Цвет: Черный",
+  
+  "Your weapon burned whilst converting to netherite. Drop it on the ground to revert it back": "Ваше оружие сгорело при преобразовании в Незеритовое. Бросьте его на землю, чтобы вернуть обратно."
+,
+"You can't use two ranged weapons on your mainhand and offhand at the same time": "Вы не можете одновременно использовать два дальнобойных оружия в основной и дополнительной руке"
+
+
+
+
+
+
+
+
+,
+
+
+
+
+"#COMMENT // The translations below are part of Spellbound Weapons v4.0.0": "this specific line does not need to be translated",
+
+" was blown up by ": " был взорван ",
+" was shot by ": " был застрелен ",
+" was stunned by ": " был ошеломлен ",
+" energy from ": " уничтожен энергией от ",
+" was electricuted by ": " был электризован от ",
+" was frozen by ": " замерз до смерти от ",
+" was exploded by arrow from ": " был взорван стрелой от ",
+" perished by a light beam from ": " погиб от слабого луча энергии ",
+" perished by a heavy light beam from ": " погиб от сильного луча энергии  ",
+" was slain by ": " был сражен ",
+" was pricked to death by thorns from": " был заколот до смерти Терном от рук",
+" was swept in wind by ": " был охвачен ветром от ",
+" hit themself whilst thorn grappling": " нахватался колючек",
+
+"Determines whether players can create weapon variants like dyed Crucibles and dagger variants": "Определяет, смогут ли игроки создавать такие варианты оружия, как Тигель и варианты кинжалов",
+
+"Windsweeper": "Меч Ветра",
+"Blazeblade": "Пылающий Меч",
+"Thorn Blossom": "Терновый Цветок",
+" charged! Hold ": " заряжен! Удерживай ",
+" to release flames": " чтобы выпустить пламя",
+
+"Spellbound Master": "Мастер Spellbound",
+"Obtain every Spellbound Weapon": "Заполучи все оружие Spellbound",
+
+"Variant: Iron-Plated": "Вариант: Железное Напыление",
+"Variant: Diamond-Plated": "Вариант: Алмазное Напыление",
+"Variant: Gold-Plated": "Вариант: Золотое Напыление",
+
+"Drop these items ontop of a crafting table to craft": "Выложи предметы на верхнюю часть верстака для крафта",
+
+
+
+    "Please Select A Category": "Пожалуйста, Выберите Категорию",
+    "Click to Summon": "Нажми чтобы Призвать",
+    "Summon Bosses": "Призвать Боссов",
+    "Settings": "Настройки",
+    "Boss Items": "Предметы с Боссов",
+    "Operator Commands": "Команды Администратора",
+    "Enable": "Включить",
+    "Disable": "Выключить",
+    
+ 
+
+    "Corrupted Enderman": "Искаженный Эндермен",
+    "Giant": "Гигант",
+    "Blaze King": "Король Ифритов",
+    "Ultra Wither": "Ультра Иссушитель",
+    "Sanctum Keeper": "Хранитель Санктума",
+    "Phantom Swarm": "Рой Фантомов",
+    "Illusioner": "Иллюзионер",
+    "Shulker Stone": "Каменный Шалкер",
+
+  
+    
+    "Ultra Corrupted Enderman": "Ультра Искаженный Эндермен",
+    "Ultra Giant": "Ультра Гигант",
+    "Ultra Blaze King": "Ультра Король Ифритов",
+    "Ultra Ultra Wither": "Супер Ультра Иссушитель",
+    "Ultra Sanctum Keeper": "Ультра Хранитель Санктума",
+    "Ultra Phantom Swarm": "Ультра Рой Фантомов",
+    "Ultra Illusioner": "Ультра Иллюзионер",
+    "Ultra Shulker Stone": "Ультра Каменный Шалкер",
+
+
+
+
+    "Ominous Pearl": "Зловещий Жемчуг Края",
+    "Spirit Bow": "Лук Душ",
+    "Blaze King's Helmet": "Шлем Короля Ифритов",
+    "Shulker Shell Helmet": "Шлем Каменного Шалкера",
+    "Giant Stompers": "Башмаки Гиганта",
+    "Endstone Key": "Ключ Эндерняка",
+    "Corrupt Dust": "Искаженная Пыль",
+    "Enchanted Core": "Зачарованное Ядро",
+
+    " cannot function with netherite. Drop it on the ground to revert it.": " не может использоваться с незеритом. Брось на землю, чтобы обратить процесс.",
+
+  
+
+
+
+    "Deep Vision I": "Внутреннее Чувство I",
+    "The Shulker Shell of the": "Панцирь Шалкера из",
+    "Shulker Stone. When equipped,": "Каменного Шалкера. Надев его,",
+    "the bearer will give surrounding": "вы накладываете на окружающих",
+    "mobs a glow effect, and all": "вас мобов эффект свечения, и все",
+    "end mobs will be passive.": "мобы Края становятся мирными.",
+
+    "Split I": "Расщепление I",
+    "A sacred bow that harnests the": "Священный лук, который распространяет",
+    "energy of souls in the air, once": "энергию душ в воздухе. Полный",
+    "charged will split your arrow into": "заряд выпускает расщепленную стрелу,",
+    "mirrors of the Sanctum Keeper. To": "призывая отражения Хранителя Санктума. Чтобы",
+    "teleport, sneak/crouch while aiming": "телепортироваться, присядьте во время прицеливания.",
+
+    "Dropped by the Ultra Wither. When in": "Получен с Ультра Иссушителя. Когда находится",
+    "player\\'s inventory they will": "в инвентаре игрока, тот получает",
+    "gain 2 extra hearts": "2 дополнительных сердца.",
+
+    "The helmet of the Blaze King, amplifies": "Шлем Короля Ифритов, усиливает",
+    "the power and determination of": "силу и решимость носителя,",
+    "the bearer when at low health": "когда он ранен",
+
+    "Propells the bearer with the power of": "Propells the bearer with the power of",
+    "giants. Hold sneak and then jump to": "giants. Hold sneak and then jump to",
+    "perform a high jump. Jump ontop of": "perform a high jump. Jump ontop of",
+    "mobs to deal damage": "mobs to deal damage",
+    
+    "Used to reawaken the Shulker Stone": "Используйте для пробуждения Каменного Шалкера",
+    "from its deep sleep in its inverted": "из его глубокого сна в перевернутой",
+    "pyramid high above the End Cities": "пирамиде, высоко над Городом Энда.",
+
+    "Created at a Sanctum, throw this": "Создано в Санктуме. Бросьте",
+    "on an enderman to corrupt it": "в эндермена, чтобы исказить его.",
+
+    "Charging... - ": "Зарядка... - ",
+    "Spirit Bow is charged! - 25/25": "Лук Душ заряжен! - 25/25",
+
+
+    
+    "Mysterious Power": "Таинственная Мощь",
+    "Forge a Command Block in a Smithing Table with an ominous pearl and a gold block": "Создайте Командный Блок на Кузнечном Столе, используя Зловещий Жемчуг Края и блок золота.",
+    "Ultris Conqueror": "Завоеватель Ultris",
+    "Defeat every Ultris Boss": "Победите каждого Босса Ultris.",
+    "Corrupted": "Искаженный",
+    "Find and battle the corrupted Ultris Boss, Corrupted Enderman": "Найдите и сразитесь с Искаженным Эндерменом",
+    "Weakened": "Ослабленный",
+    "Defeat the Corrupted Enderman": "Победите Искаженного Эндермена",
+    "No Giant Is Stronger Than Me!": "Никакой Гигант Не Сильнее, Чем Я!",
+    "Defeat the Giant": "Победите Гиганта",
+    "Green Giant": "Зеленый Гигант",
+    "Throw a strength potion at a zombie and turn it into the Ultris Boss, the Giant.": "Бросьте зелье силы в зомби, превратив его в Гиганта.",
+    "Fountain of Youth?": "Источник Молодости?",
+    "Throw a weakness potion at a zombie and turn it into a... baby zombie.": "Бросьте зелье слабости в зомби, превратив его в... маленького зомби.",
+    "What Species is That?": "Что Это За Вид?",
+    "Find a pig with strange purple particles...": "Найдите свинью со странными частицами...",
+    "Porky Illusions": "Тупые Иллюзии",
+    "Encounter the magical Ultris Boss, the Illusioner.": "Столкнитесь с Иллюзионером.",
+    "Shows Over!": "Шоу Окончено!",
+    "Defeat the Illusioner": "Победите Иллюзионера",
+    "Together In The Dark": "Вместе В Темноте",
+    "Bring out the friends of the lone phantom and discover the Phantom Swarm": "Соберите друзей одинокого фантома и исследуйте Рой Фантомов",
+    "Phantom Slayer": "Убийца Фантомов",
+    "Defeat the Phantom Swarm": "Уничтожьте Рой Фантомов",
+    "Alone In The Dark..?": "Один В Темноте..?",
+    "Find a phantom all alone by itself in the vastness of the end...": "Найди одинокого фантома в просторах Края...",
+    "Flame Out!": "Погаси Пламя!",
+    "Set flame to a phantom in the end and remove its abillity to summon other phantoms": "Подожги фантома в Измерении Края и помешай вызову подкрепления",
+    "Ultris: Minecraft Boss Expansion": "Ultris: Расширение Боссов Майнкрафта",
+    "Venture further and discover the 8 Ultris Bosses. Follow through the advancements proceeding to find the paths to each boss.": "Отправляйтесь дальше и откройте для себя 8 боссов Ultris. Исследуйте дальше, чтобы найти пути к каждому боссу.",
+    "Ultra Withering Heights": "Высший Пилотаж",
+    "Throw an Enchanted Command Block at a Wither, summon the Ultris Boss, Ultra Wither": "Бросьте Зачарованный Командный Блок в Иссушителя, призвав Ультра Иссушителя",
+    "Double It Up!": "Повышаем Ставки!",
+    "Throw a second command block at the Ultra Wither to receive more XP after defeation": "Бросьте ещё один командный блок в Ультра Иссушителя, чтобы получить больше опыта после победы",
+    "Ultra Demise": "Ультра Помер",
+    "Defeat the Ultra Wither": "Победите Ультра Иссушителя",
+    "The Kings Residence": "Резиденция Королей",
+    "Enter the Blaze Kings Tower inside a nether fortress": "Войдите в Башню Короля Ифритов в Крепости Незера",
+    "High Sky Pyramid": "Небесная Пирамида",
+    "Discover a mysterious pyramid high above an end city": "Изучите таинственную пирамиду над городом Края",
+    "Awaken": "Пробуждение",
+    "Awaken the blazing Ultris Boss, Blaze King": "Пробудите пылающего Короля Ифритов",
+    "Into Ashes": "Обратно В Пепел",
+    "Defeat the Blaze King": "Победите Короля Ифритов",
+    "Sealed Secrets": "Раскрывая Секреты",
+    "Reach the top of the pyramid and insert an Endstone Key to the pedestal by right clicking its shimmering end rod": "Достигни вершины пирамиды и вставь Ключ Эндерняка в сияющий Стержень Края",
+    "Awaken at Kingdom's End": "Пробуждение в Королевстве Края",
+    "Awaken the Ultris boss, ruler of the shulkers, the Shulker Stone": "Пробудите предводителя шалкеров, Каменного Шалкера",
+    "True Form": "Истинная Форма",
+    "Shoot a spectral arrow at the shulker stone, and question the mob it really is": "Выстрелите спектральной стрелой в Каменного Шалкера, и узнайте, кто он на самом деле",
+    "Back to Eternal Sleep": "Обратно в Вечный Сон",
+    "Defeat the Shulker Stone": "Победите Каменного Шалкера",
+    "Ominous Compass": "Зловещий Компас",
+    "Forge a Ominous Eye Of Ender in a Smithing Table with an ominous pearl and blaze powder": "Создайте Зловещее Око Эндера на Кузнечном Столе, используя Зловещий Жемчуг Эндера и огненный порошок",
+    "Collector of Souls": "Сборщик Душ",
+    "Find the Ultris Boss, Sanctum Keeper": "Найдите Хранителя Санктума",
+    "Free the Sanctum": "Освободитель Санктума",
+    "Defeat the Sanctum Keeper": "Победите Хранителя Санктума",
+    "Corruptions Birthplace": "Оскверненное Место Рождения",
+    "Find the Corruption lab inside the Sanctum": "Найдите Искаженную лабораторию внутри Санктума",
+    "Mad Scienctist": "Злобный Гений",
+    "Create some corrupt dust within the Corruption Lab": "Создай немного искаженной пыли в Искаженной Лаборатории",
+    "The Sanctum's Corrupter": "Исказитель Санктума",
+    "Throw corrupt dust on a enderman and convert it into a Corrupted Enderman.": "Бросьте искаженную пыль в эндермена, превратив его в Искаженного Эндермена.",
+    "Feels Like Home": "Прям Как Дома",
+    "Hold an emerald in front of the Sanctum Keepers soul and lead it all the way to a village.": "Удерживайте изумруд в руках и приведите душу Хранителя Санктума в деревню.",
+    "Lost and Forgotten": "Потерян и Забыт",
+    "Find the sacred stronghold, the Sanctum": "Найдите древнюю крепость - Санктум",
+    "Released": "Свободен!",
+    "Free a trapped soul from a glass container": "Освободи душу из стеклянного контейнера",
+    "The Sanctum's Repairer": "Восстановление Санктума",
+    "Run out of the Fortified Sanctum's XP Machine uses, then throw a diamond on top of it to repair it": "Истрать заряды Машины Опыта в Укрепленном Санктуме, и брось алмаз в неё, чтобы восстановить их",
+    "Bookshelves Everywhere!": "Везде Книжные Полки!",
+    "Find the Fortified Sanctum's Library": "Найдите Библиотеку Укрепленного Санктума",
+    "High Class": "Высший Класс",
+    "Find the the Sanctum varient, the Fortified Sanctum": "Найди ещё один вариант Санктума - Укрепленный Санктум"
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+}

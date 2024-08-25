@@ -1,0 +1,21 @@
+{
+    "replace": false,
+    "values": [
+
+      
+      "minecraft:iron_sword",
+      "minecraft:stone_sword",
+      "minecraft:diamond_sword",
+
+      "minecraft:bow",
+      "minecraft:crossbow",
+      "minecraft:fishing_rod",
+      "minecraft:iron_shovel",
+      "minecraft:iron_axe",
+      "minecraft:stone_axe"
+     
+
+      
+    ]
+  }
+  

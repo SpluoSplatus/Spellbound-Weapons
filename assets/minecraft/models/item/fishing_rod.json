@@ -1,0 +1,76 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "minecraft:item/fishing_rod"
+  },
+  "overrides": [
+
+
+    {
+      "predicate": {
+        "custom_model_data": 27016
+      },
+      "model": "1_splatus:item/blaze_staff"
+
+    },
+    {
+      "predicate": {
+        "custom_model_data": 27017
+      },
+      "model": "1_splatus:item/blaze_staff_ready"
+
+    },
+    {
+      "predicate": {
+        "custom_model_data": 47008
+      },
+      "model": "1_splatus:item/ice_staff"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 47009
+      },
+      "model": "1_splatus:item/fire_staff"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 47010
+      },
+      "model": "1_splatus:item/electric_staff"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 47011
+      },
+      "model": "1_splatus:item/ice_staff_ready"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 47012
+      },
+      "model": "1_splatus:item/fire_staff_ready"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 47013
+      },
+      "model": "1_splatus:item/electric_staff_ready"
+
+    },
+    {
+      "predicate": {
+        "custom_model_data": 47019
+      },
+      "model": "1_splatus:item/bone_wand"
+
+    },
+    {
+      "predicate": {
+        "custom_model_data": 47067
+      },
+      "model": "1_splatus:item/echo_wand"
+
+    }
+    
+  ]
+}

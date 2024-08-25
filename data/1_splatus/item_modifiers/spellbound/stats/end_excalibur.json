@@ -1,0 +1,32 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{AttributeModifiers:[{}]}"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "",
+        "amount": 6.5,
+        "operation": "addition",
+        "id": "1329fab7-2b3f-4eb8-ab6f-5755ebee1dff",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "name": "speed",
+        "amount": -3.5,
+        "operation": "addition",
+        "id": "d8ee3e2b-2955-4985-8ddd-ed7898e6dc59",
+        "slot": "mainhand"
+      }
+    ]
+  }
+]

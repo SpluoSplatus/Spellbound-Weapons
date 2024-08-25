@@ -1,0 +1,281 @@
+{
+    "__comment": "Spellbound",
+    
+    
+    "criteria": {
+        "blowgun": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:bow"
+                  ],
+                  "nbt": "{SpellboundBlowgun:1}"
+                }
+              ]
+            }
+          },
+          "dagger": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:iron_shovel"
+                  ],
+                  "nbt": "{SpellboundDagger:1}"
+                }
+              ]
+            }
+          },
+          "end_excalibur": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:diamond_sword"
+                  ],
+                  "nbt": "{EndExcalibur:1}"
+                }
+              ]
+            }
+          },
+          "crucible": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:diamond_sword"
+                  ],
+                  "nbt": "{SpellboundCrucible:1}"
+                }
+              ]
+            }
+          },
+          "evokers_wrath": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:iron_sword"
+                  ],
+                  "nbt": "{SpellboundEvokersWrath:1}"
+                }
+              ]
+            }
+          },
+          "moonlight_edge": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:diamond_sword"
+                  ],
+                  "nbt": "{SpellboundMoonlightEdge:1}"
+                }
+              ]
+            }
+          },
+          "blazing_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:stone_sword"
+                  ],
+                  "nbt": "{BlazingSword:1}"
+                }
+              ]
+            }
+          },
+          "cursed_sea_blade": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:stone_sword"
+                  ],
+                  "nbt": "{CursedSeaBlade:1}"
+                }
+              ]
+            }
+          },
+          "fire_staff": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:fishing_rod"
+                  ],
+                  "nbt": "{FireStaff:1}"
+                }
+              ]
+            }
+          },
+          "bone_wand": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:fishing_rod"
+                  ],
+                  "nbt": "{SpellboundBoneWand:1}"
+                }
+              ]
+            }
+          },
+          "mega_hammer": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:iron_axe"
+                  ],
+                  "nbt": "{SpellboundMegaHammer:1}"
+                }
+              ]
+            }
+          },
+          "ice_staff": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:fishing_rod"
+                  ],
+                  "nbt": "{SpellboundIceStaff:1}"
+                }
+              ]
+            }
+          },
+          "electric_staff": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:fishing_rod"
+                  ],
+                  "nbt": "{SpellboundIceStaff:1}"
+                }
+              ]
+            }
+          },
+          "windswept_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:stone_sword"
+                  ],
+                  "nbt": "{SpellboundWindsweptSword:1}"
+                }
+              ]
+            }
+          },
+          "withering_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:iron_sword"
+                  ],
+                  "nbt": "{SpellboundWithering:1}"
+                }
+              ]
+            }
+          },
+          "warped_crossbow": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:crossbow"
+                  ],
+                  "nbt": "{SpellboundZGCrossbow:1}"
+                }
+              ]
+            }
+          },
+          "chainfiring_crossbow": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:crossbow"
+                  ],
+                  "nbt": "{SpellboundChainfiring:1}"
+                }
+              ]
+            }
+          },
+          "endlight_bow": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:bow"
+                  ],
+                  "nbt": "{SpellboundEndlight:1}"
+                }
+              ]
+            }
+          },
+          "golden_sea_blade": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:iron_sword"
+                  ],
+                  "nbt": "{SpellboundGoldenOceanEdge:1}"
+                }
+              ]
+            }
+          },
+          "magmus_charger": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:bow"
+                  ],
+                  "nbt": "{SpellboundMagmusCharger:1}"
+                }
+              ]
+            }
+          },
+          "echo_wand": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:fishing_rod"
+                  ],
+                  "nbt": "{SpellboundEchoWand:1}"
+                }
+              ]
+            }
+          }
+       
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "1_splatus:item/magmus_fire"
+    }
+    
+}

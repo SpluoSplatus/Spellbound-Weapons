@@ -1,0 +1,27 @@
+{
+    "schema_version": 1,
+    "quilt_loader": {
+        "group": "com.modrinth",
+        "id": "spellbound_weapons_mr",
+        "version": "4.0.5m",
+        "metadata": {
+            "name": "Spellbound Weapons",
+            "description": "Adds new weapons that enhance fighting and creates new strategies to combat foes",
+            "contributors": {
+                "limesplatus": "Owner"
+            },
+            "contact": {
+                "homepage": "https://modrinth.com/datapack/spellbound-weapons"
+            },
+            "icon": "spellbound-weapons_pack.png"
+        },
+        "intermediate_mappings": "net.fabricmc:intermediary",
+        "depends": [
+            {
+                "id": "quilt_resource_loader",
+                "versions": "*",
+                "unless": "fabric-resource-loader-v0"
+            }
+        ]
+    }
+}

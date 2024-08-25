@@ -1,0 +1,576 @@
+{
+
+  "{t:} Translator": "TheWiseDragon#2727",
+
+  "(splatus example:) Original text": "Translated Text",
+  "Anytime text includes a \n or space please put it into the translation as well": "Anytime text includes a \n or space please put it into the translation as well",
+  "These 3 example translations do not have to be translated. Translate everything else below": "These 3 example translations do not have to be translated. Translate everything else below",
+  
+
+
+  "Ore Collector": "Collecteur de minerai",
+  "Obtain one of each ore from the Overworld": "Obtenez une de chaque minerai qui provient du monde normale",
+
+  "Shimmering Crystals": "Cristaux Chatoyants",
+  "Obtain Amethyst Shards from an amethyst geode": "Obtenez des tessons d'amethyste d'une géode",
+
+  "Silence of the City": "La silence du cité",
+  "Discover the Ancient City, inhabitated by Sculk and the Warden": "Decouvrez la cité ancienne, habité par le sculk et le gardien",
+
+  "Aqua Bubbles": "Bulles aqua",
+  "Swim over a ": "Nagez sur",
+  " to breathe underwater": " pour respirer sous l'eau",
+
+  "Into the Depths": "Dans les tréfonds",
+  "Enter the ": "Entrex les ",
+  " layer of the caves": " couche des cavernes",
+
+  "Bucket Clutch": "Embrayage de seau",
+  "Use a water bucket to save yourself from a 10 block fall": "Utilisez une seau d'eau pour te sauver d'une chute de dix blocs",
+
+  "Ultimate Bucket Clutch": "Embrayage de seau ultime",
+  "Use a water bucket to save yourself from a 50 block fall": "Utilisez une seau d'eau pour te sauver d'une chute de cinqante blocs",
+
+  "Waterpowered": "Hydrolyque",
+  "Construct a ": "Construiez une ",
+  " and take in the effects of its power": " et prennez-en les effects de son pouvoir",
+
+  "Frightening Fist Fight": "Combat de poing effrayant",
+  "Kill an Enderman with only your fist and without any armor or resistance": "Tuez une enderman avec les poings et sans resistance ou armeur",
+
+  "Vibin'": "Vibin'",
+  "Insert a music disc into a ": "Inserez une disque de musique dans une ",
+
+  "Open Waters": "Eaux ouvertes",
+  "Dip into the vast, open waters of the ocean": "Allez dans l'eau ouverte et vaste de l'ocean",
+
+  "Yarr, Treasure!": "Yarr, trésor!",
+  "Uncover and open a buried treasure chest": "découvrez une coffre au trésor enterré",
+
+  "Whats in the Box?": "C'est quoi dans la boite?",
+  "Open a loot chest": "Oouvrez une coffre a pillier",
+
+  "Monsterous Generator": "Generateur monstreux",
+  "Find a ": "Trouvez une ",
+  " inside a dungeon": " dans une cachot",
+
+  "Absorbant and Yellow": "Absorbant et jaune",
+  "Use a Sponge to quickly absorb and clear out a space of water": "Utilisez une éponge pour absorber et effacer une espace d'eau",
+
+  "Sneaking Swiftly": "Faufiller rapidement",
+  "Put the ": "Mettez les ",
+  " enchantment on some leggings and sneak around with them": " enchantements sur des leggings et faufille avec eux",
+
+  "\"Balanced\" Progression": "Progression \"Balancée\"",
+  "Trade with a Villager for a ": "Fait du commerce avec un villageois pour une ",
+
+  "Beyond the Clouds": "Au-delà des nuages",
+  "Fly beyond the Overworld build limit with your ": "Volez au-delà du monde normale avec ton ",
+
+  "Portable Chest": "Coffre portable",
+  "Use the Shulker Shells of a ": "Utilise la carapace de shulker d'une",
+  " merged with a chest to craft a ": " fusionnée avec une coffre pour fabriquer une ",
+
+  "Mid-Air Battle": "Battaille dans les airs",
+  "Kill 10 mobs without touching the ground or water": "Tuez dix créatures sans toucher le sol ou de l'eau",
+
+  "Colors of the Rainbow": "Couleurs de l'arc-enciel",
+  "Obtain all 16 wool colors": "Obtenez tout les 16 couleurs de laine",
+
+  "Fertilizer": "Fertilizeur",
+  "Use ": "Utilisez ",
+  " on a plant to make it grow faster": " sur une plante pour la faire pousser plus vite",
+
+  "Goaty Call": "Appèlle chèvreux",
+  "Obtain a ": "Obtenez une ",
+  " from a Goat and play it": " d'une chèvre et joue-le",
+
+  "Crop Garden": "Jardin culturelle",
+  "Plant the main 4 overworld crops: Wheat, Carrots, Potatoes, and Beetroots": "Plantez les quatre cultures majeurs du monde normale: Blè, Carottes, Patates et les Racines de betterave",
+
+  "Avid Lumberjack": "Bon Bûcheron",
+  "Obtain one every wood log": "Obtenez une de chauque bûche",
+
+  "Not So Friendly": "Pas si amicale",
+  "Attack a ": "Attaquez une ",
+  "... and run away as fast as you can": "... et fuyez aussi vite que possible",
+
+  "Bubblevator": "Asenbulle",
+  "Place ": "Placez ",
+  " below water to create an upward current": " sous l'eau pour creer une courant ascendant",
+
+  "Above the Nether": "Au-dessus du Nether",
+  "Break the limits of the Nether and go above its Bedrock roof": "Brisez les limites du Nether et sortez sur la toit de bedrock",
+
+  "Void's Calling": "Chant du vide",
+  "Obtain an ": "Obtenez un ",
+  " from an ": " d'un ",
+
+  "Diamond Miner": "Mineur de diamants",
+  "Create the pickaxe that can break anything": "Créez le pioche qui peut briser tout",
+
+  "Bon Appétit!": "Bon Appétit!",
+  "Eat food to relieve hunger": "Mangez de la nourriture pour reliever la faim",
+  
+  "Defeat the ": "Defaitez la ",
+
+  "Filled With Experience": "Remplis avec l'expérience",
+  "Reach experience level 30": "Acheve la 30e niveau d'expérience",
+
+  "Fully Enchanted": "Totalement enchantée",
+  "Fully enchant your armor with max enchantments": "Enchantez entièrement votre armure avec un maximum d'enchantements",
+
+  "Nightmare Fuel": "Le carburant des cauchemars",
+  "Go 3 full days without sleeping and encounter Phantoms": "Va trois jours entiers sans le repos et rencontre des fantomes",
+
+  "Crafting Time": "Le temps de fabrication",
+  "Create a ": "Créez un ",
+  " with 4 wood planks in your inventory's crafting grid": " avec quatre planches de bois dans la grille d'artisanat dans ton inverntoire",
+  
+
+
+
+  
+
+
+
+
+
+
+  "\nClick the name of an item to receive it\n": "\nCliquez le nom d'un item pour la recevoir\n",
+  "Page": "Page",
+  "Return": "Retour",
+  "Click to give": "Cliquez pour donner",
+  "Next Page": "Page suivante",
+  "Previous Page": "Page précédente",
+
+  "Hover to View Recipe": "Flottez pour voir la recette",
+  "Locked": "Barée",
+
+  "Recipe unlocks after getting a ": "La recette se débarre apres obtenir un ",
+  
+
+  "Drop these items onto the ground to craft this weapon\n": "Lâchez ces items sur le sol pour fabriquer cette arme\n",
+  "Fire Staff: ": "Bâton de feu: ",
+  "Ice Staff: ": "Bâton de glace: ",
+  "Electric Staff: ": "Bâton d'électricité: ",
+  
+  
+
+
+  "You have learned a new weapon recipe, ": "Tu as appris une nouvelle recette d'arme, ",
+  ". Use /trigger spellbound_recipes in chat to view your current recipes": ". Utilise /trigger spellbound_recipes dans le chat pour voir ta recette actuelle",
+
+
+
+
+  "Page 2 -->": "Page 2 -->",
+  "Page 3 -->": "Page 3 -->",
+  "Page 4 -->": "Page 4 -->",
+  "Page 5 -->": "Page 5 -->",
+  "Page 6 -->": "Page 6 -->",
+  "Page 7 -->": "Page 7 -->",
+  "Page 8 -->": "Page 8 -->",
+  
+  "<-- Page 1": "<-- Page 1",
+  "<-- Page 2": "<-- Page 2",
+  "<-- Page 3": "<-- Page 3",
+  "<-- Page 4": "<-- Page 4",
+  "<-- Page 5": "<-- Page 5",
+  "<-- Page 6": "<-- Page 6",
+  "<-- Page 7": "<-- Page 7",
+
+  "<-- Retour": "<-- Retour",
+
+
+
+
+  "Description:": "Description:",
+  "Click to change this setting:": "Cliquez pour changer cette parametre",
+  "Enabled:": "Activé:",
+  "Disabled:": "Désactivé:",
+  "Weapons Achieveable: ": "Armes achevables: ",
+  "Weapon Cooldowns: ": "Recoules des armes: ",
+  "Weapon Recipes Notification: ": "Notifications des recettes: ",
+  "Weapon Tips: ": "Conseils d'armes: ",
+
+  "The cooldowns for weapons that take time to charge like the Staffs, when cooldowns are disabled they will immediately reach their final charge state.": "Les temps de recharge pour les armes qui prennent du temps à charger comme les bâtons, lorsque les temps de recharge sont désactivés, ils atteindront immédiatement leur état de charge final.",
+  "Determines whether Spellbound Weapons can be naturally found in Survival Mode (chests, mob drops, etc) otherwise if disabled, weapons can only be accessed through commands": "Détermine si les armes Spellbound peuvent être trouvées naturellement en mode Survie (coffres, largages de foule, etc.) sinon, si elles sont désactivées, les armes ne sont accessibles que via des commandes",
+  "Messages in chat that display to the player when the required item for a certain weapon's recipe is achieved": "Messages dans le chat qui s'affichent pour le joueur lorsque l'élément requis pour la recette d'une certaine arme est atteint",
+  "Les conseils qui s'affichent lors de l'utilisation de Bone Wand, Windswept Sword et Evokers Wrath": "Les conseils qui s'affichent lors de l'utilisation de Bone Wand, Épée venteux et le Colère du Evoker",
+  
+
+
+
+
+  "Weapon Tip:": "Coneil d'arme:",
+  " Triple clicking ": " Cliquage triple ",
+  " will break your currently existing bone blocks.": " va briser tout les blocs d'os exisant.",
+  " Holding ": " Tenir ",
+  " whilst aiming will make your suction area deal 0 damage and use less durability": " quand viser va faire ton zone d'aspiration infliger aucun dégât et utilise moins de durabilité",
+  " When you notice sand particles around you, you can triple click ": " Quand tu vois des particules de sable autour de vous, tu peux faire une clique triple ",
+  " to unleash a wave of sand": " pour libérer une vague de sable",
+
+
+
+
+
+
+  "Spellbound Conqueror": "Conquereur Spellbound",
+  "Discover every Spellbound Weapon": "Decouvrez chaque arme Spellbound",
+  
+
+
+  "Nether Staffs": "Bâtons du nether",
+  "End Excalibur": "Excalibur du fin",
+  "Blazing Sword": "Épée brûlante",
+  "Cursed Sea Blade": "Lame de mer maudite",
+  "Dagger": "Dague",
+  "Fire Staff": "Bâton de feu",
+  "Ice Staff": "Bâton de glace",
+  "Electric Staff": "Bâton d'électricité",
+  "Empty Staff": "Bâton blanche",
+  "Crucible": "Creuset",
+  "Windswept Sword": "Épée venteux",
+  "Withering Sword": "Épée pourrisant",
+  "Witherblade": "Witherblade",
+  "Mega Hammer": "Marteau Mega",
+  "Evokers Wrath": "Colère du Evoker",
+  "Bone Wand": "Bone Wand",
+  "Warped Crossbow": "Arbalète perverti",
+  "Blowgun": "Sarbacane",
+  "Chainfiring Crossbow": "Arbalète tir à la chaîne",
+  "Endlight Bow": "Arc finlumiere",
+  "Golden Sea Blade": "Lame de mer dorée",
+  "Broken Crucible": "Creuset cassé",
+  "Moonlight Edge": "Bord clair de lune",
+  "Magmus Bow": "Arc magmus",
+  "Magmus Charger": "Chargeur magmus",
+  "Echo Wand": "Baguette d'écho",
+
+
+
+  "Your Fire Staff is at low durability! Repair it with a fishing rod in a grindstone or anvil": "Votre Bâton de feu est à faible durabilité ! Réparez-le avec une canne à pêche dans une meule ou une enclume",
+  "Your Ice Staff is at low durability! Repair it with a fishing rod in a grindstone or anvil": "Votre Bâton de glace est à faible durabilité ! Réparez-le avec une canne à pêche dans une meule ou une enclume",
+  "Your Electric Staff is at low durability! Repair it with a fishing rod in a grindstone or anvil": "Votre Bâton d'électricité est à faible durabilité ! Réparez-le avec une canne à pêche dans une meule ou une enclume",
+ 
+  "Charging Wave...": "Vague chargeant...",
+  "Ready! Press ": "Pret! Pesez ",
+  " to Release a Wave - 40/40": " pour libérer une vague - 40/40",
+
+  "Charging beam... - ": "Rayon chargeant... - ",
+  " to release beam - 60/60": " pour libérer une rayon - 60/60",
+
+  "Energy - ": "Énergie - ",
+  "Energy Maxed! Press ": "Énergie au max! Pesez ",
+  " to release stored energy - 500": " pour libérer l'énergie stocké - 500",
+
+
+  " is charged!": " est chargée!",
+  "Shoot fireballs and set flames": "Tirez des boules de feu et allumez des flammes",
+  "Shoot ice blocks that freeze your": "Tirez sur des blocs de glace qui gèlent vos",
+  "enemies in place": "ennemis en place",
+  "Casts a line of electricity that fires": "Lance une ligne d'électricité qui tire",
+  "instantly and can go through walls": "instantanément et peut traverser les murs",
+"Witherblade has absorbed max souls! Hold down ": "Witherblade a absorbé un maximum d'âmes ! Maintenez enfoncez",
+" to heal": " pour guerrir",
+
+
+  "Color: Red": "Coleur: Rouge",
+  "Color: Orange": "Coleur: Orange",
+  "Color: Yellow": "Coleur: Jaune",
+  "Color: Green": "Coleur: Vert",
+  "Color: Lime": "Coleur: Vert clair",
+  "Color: Light Blue": "Coleur: Bleu clair",
+  "Color: Blue": "Coleur: Bleu",
+  "Color: Purple": "Coleur: Violet",
+  "Color: Magenta": "Coleur: Magenta",
+  "Color: Cyan": "Coleur: Cyan",
+  "Color: Pink": "Coleur: Rose",
+  "Color: Brown": "Coleur: Brun",
+  "Color: White": "Coleur: Blanc",
+  "Color: Light Gray": "Coleur: Gris clair",
+  "Color: Gray": "Coleur: Gris",
+  "Color: Black": "Coleur: Noir",
+  
+  "Your weapon burned whilst converting to netherite. Drop it on the ground to revert it back": "Votre arme a brûlé lors de la conversion en netherite. Déposez-le sur le sol pour le faire revenir"
+,
+"You can't use two ranged weapons on your mainhand and offhand at the same time": "Vous ne pouvez pas utiliser deux armes à distance sur votre main principale et secondaire en même temps"
+
+
+
+
+
+
+
+
+,
+
+
+
+
+"#COMMENT // The translations below are part of Spellbound Weapons v4.0.0": "this specific line does not need to be translated",
+
+" was blown up by ": " a été soufflé par ",
+" was shot by ": " a été abattu par ",
+" was stunned by ": " a été stupéfait par ",
+" energy from ": " l'énergie de ",
+" was electricuted by ": " a été électrocuté par ",
+" was frozen by ": " a été gelé par ",
+" was exploded by arrow from ": " a été explosé par une flèche de ",
+" perished by a light beam from ": " péri par un faisceau lumineux de ",
+" perished by a heavy light beam from ": " péri par un faisceau lumineux lourd de ",
+" was slain by ": " a été tué par ",
+" was pricked to death by thorns from": " a été piqué à mort par les épines de",
+" was swept in wind by ": " a été emporté par le vent ",
+" hit themself whilst thorn grappling": " se frapper en s'agrippant aux épines",
+
+"Determines whether players can create weapon variants like dyed Crucibles and dagger variants": "Détermine si les joueurs peuvent créer des variantes d'armes comme des creusets teints et des variantes de poignard",
+
+"Windsweeper": "Balayeuse",
+"Blazeblade": "Blazeblade",
+"Thorn Blossom": "Fleur d'épine",
+" charged! Hold ": " chargé! Prise ",
+" to release flames": " libérer des flammes",
+
+"Spellbound Master": "Maître(sse) Spellbound",
+"Obtain every Spellbound Weapon": "Obtenez chauque Arme Spellbound",
+
+"Variant: Iron-Plated": "Variant: Fer-plaqué",
+"Variant: Diamond-Plated": "Variant: Diamant-plaqué",
+"Variant: Gold-Plated": "Variant: Or-plaqué",
+
+"Drop these items ontop of a crafting table to craft": "Déposez ces objets sur une table d'artisanat pour fabriquer",
+
+
+"Gives a short text tip above your hotbar when first holding certain weapons that have sneak abilities to better explain it to first time users": "Donne une pointe courte de texte quand tenant certaines armes qui ont des abilité de fauchement au premiere fois pour mieux l'expliquer aux utilisateurs",
+
+"Grindstone Repair: ": "Réparation grindstone: ",
+
+"Nether Fortress Core": "Noyau du fortresse nether",
+
+"Attack a mob to charge Blazeblade": "Attaquez une créature pour charger le Blazeblade",
+"Place Bone Blocks by clicking ": "Place des blocs d'os par cliquant",
+"Hold ": "Tenez ",
+" and then press ": " et puis pesez ",
+" to place a Bone Wall": " pour placer un mur d'os",
+"Break existing Bone Blocks by repetitively clicking ": "Brise des blocs existants par cliquant rapidement ",
+"Attack a mob when ": "Attaquez une créature quand ",
+" is charged to release a Fang Line": " chargée pour relacher une Ligne de dents",
+"You can also release Fang Line from a distance by pressing ": "Vous pouvez aussi relacher une Ligne de dents en distance par peser ",
+"Perform a critical hit (jump and then hit whilst falling)": "Performez une frappe criticale (saute et frappe en tombant)",
+" to release a Fang Trap": " pour relacher une piège de dents",
+"Press ": "Pesez ",
+" to grapple and release thorns where you land": " pour grappiller et faire des épines ou vous tombez",
+"Face straight down and press ": "Regardez vers le bas et pesez ",
+" to release thorns without grappling": " pour faire des épines sans grappiller",
+" to release wind that slows down mobs": " pour faire du vent qui ralentis les créatures",
+" to release wind below you and levitate": " pour faire du vent en-dessus de vous pour se léviter",
+"Attack mobs to absorb souls and use it for healing": "Attaquez des créatures et utilisez-le pour se guérir",
+
+" and ": " et ",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "Please Select A Category": "Veuillez sélectionner une catégorie",
+    "Click to Summon": "Cliquez pour invoquer",
+    "Summon Bosses": "Invoquer boss",
+    "Settings": "Paramètres",
+    "Boss Items": "Items de boss",
+    "Operator Commands": "Commandes operateur",
+    "Enable": "Activer",
+    "Disable": "Désactiver",
+    
+ 
+
+    "Corrupted Enderman": "Enderman corrompu",
+    "Giant": "Géant",
+    "Blaze King": "Roi blaze",
+    "Ultra Wither": "Wither ultra",
+    "Sanctum Keeper": "Garde du Sanctum",
+    "Phantom Swarm": "Essaim de phantome",
+    "Illusioner": "Illusionniste",
+    "Shulker Stone": "Roche shulker",
+
+  
+    
+    "Ultra Corrupted Enderman": "Enderman corrompu ultra",
+    "Ultra Giant": "Géant ultra",
+    "Ultra Blaze King": "Roi blaze ultra",
+    "Ultra Ultra Wither": "Wither ultra ultra",
+    "Ultra Sanctum Keeper": "Garde du Sanctum ultra",
+    "Ultra Phantom Swarm": "Essaim de phantome ultra",
+    "Ultra Illusioner": "Illusionniste ultra",
+    "Ultra Shulker Stone": "Roche Shulker ultra",
+
+
+
+
+    "Ominous Command Block": "Bloc de commande sinistre",
+    "Ominous Eye of Ender": "Oeil de ender sinistre",
+    "Ominous Pearl": "Perle sinistre",
+    "Spirit Bow": "Arc d'esprit",
+    "Blaze King's Helmet": "Casque roi de blaze",
+    "Shulker Shell Helmet": "Casque du Shulker",
+    "Giant Stompers": "Piétineurs géants",
+    "Endstone Key": "Clé endstone",
+    "Corrupt Dust": "Poussière corrompu",
+    "Enchanted Core": "Noyau enchanté",
+
+    " cannot function with netherite. Drop it on the ground to revert it.": " ne peut pas fonctionner avec netherite. Déposez-le sur le sol pour le retourner.",
+
+  
+
+
+
+    "Deep Vision I": "Vision profonde I",
+    "The Shulker Shell of the": "Le casque shulker du ",
+    "Shulker Stone. When equipped,": "Roche shulker. Quand utilisée,",
+    "the bearer will give surrounding": "l'utilisateur va donner les",
+    "mobs a glow effect, and all": "créatures entourant une effet de brillage",
+    "end mobs will be passive.": "créatures du fin vont etre passive.",
+
+    "Split I": "Divisation I",
+    "A sacred bow that harnests the": "Un arc sacré qui harnesse",
+    "energy of souls in the air, once": "l'énergie des esprits dans l'air, quand",
+    "charged will split your arrow into": "chargee il va diviser ton fleche en",
+    "mirrors of the Sanctum Keeper. To": "mirroirs du Garde du Sanctum. Pour",
+    "teleport, sneak/crouch while aiming": "téléporter, se faufiler/s'accroupir en visant",
+
+    "Dropped by the Ultra Wither. When in": "Donnée par la Wither Ultra. Quand dans",
+    "player\\'s inventory they will": "l'inventoir du joueur il va",
+    "gain 2 extra hearts": "obtenir deux coeurs d'extra",
+
+    "The helmet of the Blaze King, amplifies": "La casque du roi blaze, amplifies",
+    "the power and determination of": "le pouvoir et détermination du",
+    "the bearer when at low health": "du gardeur avec moins de santé",
+
+    "Propells the bearer with the power of": "Propulse le gardeur avec le pouvoir des",
+    "giants. Hold sneak and then jump to": "géantes. Tenz faufilez et saute pour",
+    "perform a high jump. Jump ontop of": "performer une saut haute. Saut sur des",
+    "mobs to deal damage": "créature pour causer des dommages",
+    
+    "Used to reawaken the Shulker Stone": "Utilisée pour réveiller la Roche Shulker",
+    "from its deep sleep in its inverted": "du sommeil profond dans son pyramide inverté",
+    "pyramid high above the End Cities": "tout en haut des villes Fin",
+
+    "Created at a Sanctum, throw this": "Crée a un Sanctum, lace ca",
+    "on an enderman to corrupt it": "sur un enderman pour le corrompre",
+
+    "Charging... - ": "Mise en charge... - ",
+    "Spirit Bow is charged! - 25/25": "Arc d'esprits est chargée! - 25/25",
+
+
+    
+    "Mysterious Power": "Pouvoir misterieux",
+    "Forge a Command Block in a Smithing Table with an ominous pearl and a gold block": "Forgez une bloc de commande dans une table de forgeron avec une perle omineux et une bloc d'or",
+    "Ultris Conqueror": "Conquereur d'Ultris",
+    "Defeat every Ultris Boss": "Tue chaque boss Ultris",
+    "Corrupted": "Corrompu",
+    "Find and battle the corrupted Ultris Boss, Corrupted Enderman": "Trouvez et battez la derniere boss Ultris, l'enderman corrompu",
+    "Weakened": "Affaibli",
+    "Defeat the Corrupted Enderman": "Tuez l'enderman corrompu",
+    "No Giant Is Stronger Than Me!": "Aucun géant est plus puissant que moi!",
+    "Defeat the Giant": "Tuez le géant",
+    "Green Giant": "Géant verte",
+    "Throw a strength potion at a zombie and turn it into the Ultris Boss, the Giant.": "Lancez une potion de force sur un zombie pour la convertir en boss Ultris, la géante",
+    "Fountain of Youth?": "Fontaine de jouvenesse?",
+    "Throw a weakness potion at a zombie and turn it into a... baby zombie.": "Lancez une potion d'affaiblissement sur une zombie pour la convertir en... zombie bébé.",
+    "What Species is That?": "C'est quelle espéce?",
+    "Find a pig with strange purple particles...": "Trouvez un cochon avec des particules violets etranges...",
+    "Porky Illusions": "Illusions cochonettes",
+    "Encounter the magical Ultris Boss, the Illusioner.": "Rencontre la boss magicale Ultris, l'Illusioneur",
+    "Shows Over!": "La spectacle est fini!",
+    "Defeat the Illusioner": "Tue l'Illusioneur",
+    "Together In The Dark": "Ensemble dans le noir",
+    "Bring out the friends of the lone phantom and discover the Phantom Swarm": "Ressorte les amis du phantome seule et découvrez l'essaim de phantome",
+    "Phantom Slayer": "Tueur de phantome",
+    "Defeat the Phantom Swarm": "Tue l'essaim de phantome",
+    "Alone In The Dark..?": "Seule dans le noir..?",
+    "Find a phantom all alone by itself in the vastness of the end...": "Trouve une phantome toute seule dans l'immensité du Fin...",
+    "Flame Out!": "Flames! Sortez!",
+    "Set flame to a phantom in the end and remove its abillity to summon other phantoms": "Met feu au phantome dans le Fin pour l'arreter d'évoquer d'autres",
+    "Ultris: Minecraft Boss Expansion": "Ultris: Expasion de boss Minecraft",
+    "Venture further and discover the 8 Ultris Bosses. Follow through the advancements proceeding to find the paths to each boss.": "Va plus loi et découvrez les 8 boss Ultris. Suivez les avancements pour trouver les chemins aux boss.",
+    "Ultra Withering Heights": "Hautes Withering Ultra",
+    "Throw an Enchanted Command Block at a Wither, summon the Ultris Boss, Ultra Wither": "Lancez une bloc de commande enchantée au Wither, évoque la boss Ultris, Wither Ultra",
+    "Double It Up!": "Doublez-le!",
+    "Throw a second command block at the Ultra Wither to receive more XP after defeation": "Lancez une deuxieme bloc de commande au Wither Ultra pour recevoir plus d'XP apres la défaite.",
+    "Ultra Demise": "Démise Ultra",
+    "Defeat the Ultra Wither": "Défaitez la Wither Ultra",
+    "The Kings Residence": "La résidece du roi",
+    "Enter the Blaze Kings Tower inside a nether fortress": "Entrez la tour du roi blaze dans la fortresse du nether",
+    "High Sky Pyramid": "Pyramide haute dans le ciel",
+    "Discover a mysterious pyramid high above an end city": "Découvrez une pyramide mysterieux au-dessus du ville Fin.",
+    "Awaken": "Eveillation",
+    "Awaken the blazing Ultris Boss, Blaze King": "Eveille la boss ultra flameux, le roi blaze",
+    "Into Ashes": "En ashes",
+    "Defeat the Blaze King": "Défaitez la roi blaze",
+    "Sealed Secrets": "Secrets scellés",
+    "Reach the top of the pyramid and insert an Endstone Key to the pedestal by right clicking its shimmering end rod": "Atteidrez l'haut du pyramide et inserez une clé endstone dans la pédestale cliquer droite la barre fin",
+    "Awaken at Kingdom's End": "Evellation au fin du civilisation",
+    "Awaken the Ultris boss, ruler of the shulkers, the Shulker Stone": "Eveillez la bos Ultris, dirigant des shulkers, la roche Shulker",
+    "True Form": "Forme réelle",
+    "Shoot a spectral arrow at the shulker stone, and question the mob it really is": "Tirez une fléche spectrale au roche shulker, et demandez-vous quelle créature elle est vraiment",
+    "Back to Eternal Sleep": "Encore au sommeil éternelle",
+    "Defeat the Shulker Stone": "Défaitez la Roche Shulker",
+    "Ominous Compass": "Compas Omineux",
+    "Forge a Ominous Eye Of Ender in a Smithing Table with an ominous pearl and blaze powder": "Forgez une oeil de ender omineux dans une table forgeron avec une perle omineux et du poudre blaze",
+    "Collector of Souls": "Collecteur d'esprits",
+    "Find the Ultris Boss, Sanctum Keeper": "Trouvez la boss Ultris, la Garde du Sanctum",
+    "Free the Sanctum": "Libérez la Sanctum",
+    "Defeat the Sanctum Keeper": "Tuez la gardienne de sanctum",
+    "Corruptions Birthplace": "L'origine de corruption",
+    "Find the Corruption lab inside the Sanctum": "Trouvez la laboratoir de corruption dans la sanctum",
+    "Mad Scienctist": "Scientifique fou",
+    "Create some corrupt dust within the Corruption Lab": "Créez du poussiére corrompu dans la laboratoire",
+    "The Sanctum's Corrupter": "Le corrupteur du sanctum",
+    "Throw corrupt dust on a enderman and convert it into a Corrupted Enderman.": "Lancez du possiére corrompu sur un enderman et convertis-le en Enderman corrompu.",
+    "Feels Like Home": "Se sent comme la maison",
+    "Hold an emerald in front of the Sanctum Keepers soul and lead it all the way to a village.": "Tenez une émeraude en avant des Gardes de sanctum et menez-le au village.",
+    "Lost and Forgotten": "Perdu et oublié",
+    "Find the sacred stronghold, the Sanctum": "Trouvez la bastion sacré, le Sanctum",
+    "Released": "Liberée",
+    "Free a trapped soul from a glass container": "Liberez une esprit emprisonée d'une contenan de verre",
+    "The Sanctum's Repairer": "La réparateur du Sanctum",
+    "Run out of the Fortified Sanctum's XP Machine uses, then throw a diamond on top of it to repair it": "Epuise-toi du machine d'XP du Sanctum, puis réparez-le par lancer un diamant dessus le.",
+    "Bookshelves Everywhere!": "Des étageres partout!",
+    "Find the Fortified Sanctum's Library": "Trouvez la bibliotheque du Sanctum",
+    "High Class": "Haute société",
+    "Find the the Sanctum varient, the Fortified Sanctum": "Trouvez la variante du Sanctum, la Sanctum Fortifiée"
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+}

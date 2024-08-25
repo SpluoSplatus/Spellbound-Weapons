@@ -1,0 +1,14 @@
+
+
+
+
+
+
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {"translate":"Witherblade","color":"#7f7aa1","italic":false}
+    
+  }
+]
