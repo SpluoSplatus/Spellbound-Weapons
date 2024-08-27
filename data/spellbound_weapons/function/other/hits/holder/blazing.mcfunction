@@ -1,0 +1,3 @@
+execute at @s[predicate=!spellbound_weapons:holding/enchant/fire_aspect,predicate=!spellbound_weapons:holding/enchant/fire_aspect2] as @e[distance=0.001..5,type=!#spellbound_weapons:misc,nbt={HurtTime:10s}] at @s run function spellbound_weapons:other/hits/blazing
+execute at @s[predicate=spellbound_weapons:holding/enchant/fire_aspect] as @e[distance=0.001..5,type=!#spellbound_weapons:misc,nbt={HurtTime:10s}] at @s run data modify entity @s Fire set value 120s
+execute at @s[predicate=spellbound_weapons:holding/enchant/fire_aspect2] as @e[distance=0.001..5,type=!#spellbound_weapons:misc,nbt={HurtTime:10s}] at @s run data modify entity @s Fire set value 200s

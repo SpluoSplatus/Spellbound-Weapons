@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "blowgun": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "spellbound_weapons:unlocks/moonlight_edge"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "spellbound_weapons:other/action/recipe/moonlight_edge"
+  }
+}

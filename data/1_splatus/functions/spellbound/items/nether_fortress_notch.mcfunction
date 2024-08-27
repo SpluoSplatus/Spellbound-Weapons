@@ -1,1 +1,0 @@
-loot give @s loot 1_splatus:spellbound/item/nether_fortress_notch

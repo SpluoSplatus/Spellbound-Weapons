@@ -2,7 +2,7 @@
 
   "replace": false,
     "values": [
-     "1_splatus:spellbound/magic_force",
-     "1_splatus:spellbound/melee_force"
+     "spellbound_weapons:magic_force",
+     "spellbound_weapons:melee_force"
     ]
   }

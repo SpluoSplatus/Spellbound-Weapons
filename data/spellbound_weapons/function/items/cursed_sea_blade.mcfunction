@@ -1,0 +1,1 @@
+loot give @s loot spellbound_weapons:item/cursed_sea_blade

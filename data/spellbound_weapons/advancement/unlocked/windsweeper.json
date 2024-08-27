@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "blowgun": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "spellbound_weapons:unlocks/windsweeper"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "spellbound_weapons:other/action/recipe/windsweeper"
+  }
+}

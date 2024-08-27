@@ -1,0 +1,24 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "tag": "spellbound_weapons:ranged"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "offhand": {
+          "tag": "spellbound_weapons:ranged"
+        }
+      }
+    }
+  }
+]

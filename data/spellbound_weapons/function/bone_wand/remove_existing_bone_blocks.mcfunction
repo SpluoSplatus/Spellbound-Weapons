@@ -1,0 +1,3 @@
+execute as @e[type=marker,tag=spellbound_bone_wand_area] if score @s spellbound_uuid = @p spellbound_uuid if score @s spellbound_uuid2 = @p spellbound_uuid2 if score @s spellbound_uuid3 = @p spellbound_uuid3 if score @s spellbound_uuid4 = @p spellbound_uuid4 at @s run fill ~ ~ ~ ~ ~ ~ air replace bone_block
+execute as @s[tag=spellbound_tip.bone_wand_2,tag=!spellbound_tip.bone_wand_3] run function spellbound_weapons:other/tips/checkmark
+execute as @s[tag=spellbound_tip.bone_wand_2,tag=!spellbound_tip.bone_wand_3] run tag @s add spellbound_tip.bone_wand_3
