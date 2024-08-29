@@ -4,19 +4,6 @@
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "player": [
-{
-  "condition": "any_of",
-  "terms": [
-    {
-      "condition": "reference",
-      "name": "spellbound_weapons:holding/weapon/blowgun"
-    },
-    {
-      "condition": "reference",
-      "name": "spellbound_weapons:holding/weapon/blowgun_offhand"
-    }
-  ]
-}
 
            
           ],
@@ -25,6 +12,28 @@
               "items": [
                 "minecraft:arrow"
               ]
+            }
+          ]
+        }
+      },
+      "requirement2": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+
+           
+          ],
+          "items": [
+            {
+              "items": [
+                "minecraft:bow"
+              ],
+              "predicates": {
+                "custom_data": {
+                  "SpellboundBlowgun": 1
+                }
+              }
+             
             }
           ]
         }
