@@ -1,0 +1,278 @@
+{
+
+  "{t:} Translator": "translate",
+
+  "#COMMENT // (splatus example:) Original text": "translate",
+  "#COMMENT // Anytime text includes a \n or space keep it in the translation as well": "translate",
+  "#COMMENT // These 3 example translations do not have to be translated. Translate everything else below": "translate",
+  
+
+
+
+
+
+
+  "\nClick the name of an item to receive it\n": "translate",
+  "Page": "translate",
+  "Return": "translate",
+  "Click to give": "translate",
+  "Next Page": "translate",
+  "Previous Page": "translate",
+
+  "Hover to View Recipe": "translate",
+  "Locked": "translate",
+
+  "Recipe unlocks after getting a ": "translate",
+  
+
+  "Drop these items onto the ground to craft this weapon\n": "translate",
+  "Fire Staff: ": "translate",
+  "Ice Staff: ": "translate",
+  "Electric Staff: ": "translate",
+  
+  
+
+
+  "You have learned a new weapon recipe, ": "translate",
+  ". Use /trigger spellbound_recipes in chat to view your current recipes": "translate",
+
+
+
+
+  "Page 2 -->": "translate",
+  "Page 3 -->": "translate",
+  "Page 4 -->": "translate",
+  "Page 5 -->": "translate",
+  "Page 6 -->": "translate",
+  "Page 7 -->": "translate",
+  "Page 8 -->": "translate",
+  
+  "<-- Page 1": "translate",
+  "<-- Page 2": "translate",
+  "<-- Page 3": "translate",
+  "<-- Page 4": "translate",
+  "<-- Page 5": "translate",
+  "<-- Page 6": "translate",
+  "<-- Page 7": "translate",
+
+  "<-- Return": "translate",
+
+
+
+
+  "Description:": "translate",
+  "Click to change this setting:": "translate",
+  "Enabled:": "translate",
+  "Disabled:": "translate",
+  "Weapons Achieveable: ": "translate",
+  "Weapon Cooldowns: ": "translate",
+  "Weapon Recipes Notification: ": "translate",
+  "Weapon Tips: ": "translate",
+
+
+  "The cooldowns for weapons that take time to charge like the Staffs, when cooldowns are disabled they will immediately reach their final charge state.": "translate",
+  "Determines whether Spellbound Weapons can be naturally found in Survival Mode (chests, mob drops, etc) otherwise if disabled, weapons can only be accessed through commands": "translate",
+  "Messages in chat that display to the player when the required item for a certain weapon's recipe is achieved": "translate",
+  "Gives a short text tip above your hotbar when first holding certain weapons that have sneak abilities to better explain it to first time users": "translate",
+  
+
+
+
+
+  "Weapon Tip:": "translate",
+  " Triple clicking ": "translate",
+  " will break your currently existing bone blocks.": "translate",
+  " Holding ": "translate",
+  " whilst aiming will make your suction area deal 0 damage and use less durability": "translate",
+  " When you notice sand particles around you, you can triple click ": "translate",
+  " to unleash a wave of sand": "translate",
+
+
+
+
+
+
+  "Spellbound Conqueror": "translate",
+  "Discover every Spellbound Weapon": "translate",
+  
+
+
+  "Nether Staffs": "translate",
+  "End Excalibur": "translate",
+  "Blazing Sword": "translate",
+  "Cursed Sea Blade": "translate",
+  "Dagger": "translate",
+  "Fire Staff": "translate",
+  "Ice Staff": "translate",
+  "Electric Staff": "translate",
+  "Empty Staff": "translate",
+  "Crucible": "translate",
+  "Windswept Sword": "translate",
+  "Withering Sword": "translate",
+  "Witherblade": "translate",
+  "Mega Hammer": "translate",
+  "Evokers Wrath": "translate",
+  "Bone Wand": "translate",
+  "Warped Crossbow": "translate",
+  "Blowgun": "translate",
+  "Chainfiring Crossbow": "translate",
+  "Endlight Bow": "translate",
+  "Golden Sea Blade": "translate",
+  "Broken Crucible": "translate",
+  "Moonlight Edge": "translate",
+  "Magmus Bow": "translate",
+  "Magmus Charger": "translate",
+  "Echo Wand": "translate",
+
+
+
+  "Your Fire Staff is at low durability! Repair it with a fishing rod in a grindstone or anvil": "translate",
+  "Your Ice Staff is at low durability! Repair it with a fishing rod in a grindstone or anvil": "translate",
+  "Your Electric Staff is at low durability! Repair it with a fishing rod in a grindstone or anvil": "translate",
+ 
+  "Charging Wave...": "translate",
+  "Ready! Press ": "translate",
+  " to Release a Wave - 40/40": "translate",
+
+  "Charging beam... - ": "translate",
+  " to release beam - 60/60": "translate",
+
+  "Energy - ": "translate",
+  "Energy Maxed! Press ": "translate",
+  " to release stored energy - 500": "translate",
+
+
+  " is charged!": "translate",
+  "Shoot fireballs and set flames": "translate",
+  "Shoot ice blocks that freeze your": "translate",
+  "enemies in place": "translate",
+  "Casts a line of electricity that fires": "translate",
+  "instantly and can go through walls": "translate",
+"Witherblade has absorbed max souls! Hold down ": "translate",
+" to heal": "translate",
+
+
+  "Color: Red": "translate",
+  "Color: Orange": "translate",
+  "Color: Yellow": "translate",
+  "Color: Green": "translate",
+  "Color: Lime": "translate",
+  "Color: Light Blue": "translate",
+  "Color: Blue": "translate",
+  "Color: Purple": "translate",
+  "Color: Magenta": "translate",
+  "Color: Cyan": "translate",
+  "Color: Pink": "translate",
+  "Color: Brown": "translate",
+  "Color: White": "translate",
+  "Color: Light Gray": "translate",
+  "Color: Gray": "translate",
+  "Color: Black": "translate",
+  
+  "Your weapon burned whilst converting to netherite. Drop it on the ground to revert it back": "Your weapon burned whilst converting to netherite. Drop it on the ground to revert it back"
+,
+"You can't use two ranged weapons on your mainhand and offhand at the same time": "You can't use two ranged weapons on your mainhand and offhand at the same time"
+
+
+
+
+
+
+
+
+,
+
+
+
+
+"#COMMENT // The translations below are part of Spellbound Weapons v4.0.0": "translate",
+
+" was blown up by ": "translate",
+" was shot by ": "translate",
+" was stunned by ": "translate",
+" energy from ": "translate",
+" was electricuted by ": "translate",
+" was frozen by ": "translate",
+" was exploded by arrow from ": "translate",
+" perished by a light beam from ": "translate",
+" perished by a heavy light beam from ": "translate",
+" was slain by ": "translate",
+" was pricked to death by thorns from": "translate",
+" was swept in wind by ": "translate",
+" hit themself whilst thorn grappling": "translate",
+
+"Determines whether players can create weapon variants like dyed Crucibles and dagger variants": "translate",
+
+"Windsweeper": "translate",
+"Blazeblade": "translate",
+"Thorn Blossom": "translate",
+" charged! Hold ": "translate",
+" to release flames": "translate",
+
+"Spellbound Master": "translate",
+"Obtain every Spellbound Weapon": "translate",
+
+"Variant: Iron-Plated": "translate",
+"Variant: Diamond-Plated": "translate",
+"Variant: Gold-Plated": "translate",
+
+"Drop these items ontop of a crafting table to craft": "translate",
+
+"Grindstone Repair: ": "translate",
+
+"Nether Fortress Core": "translate",
+
+"Attack a mob to charge Blazeblade": "translate",
+"Place Bone Blocks by clicking ": "translate",
+"Hold ": "translate",
+" and then press ": "translate",
+" to place a Bone Wall": "translate",
+"Break existing Bone Blocks by repetitively clicking ": "translate",
+"Attack a mob when ": "translate",
+" is charged to release a Fang Line": "translate",
+"You can also release Fang Line from a distance by pressing ": "translate",
+"Perform a critical hit (jump and then hit whilst falling)": "translate",
+" to release a Fang Trap": "translate",
+"Press ": "translate",
+" to grapple and release thorns where you land": "translate",
+"Face straight down and press ": "translate",
+" to release thorns without grappling": "translate",
+" to release wind that slows down mobs": "translate",
+" to release wind below you and levitate": "translate",
+"Attack mobs to absorb souls and use it for healing": "translate",
+
+" and ": "translate",
+
+
+
+
+
+"#COMMENT // The translations below are part of Spellbound Weapons v4.1.0": "translate",
+
+"This staff is empty": "translate",
+"  Drop this item on top of a crafting table block with": "translate",
+"  either a fire charge, packed ice, or glowstone": "translate",
+"  to power it into a fire, ice, or electric staff": "translate",
+
+"A core essential for creating nether swords": "translate",
+"Creating a ": "translate",
+"  Drop this core on top of a crafting table": "translate",
+"  block with a diamond sword + soul sand block": "translate",
+"  block with a iron sword + blaze powder": "translate",
+
+"The remnants of an ancient, powerful sword": "translate",
+"Restoration:": "translate",
+"  Restore it by dropping it on top of a crafting": "translate",
+"  table block with a wither skeleton skull": "translate",
+"  + netherite ingot + redstone block to": "translate",
+"  restore it into a Crucible sword": "translate"
+
+
+
+
+
+
+
+
+  
+}

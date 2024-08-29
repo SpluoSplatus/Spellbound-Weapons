@@ -38,6 +38,12 @@
         "custom_model_data": 47046
       },
       "model": "1_splatus:item/burnt_moonlight_edge"
+    } ,
+    {
+      "predicate": {
+        "custom_model_data": 47050
+      },
+      "model": "1_splatus:item/thorn_blossom_burnt"
     },
 
 

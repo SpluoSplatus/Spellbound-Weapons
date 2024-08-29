@@ -17,6 +17,7 @@
                     "SpellboundItem": 1,
                     "SpellboundMoonlightEdge": 1
                   },
+                  "enchantment_glint_override": true,
                 
                  "attribute_modifiers": {"modifiers":[]},
  "item_name": "{\"translate\":\"Moonlight Edge\",\"color\":\"#9d64ed\",\"italic\":false}",

@@ -1,1 +1,1 @@
-function spellbound_weapons:other/sets/give_random_weapon_pair
+function spellbound_weapons:other/give_random_weapon_pair_actual
