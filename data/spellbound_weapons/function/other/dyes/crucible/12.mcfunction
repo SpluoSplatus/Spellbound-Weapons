@@ -4,9 +4,14 @@ playsound block.conduit.attack.target block @a[distance=..32] ~ ~ ~ 1.5 .8
 playsound block.conduit.attack.target block @a[distance=..32] ~ ~ ~ 1.5 2
 playsound minecraft:item.glow_ink_sac.use player @a[distance=..32] ~ ~ ~ 1 .8
 particle poof ~ ~.5 ~ .2 0 .2 .02 10 force @a[distance=..64]
-particle block brown_concrete ~ ~.75 ~ .25 0 .25 1 5 force @a[distance=..32]
+particle block{block_state:"brown_concrete"} ~ ~.75 ~ .25 0 .25 1 5 force @a[distance=..32]
 
-data modify entity @s Item.tag.CrucibleDye set value 12
-data modify entity @s Item.tag.CustomModelData set value 47212
-data modify entity @s Item.tag.display set value {Name:'{"translate":"Crucible","color":"#835432","italic":false}',Lore:['{"translate":"Color: Brown","color":"gray","italic":false}','[{"translate":"Grindstone Repair: ","color":"gray","italic": false},{"translate":"item.minecraft.diamond_sword"}]','{"translate":"Spellbound Weapons","color":"#676E75","italic":true}']}
+
+
+data modify entity @s Item.components.minecraft:custom_data.CrucibleDye set value 12b
+data modify entity @s Item.components.minecraft:custom_model_data set value 47212
+data modify entity @s Item.components.minecraft:item_name set value "{\"translate\":\"Crucible\",\"color\":\"#c74512\",\"italic\":false}"
+data modify entity @s Item.components.minecraft:lore set value ["{\"translate\":\"Color: Brown\",\"color\":\"gray\",\"italic\":false}","[ {\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false}]","[{\"translate\":\"  \",\"color\":\"gray\",\"italic\": false},{\"color\":\"blue\",\"italic\": false,\"translate\":\"item.minecraft.diamond_sword\"}]","{\"translate\":\"Spellbound Weapons\",\"color\":\"#676E75\",\"italic\":true}"]
+
+
 kill @e[sort=nearest,type=item,nbt={Item:{id:"minecraft:brown_dye"}},limit=1]

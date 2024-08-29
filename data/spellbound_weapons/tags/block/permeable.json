@@ -11,7 +11,7 @@
     {"id": "minecraft:lava","required": false},
     {"id": "minecraft:vine","required": false},
     {"id": "minecraft:cave_vines","required": false},
-    {"id": "minecraft:grass","required": false},
+    {"id": "minecraft:short_grass","required": false},
     {"id": "minecraft:tall_grass","required": false},
     {"id": "#minecraft:standing_signs","required": false},
     {"id": "#minecraft:small_flowers","required": false},
@@ -22,6 +22,9 @@
     {"id": "minecraft:structure_void","required": false},
     {"id": "minecraft:redstone_wire","required": false},
     {"id": "minecraft:tripwire","required": false},
+    {"id": "minecraft:pink_petals","required": false},
+    {"id": "minecraft:brown_mushroom","required": false},
+    {"id": "minecraft:red_mushroom","required": false},
 
     {"id": "#minecraft:banners","required": false},
     {"id": "#minecraft:tall_flowers","required": false},

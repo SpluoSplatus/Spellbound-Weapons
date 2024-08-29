@@ -7,7 +7,7 @@ scoreboard players add @s spellbound_golden_ocean_edge_effect2 1
 ### fish out of water !!!!!!
 
 execute if score @s spellbound_golden_ocean_edge_effect2 matches 1 run function spellbound_weapons:golden_ocean_edge/wave_particle
-execute if score @s spellbound_golden_ocean_edge_effect2 matches 1 run particle minecraft:shriek 5 ~ ~-1.7 ~ 1 1.5 1 1 5 force @a[distance=..32]
+execute if score @s spellbound_golden_ocean_edge_effect2 matches 1 run particle minecraft:shriek{delay:0} 5 ~ ~-1.7 ~ 1 1.5 1 1 force @a[distance=..32]
 execute if score @s spellbound_golden_ocean_edge_effect2 matches 1 run particle poof ~ ~.5 ~ .8 0 .8 .1 4 force @a[distance=..32]
 #execute if score @s spellbound_golden_ocean_edge_effect2 matches 1 unless block ~ ~-0.5 ~ lava run function spellbound_weapons:golden_ocean_edge/release_wave3
 execute if score @s spellbound_golden_ocean_edge_effect2 matches 1 run playsound minecraft:entity.dolphin.splash player @a[distance=..30] ~ ~ ~ 1.25 .8

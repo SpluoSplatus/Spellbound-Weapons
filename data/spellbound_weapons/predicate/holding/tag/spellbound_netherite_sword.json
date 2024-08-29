@@ -21,7 +21,12 @@
         "predicate": {
           "equipment": {
             "mainhand": {
-              "nbt": "{EndExcalibur:1}"
+              "components": {
+                "custom_data":
+                {
+              "EndExcalibur":1
+                }
+              }
             }
           }
         }
@@ -32,7 +37,12 @@
         "predicate": {
           "equipment": {
             "mainhand": {
-              "nbt": "{SpellboundMoonlightEdge:1}"
+              "components": {
+                "custom_data":
+                {
+              "SpellboundMoonlightEdge":1
+                }
+              }
             }
           }
         }
@@ -43,7 +53,12 @@
         "predicate": {
           "equipment": {
             "mainhand": {
-              "nbt": "{SpellboundCrucible:1}"
+              "components": {
+                "custom_data":
+                {
+              "SpellboundCrucible":1
+                }
+              }
             }
           }
         }
@@ -54,7 +69,12 @@
         "predicate": {
           "equipment": {
             "mainhand": {
-              "nbt": "{SpellboundWithering:1}"
+              "components": {
+                "custom_data":
+                {
+              "SpellboundWithering":1
+                }
+              }
             }
           }
         }
@@ -65,7 +85,12 @@
         "predicate": {
           "equipment": {
             "mainhand": {
-              "nbt": "{SpellboundWindsweptSword:1}"
+              "components": {
+                "custom_data":
+                {
+              "SpellboundWindsweptSword":1
+                }
+              }
             }
           }
         }

@@ -1,0 +1,1 @@
+loot give @s loot spellbound_weapons:item/z_secret/mega_hammer_with_wind_burst

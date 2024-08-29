@@ -1,0 +1,44 @@
+{
+    "criteria": {
+      "revaulting": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "player":
+          [{
+            "condition": "reference",
+            "name":"spellbound_weapons:weapons_achieveable" 
+          }],
+          "location": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:vault",
+                  "state": {
+                    "ominous": "false",
+                  "vault_state": "unlocking"
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "items": "minecraft:trial_key"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "revaulting"
+      ]
+    ],
+    "sends_telemetry_event": true,
+    "rewards": {
+        "function": "spellbound_weapons:chest_insert/vault/vault_raycast"
+    }
+  }
+  

@@ -1,7 +1,7 @@
 
 #advancement grant @s only minecraft:adventure/spellbound_all_weapons cursed_sea_blade
 
-item modify entity @s[nbt={SelectedItem:{tag:{display:{Name:'{"text":"Cursed Sea Blade"}'}}}}] weapon.mainhand spellbound_weapons:name/cursed_sea_blade
+item modify entity @s[nbt={SelectedItem:{components:{"minecraft:custom_name":'"Cursed Sea Blade"'}}}] weapon.mainhand spellbound_weapons:name/cursed_sea_blade
 
 execute as @s[scores={spellbound_curse=1}] run item modify entity @s weapon.mainhand spellbound_weapons:cursed_sea_blade
 

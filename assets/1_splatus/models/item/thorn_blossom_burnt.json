@@ -1,0 +1,6 @@
+{
+    "parent": "1_splatus:item/thorn_blossom",
+    "textures": {
+        "layer0": "1_splatus:item/thorn_blossom/burnt"
+    }
+}

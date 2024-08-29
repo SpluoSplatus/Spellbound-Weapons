@@ -1,17 +1,20 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "equipment": {
-        "mainhand": {
-          "enchantments": [
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "predicates": {
+          "minecraft:enchantments": [
             {
-              "enchantment": "minecraft:fortune",
-              "levels": 3
+              "enchantments": "minecraft:fortune",
+              "levels": {
+                "min": 3
+              }
             }
           ]
         }
       }
     }
   }
-  
+}

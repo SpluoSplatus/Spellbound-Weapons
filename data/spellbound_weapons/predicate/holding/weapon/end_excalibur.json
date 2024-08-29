@@ -5,7 +5,9 @@
     "predicate": {
       "equipment": {
         "mainhand": {
-          "nbt": "{EndExcalibur:1}"
+          "predicates": {
+"custom_data":
+{"EndExcalibur":1}}
         }
       }
     }

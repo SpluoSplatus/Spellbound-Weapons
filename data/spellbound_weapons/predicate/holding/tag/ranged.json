@@ -1,12 +1,16 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "equipment": {
-        "mainhand": {
-          "nbt": "{SpellboundRanged:1}"
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "predicates": {"custom_data": {"SpellboundRanged":1}}
+          }
         }
       }
     }
-  }
-  
+  ]
+}

@@ -4,7 +4,9 @@
     "predicate": {
       "equipment": {
         "mainhand": {
-          "nbt": "{SpellboundEvokersWrath:1}"
+          "predicates": {
+"custom_data":
+{"SpellboundEvokersWrath":1}}
         }
       }
     }

@@ -12,7 +12,7 @@
           },
           {
             "type": "minecraft:loot_table",
-            "name": "spellbound_weapons:item/cursed_sea_blade",
+            "value": "spellbound_weapons:item/cursed_sea_blade",
             "weight": 1,
             "conditions": [
               
@@ -23,8 +23,10 @@
             ],
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{Enchantments:[{id:\"sharpness\",lvl:1s}]}"
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "sharpness": 1
+                }
               }
             ]
           }
@@ -48,7 +50,8 @@
                 "add": false
               },
               {
-                "function": "minecraft:looting_enchant",
+                "function": "minecraft:enchanted_count_increase",
+                "enchantment": "minecraft:looting",
                 "count": {
                   "type": "minecraft:uniform",
                   "min": 0,
@@ -68,8 +71,10 @@
             "weight": 3,
             "name": "minecraft:cod",
             "functions": [
+              
               {
-                "function": "minecraft:looting_enchant",
+                "function": "minecraft:enchanted_count_increase",
+                "enchantment": "minecraft:looting",
                 "count": {
                   "type": "minecraft:uniform",
                   "min": 0,
@@ -97,8 +102,10 @@
             "weight": 2,
             "name": "minecraft:prismarine_crystals",
             "functions": [
+             
               {
-                "function": "minecraft:looting_enchant",
+                "function": "minecraft:enchanted_count_increase",
+                "enchantment": "minecraft:looting",
                 "count": {
                   "type": "minecraft:uniform",
                   "min": 0,
@@ -133,7 +140,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "minecraft:gameplay/fishing/fish",
+            "value": "minecraft:gameplay/fishing/fish",
             "functions": [
               {
                 "function": "minecraft:furnace_smelt",
@@ -157,9 +164,14 @@
             "condition": "minecraft:killed_by_player"
           },
           {
-            "condition": "minecraft:random_chance_with_looting",
-            "chance": 0.025,
-            "looting_multiplier": 0.01
+            "condition": "minecraft:random_chance_with_enchanted_bonus",
+            "enchantment": "minecraft:looting",
+            "unenchanted_chance": 0.025,
+            "enchanted_chance": {
+              "type": "minecraft:linear",
+              "base": 0.035,
+              "per_level_above_first": 0.01
+            }
           }
         ]
       },

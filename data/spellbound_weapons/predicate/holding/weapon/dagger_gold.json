@@ -1,0 +1,16 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "predicates": {
+          "custom_data": {
+            "SpellboundDagger": 1,
+            "SpellboundDaggerVariant": 2
+          }
+        }
+      }
+    }
+  }
+}

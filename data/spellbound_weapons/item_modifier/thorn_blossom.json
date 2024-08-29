@@ -1,7 +1,30 @@
 [
-    {
-      "function": "minecraft:set_nbt",
-      "tag": "{CustomModelData:47050}"
-    }
+    
+
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": []
+  },
+
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 5.5,
+        "operation": "add_value",
+        "id": "base_attack_damage",
+        "slot": "mainhand"
+      }
+    ,
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -2.5,
+        "operation": "add_value",
+        "id": "base_attack_speed",
+        "slot": "mainhand"
+      }
+    ]
+  }
   ]
   

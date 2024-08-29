@@ -8,8 +8,25 @@
             "name": "minecraft:crossbow",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:47030,SpellboundItem:1,SpellboundChainfiring:1,display:{Name:'{\"translate\":\"Chainfiring Crossbow\",\"color\":\"#84b2b3\",\"italic\":false}',Lore:['[{\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false},{\"translate\":\"item.minecraft.crossbow\"}]','{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}']}}"
+                "function": "minecraft:set_components",
+                "components": {
+
+                  "custom_model_data": 47030,
+
+                  "custom_data": {
+                    "SpellboundItem": 1,
+                    "SpellboundChainfiring": 1
+                  },
+                
+                 "attribute_modifiers": {"modifiers":[]},
+ "item_name": "{\"translate\":\"Chainfiring Crossbow\",\"color\":\"#c5e0e0\",\"italic\":false}",
+ "custom_name": "{\"translate\":\"Chainfiring Crossbow\",\"color\":\"#c5e0e0\",\"italic\":false}",
+
+                  "lore": ["[ {\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false}]","[{\"translate\":\"  \",\"color\":\"gray\",\"italic\": false},{\"color\":\"blue\",\"italic\": false,\"translate\":\"item.minecraft.crossbow\"}]","{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}"]
+                  
+
+                 
+                }
               }
             ]
           }

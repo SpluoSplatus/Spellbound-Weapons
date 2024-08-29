@@ -1,0 +1,15 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "items": "diamond_sword",
+          "predicates": {
+"custom_data":
+{"SpellboundThornBlossom":1}}
+        }
+      }
+    }
+  }
+  

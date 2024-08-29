@@ -1,5 +1,5 @@
 
-item modify entity @s[nbt={SelectedItem:{tag:{display:{Name:'{"text":"Witherblade"}'}}}}] weapon.mainhand spellbound_weapons:name/withering_sword
+item modify entity @s[nbt={SelectedItem:{components:{"minecraft:custom_name":'"Witherblade"'}}}] weapon.mainhand spellbound_weapons:name/withering_sword
 
 
 item modify entity @s weapon.mainhand spellbound_weapons:stats/witherblade
@@ -21,6 +21,8 @@ execute if score @s spellbound_withering_cooldown matches 100.. if predicate spe
 
 
 
+
+execute if score @s spellbound_withering_cooldown matches 100.. if score @s spellbound_jump matches 1.. run scoreboard players set @s spellbound_withering_cooldown 100
 execute if score @s spellbound_withering_cooldown matches 100.. unless predicate spellbound_weapons:sneaking run scoreboard players set @s spellbound_withering_cooldown 100
 execute if score @s spellbound_withering_cooldown matches 100.. as @s[advancements={spellbound_weapons:player_hurt=true}] run scoreboard players set @s spellbound_withering_cooldown 100
 execute if score @s spellbound_withering_cooldown matches 100.. run title @s[tag=!1_splatus_actionbar_disabled] actionbar [{"translate":"Witherblade has absorbed max souls! Hold down "},{"keybind":"key.sneak"},{"translate": " to heal"}]

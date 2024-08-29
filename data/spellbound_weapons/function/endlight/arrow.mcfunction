@@ -1,8 +1,8 @@
-#execute as @e[distance=..2.500,type=!#spellbound_weapons:misc] at @s run summon minecraft:snowball ~ ~3 ~ {Motion:[0.0,-10.0,0.0],Tags:["creatures_nonvariant","spellbound_damagewithuuid_snowball"],LeftOwner:1b,Item:{id:"minecraft:air",Count:1b}}
+#execute as @e[distance=..2.500,type=!#spellbound_weapons:misc] at @s run summon minecraft:snowball ~ ~3 ~ {Motion:[0.0,-10.0,0.0],Tags:["creatures_nonvariant","spellbound_damagewithuuid_snowball"],LeftOwner:1b,Item:{id:"minecraft:air",count:1}}
 
 
-#execute as @e[tag=spellbound_damagewithuuid_snowball,type=snowball,sort=nearest,distance=..6] at @s run data modify entity @s Owner set from entity @e[sort=nearest,limit=1,tag=spellbound_endlight_arrow] Owner
-#execute as @e[tag=spellbound_damagewithuuid_snowball,type=snowball,sort=nearest,distance=..6] at @s run data modify entity @s Owner set from entity @e[sort=nearest,limit=1,tag=spellbound_endlight_area] Owner
+#execute as @e[tag=spellbound_damagewithuuid_snowball,type=snowball,sort=nearest,distance=..6] at @s run data modify entity @s Owner set from entity @n[tag=spellbound_endlight_arrow] Owner
+#execute as @e[tag=spellbound_damagewithuuid_snowball,type=snowball,sort=nearest,distance=..6] at @s run data modify entity @s Owner set from entity @n[tag=spellbound_endlight_area] Owner
 
 #fire
 execute if entity @s[tag=spellbound_endlight_arrow_flamed] run playsound minecraft:block.fire.extinguish block @a[distance=..30] ~ ~ ~ 1.5 1.2
@@ -14,7 +14,7 @@ execute if entity @s[tag=spellbound_endlight_arrow_flamed] run summon minecraft:
 
 
 
-execute as @a if score @s spellbound_uuid = @e[sort=nearest,limit=1,type=area_effect_cloud,tag=spellbound_endlight_area] spellbound_uuid if score @s spellbound_uuid2 = @e[sort=nearest,limit=1,type=area_effect_cloud,tag=spellbound_endlight_area] spellbound_uuid2 if score @s spellbound_uuid3 = @e[sort=nearest,limit=1,type=area_effect_cloud,tag=spellbound_endlight_area] spellbound_uuid3 if score @s spellbound_uuid4 = @e[sort=nearest,limit=1,type=area_effect_cloud,tag=spellbound_endlight_area] spellbound_uuid4 run tag @s add spellbound_temp5
+execute as @a if score @s spellbound_uuid = @n[type=area_effect_cloud,tag=spellbound_endlight_area] spellbound_uuid if score @s spellbound_uuid2 = @n[type=area_effect_cloud,tag=spellbound_endlight_area] spellbound_uuid2 if score @s spellbound_uuid3 = @n[type=area_effect_cloud,tag=spellbound_endlight_area] spellbound_uuid3 if score @s spellbound_uuid4 = @n[type=area_effect_cloud,tag=spellbound_endlight_area] spellbound_uuid4 run tag @s add spellbound_temp5
 
 
 
@@ -36,5 +36,5 @@ playsound minecraft:block.beacon.power_select block @a[distance=..30] ~ ~ ~ .5 1
 tag @a remove spellbound_temp5
 
 #death
-kill @e[sort=nearest,limit=1,tag=spellbound_endlight_area]
+kill @n[tag=spellbound_endlight_area]
 kill @s

@@ -5,7 +5,7 @@
     {
       "function": "minecraft:set_name",
       "entity": "this",
-      "name": {"translate":"Magmus Charger","color":"#cc081f","italic":false}
+      "name": {"translate":"Magmus Charger","color":"#e34627","italic":false}
       
     }
   ]

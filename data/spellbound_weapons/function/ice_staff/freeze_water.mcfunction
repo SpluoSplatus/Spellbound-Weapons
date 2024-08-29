@@ -9,24 +9,30 @@ fill ~1 ~1 ~-4 ~-1 ~1 ~-4 minecraft:frosted_ice[age=1] replace water
 
 #snowflake if has luck of the sea III
 
-execute if entity @s[tag=spellbound_ice_staff_ice_enchanted] run fill ~5 ~1 ~1 ~5 ~1 ~-1 minecraft:frosted_ice[age=1] replace water
-execute if entity @s[tag=spellbound_ice_staff_ice_enchanted] run fill ~-5 ~1 ~1 ~5 ~1 ~-1 minecraft:frosted_ice[age=1] replace water
-execute if entity @s[tag=spellbound_ice_staff_ice_enchanted] run fill ~1 ~1 ~5 ~-1 ~1 ~5 minecraft:frosted_ice[age=1] replace water
-execute if entity @s[tag=spellbound_ice_staff_ice_enchanted] run fill ~1 ~1 ~-5 ~-1 ~1 ~-5 minecraft:frosted_ice[age=1] replace water
+execute if score @s spellbound_enchantlevel matches 2.. run fill ~5 ~1 ~1 ~5 ~1 ~-1 minecraft:frosted_ice[age=1] replace water
+execute if score @s spellbound_enchantlevel matches 2.. run fill ~-5 ~1 ~1 ~5 ~1 ~-1 minecraft:frosted_ice[age=1] replace water
+execute if score @s spellbound_enchantlevel matches 2.. run fill ~1 ~1 ~5 ~-1 ~1 ~5 minecraft:frosted_ice[age=1] replace water
+execute if score @s spellbound_enchantlevel matches 2.. run fill ~1 ~1 ~-5 ~-1 ~1 ~-5 minecraft:frosted_ice[age=1] replace water
 
 
 #corners
-execute if entity @s[tag=spellbound_ice_staff_ice_enchanted] run fill ~4 ~1 ~4 ~4 ~1 ~4 minecraft:frosted_ice[age=1] replace water
-execute if entity @s[tag=spellbound_ice_staff_ice_enchanted] run fill ~-4 ~1 ~4 ~-4 ~1 ~4 minecraft:frosted_ice[age=1] replace water
-execute if entity @s[tag=spellbound_ice_staff_ice_enchanted] run fill ~-4 ~1 ~-4 ~-4 ~1 ~-4 minecraft:frosted_ice[age=1] replace water
-execute if entity @s[tag=spellbound_ice_staff_ice_enchanted] run fill ~4 ~1 ~-4 ~4 ~1 ~-4 minecraft:frosted_ice[age=1] replace water
+execute if score @s spellbound_enchantlevel matches 2.. run fill ~4 ~1 ~4 ~4 ~1 ~4 minecraft:frosted_ice[age=1] replace water
+execute if score @s spellbound_enchantlevel matches 2.. run fill ~-4 ~1 ~4 ~-4 ~1 ~4 minecraft:frosted_ice[age=1] replace water
+execute if score @s spellbound_enchantlevel matches 2.. run fill ~-4 ~1 ~-4 ~-4 ~1 ~-4 minecraft:frosted_ice[age=1] replace water
+execute if score @s spellbound_enchantlevel matches 2.. run fill ~4 ~1 ~-4 ~4 ~1 ~-4 minecraft:frosted_ice[age=1] replace water
 
 
 #tips
-execute if entity @s[tag=spellbound_ice_staff_ice_enchanted] run fill ~6 ~1 ~ ~6 ~1 ~ minecraft:frosted_ice[age=1] replace water
-execute if entity @s[tag=spellbound_ice_staff_ice_enchanted] run fill ~-6 ~1 ~ ~-6 ~1 ~ minecraft:frosted_ice[age=1] replace water
-execute if entity @s[tag=spellbound_ice_staff_ice_enchanted] run fill ~ ~1 ~6 ~ ~1 ~6 minecraft:frosted_ice[age=1] replace water
-execute if entity @s[tag=spellbound_ice_staff_ice_enchanted] run fill ~ ~1 ~-6 ~ ~1 ~-6 minecraft:frosted_ice[age=1] replace water
+execute if score @s spellbound_enchantlevel matches 2.. run fill ~6 ~1 ~ ~6 ~1 ~ minecraft:frosted_ice[age=1] replace water
+execute if score @s spellbound_enchantlevel matches 2.. run fill ~-6 ~1 ~ ~-6 ~1 ~ minecraft:frosted_ice[age=1] replace water
+execute if score @s spellbound_enchantlevel matches 2.. run fill ~ ~1 ~6 ~ ~1 ~6 minecraft:frosted_ice[age=1] replace water
+execute if score @s spellbound_enchantlevel matches 2.. run fill ~ ~1 ~-6 ~ ~1 ~-6 minecraft:frosted_ice[age=1] replace water
+
+#tips level 3
+execute if score @s spellbound_enchantlevel matches 3.. run fill ~7 ~1 ~ ~7 ~1 ~ minecraft:frosted_ice[age=1] replace water
+execute if score @s spellbound_enchantlevel matches 3.. run fill ~-7 ~1 ~ ~-7 ~1 ~ minecraft:frosted_ice[age=1] replace water
+execute if score @s spellbound_enchantlevel matches 3.. run fill ~ ~1 ~7 ~ ~1 ~7 minecraft:frosted_ice[age=1] replace water
+execute if score @s spellbound_enchantlevel matches 3.. run fill ~ ~1 ~-7 ~ ~1 ~-7 minecraft:frosted_ice[age=1] replace water
 
 
 function spellbound_weapons:ice_staff/break_ice

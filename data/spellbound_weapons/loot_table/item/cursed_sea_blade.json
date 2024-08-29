@@ -8,8 +8,25 @@
             "name": "minecraft:stone_sword",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:47006,Unbreakable:1b,SpellboundItem:1,CursedSeaBlade:1,display:{Name:'{\"translate\":\"Cursed Sea Blade\",\"color\":\"#71ebc6\",\"italic\":false}',Lore:['{\"translate\":\"Curse of Fish I\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}']}}"
+                "function": "minecraft:set_components",
+                "components": {
+
+                  "custom_model_data": 47006,
+
+                  "custom_data": {
+                    "SpellboundItem": 1,
+                    "CursedSeaBlade": 1
+                  },
+                
+                 "attribute_modifiers": {"modifiers":[]},
+ "item_name": "{\"translate\":\"Cursed Sea Blade\",\"color\":\"#71ebc6\",\"italic\":false}",
+ "custom_name": "{\"translate\":\"Cursed Sea Blade\",\"color\":\"#71ebc6\",\"italic\":false}",
+
+                  "lore": ["{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}"]
+                  
+
+                 
+                }
               }
             ]
           }

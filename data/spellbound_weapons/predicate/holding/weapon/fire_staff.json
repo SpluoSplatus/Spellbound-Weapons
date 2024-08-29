@@ -4,7 +4,9 @@
     "predicate": {
       "equipment": {
         "mainhand": {
-          "nbt": "{FireStaff:1}"
+          "predicates": {
+"custom_data":
+{"FireStaff":1}}
         }
       }
     }

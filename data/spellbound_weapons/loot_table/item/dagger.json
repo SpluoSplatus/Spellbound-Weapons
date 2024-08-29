@@ -8,8 +8,25 @@
             "name": "minecraft:iron_shovel",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:47018,SpellboundItem:1,display:{Name:'{\"translate\":\"Dagger\",\"color\":\"#91e060\",\"italic\":false}',Lore:['{\"translate\":\"Variant: Iron-Plated\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false},{\"translate\":\"item.minecraft.iron_shovel\"}]','{\"translate\":\"Spellbound Weapons\",\"color\":\"#676E75\",\"italic\":true}']},SpellboundDagger:1}"
+                "function": "minecraft:set_components",
+                "components": {
+
+                  "custom_model_data": 47018,
+                  "max_damage": 350,
+
+                  "custom_data": {
+                    "SpellboundItem": 1,
+                    "SpellboundDagger": 1
+                  },
+                
+                 "attribute_modifiers": {"modifiers":[]},
+ "item_name": "{\"translate\":\"Dagger\",\"color\":\"#abd9b2\",\"italic\":false}",
+
+                  "lore": ["{\"translate\":\"Variant: Iron-Plated\",\"color\":\"gray\",\"italic\":false}","[ {\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false}]","[{\"translate\":\"  \",\"color\":\"gray\",\"italic\": false},{\"color\":\"blue\",\"italic\": false,\"translate\":\"item.minecraft.iron_shovel\"}]","{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}"]
+                  
+
+                 
+                }
               }
             ]
           }

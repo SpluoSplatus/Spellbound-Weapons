@@ -4,7 +4,9 @@
     "predicate": {
       "equipment": {
         "mainhand": {
-          "nbt": "{SpellboundEchoWand:1}"
+          "predicates": {
+"custom_data":
+{"SpellboundEchoWand":1}}
         }
       }
     }

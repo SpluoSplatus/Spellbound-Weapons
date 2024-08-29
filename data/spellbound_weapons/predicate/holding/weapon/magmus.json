@@ -4,7 +4,9 @@
     "predicate": {
       "equipment": {
         "mainhand": {
-          "nbt": "{SpellboundMagmusCharger:1}"
+          "predicates": {
+"custom_data":
+{"SpellboundMagmusCharger":1}}
         }
       }
     }

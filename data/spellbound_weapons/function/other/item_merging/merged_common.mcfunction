@@ -1,4 +1,4 @@
-execute if entity @s[nbt={Item:{tag:{Enchantments:[{}]}}}] run summon item ~ ~ ~ {Tags:["spellbound_crafteditem_book"],Motion:[0.0,0.5,0.0],Item:{id:"minecraft:enchanted_book",Count:1b}}
+execute if entity @s[nbt={Item:{tag:{Enchantments:[{}]}}}] run summon item ~ ~ ~ {Tags:["spellbound_crafteditem_book"],Motion:[0.0,0.5,0.0],Item:{id:"minecraft:enchanted_book",count:1}}
 execute if entity @s[nbt={Item:{tag:{Enchantments:[{}]}}}] run data modify entity @e[distance=..2,type=item,tag=spellbound_crafteditem_book,sort=nearest,limit=1,nbt={Item:{id:"minecraft:enchanted_book"}}] Item.tag.StoredEnchantments set from entity @s Item.tag.Enchantments
 data modify entity @e[distance=..3,sort=nearest,limit=1,tag=spellbound_crafteditem] Item.tag.Damage set from entity @s Item.tag.Damage
 

@@ -4,7 +4,9 @@
     "predicate": {
       "equipment": {
         "offhand": {
-          "nbt": "{SpellboundElectricStaff:1}"
+          "predicates": {
+"custom_data":
+{"SpellboundElectricStaff":1}}
         }
       }
     }

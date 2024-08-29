@@ -7,7 +7,7 @@
     {
       "function": "minecraft:set_name",
       "entity": "this",
-      "name": {"translate":"Endlight Bow","color":"#eeffb8","italic":false}
+      "name": {"translate":"Endlight Bow","color":"yellow","italic":false}
       
     }
   ]

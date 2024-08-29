@@ -1,18 +1,35 @@
 [
   {
-    "function": "minecraft:set_nbt",
-    "tag": "{AttributeModifiers:[{}]}"
+    "function": "minecraft:set_attributes",
+    "modifiers": []
   },
+ 
+
+
+
   {
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
+        "id": "base_attack_damage",
         "attribute": "minecraft:generic.attack_damage",
-        "name": "",
-        "amount": 3.5,
-        "operation": "addition",
-        "id": "1329fab7-2b3f-4eb8-ab6f-5755ebee1dff",
+        "amount": 3,
+        "operation": "add_value",
         "slot": "mainhand"
+      },
+      {
+        "id": "base_attack_speed",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -2.15,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {}
       }
     ]
   },
@@ -20,12 +37,24 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "attribute": "minecraft:generic.attack_speed",
-        "name": "speed",
-        "amount": -2.15,
-        "operation": "addition",
-        "id": "d8ee3e2b-2955-4985-8ddd-ed7898e6dc59",
+        "id": "base_attack_damage",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 4,
+        "operation": "add_value",
         "slot": "mainhand"
+      },
+      {
+        "id": "base_attack_speed",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -2.15,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:reference",
+        "name": "spellbound_weapons:holding/weapon/dagger_diamond"
       }
     ]
   }

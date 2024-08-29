@@ -1,0 +1,27 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player":
+          [{
+            "condition": "reference",
+            "name":"spellbound_weapons:weapons_achieveable" 
+          }],
+          "items": [
+            {
+              "items": [
+                "minecraft:netherite_ingot"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "spellbound_weapons:magmus_charger"
+      ]
+    }
+  }
+  

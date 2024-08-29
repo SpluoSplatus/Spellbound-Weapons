@@ -1,16 +1,17 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "equipment": {
-        "mainhand": {
-          "enchantments": [
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "predicates": {
+          "minecraft:enchantments": [
             {
-              "enchantment": "minecraft:flame"
+              "enchantments": "minecraft:flame"
             }
           ]
         }
       }
     }
   }
-  
+}

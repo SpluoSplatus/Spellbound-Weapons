@@ -3,6 +3,23 @@
       "requirement": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
+          "player": [
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "reference",
+      "name": "spellbound_weapons:holding/weapon/blowgun"
+    },
+    {
+      "condition": "reference",
+      "name": "spellbound_weapons:holding/weapon/blowgun_offhand"
+    }
+  ]
+}
+
+           
+          ],
           "items": [
             {
               "items": [

@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "spellbound_weapons:item/dagger_diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:silk_touch": 1
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.2
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:efficiency": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:unbreaking": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

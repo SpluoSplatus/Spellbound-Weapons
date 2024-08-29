@@ -1,0 +1,6 @@
+{
+    "parent": "item/iron_helmet",
+    "textures": {
+        "layer0": "1_splatus:item/blaze"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "item/baked_potato",
+    "textures": {
+        "layer0": "1_splatus:item/deep_sea_squid_tentacle"
+    }
+}

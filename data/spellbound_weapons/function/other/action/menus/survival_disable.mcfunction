@@ -1,4 +1,4 @@
-scoreboard players set spellbound_survival spellbound_count 0
+scoreboard players set spellbound_survival spellbound_settings 0
 
 
 

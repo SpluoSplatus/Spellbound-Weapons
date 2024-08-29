@@ -8,8 +8,25 @@
             "name": "minecraft:stick",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:47044,SpellboundBrokenCrucible:1,display:{Name:'{\"translate\":\"Broken Crucible\",\"color\":\"#bcbccf\",\"italic\":false}',Lore:['{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}']}}"
+                "function": "minecraft:set_components",
+                "components": {
+
+                  "custom_model_data": 47044,
+                  "rarity": "uncommon",
+
+                  "custom_data": {
+                    "SpellboundBrokenCrucible": 1
+                  },
+                
+                 "attribute_modifiers": {"modifiers":[]},
+ "item_name": "{\"translate\":\"Broken Crucible\",\"italic\":false}",
+ "custom_name": "{\"translate\":\"Broken Crucible\",\"italic\":false}",
+
+ "lore": ["[{\"translate\":\"The remnants of an ancient, powerful sword\",\"color\":\"gray\",\"italic\": false}]","[{\"text\":\"\"}]","[{\"translate\":\"Restoration:\",\"color\":\"gray\",\"italic\": false}]","[{\"translate\":\"  Restore it by dropping it on top of a crafting\",\"color\":\"blue\",\"italic\": false}]","[{\"translate\":\"  table block with a wither skeleton skull\",\"color\":\"blue\",\"italic\": false}]","[{\"translate\":\"  + netherite ingot + redstone block to\",\"color\":\"blue\",\"italic\": false}]","[{\"translate\":\"  restore it into a Crucible sword\",\"color\":\"blue\",\"italic\": false}]","[{\"text\":\"\"}]","[{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}]"]
+                  
+
+                 
+                }
               }
             ]
           }

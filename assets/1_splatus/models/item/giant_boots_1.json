@@ -1,0 +1,6 @@
+{
+    "parent": "item/iron_boots",
+    "textures": {
+        "layer0": "1_splatus:item/giant_boots_1"
+    }
+}

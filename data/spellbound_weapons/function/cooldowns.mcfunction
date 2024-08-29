@@ -1,19 +1,12 @@
 
 ######### ATTACK SPEEDS FOR CERTAIN WEAPONS ############
 
-
-
-execute as @a[scores={spellbound_magmus_charger=0}] run advancement revoke @s only spellbound_weapons:magmus_charger
 execute as @a[scores={spellbound_blowgun=0}] run advancement revoke @s only spellbound_weapons:blowgun
 
 
 execute as @a unless entity @s[scores={spellbound_crucible=1..}] at @s unless score @s spelbloud_crucible_lastused matches 101.. run scoreboard players add @s spelbloud_crucible_lastused 1
 execute as @a unless entity @s[scores={spellbound_withering=1..}] at @s unless score @s spellbound_wither_lastused matches 101.. run scoreboard players add @s spellbound_wither_lastused 1
 
-execute if score count spellbound_count matches 0 run scoreboard players remove @a[scores={spellbound_crucible_energy=2..}] spellbound_crucible_energy 1
-execute if score count spellbound_count matches 5 run scoreboard players remove @a[scores={spellbound_crucible_energy=2..}] spellbound_crucible_energy 1
-execute if score count spellbound_count matches 10 run scoreboard players remove @a[scores={spellbound_crucible_energy=2..}] spellbound_crucible_energy 1
-execute if score count spellbound_count matches 15 run scoreboard players remove @a[scores={spellbound_crucible_energy=2..}] spellbound_crucible_energy 1
 
 ### SET COOLDOWNS TO 0 (if not holding)
 
@@ -26,7 +19,6 @@ execute as @a[scores={spellbound_blazing=0}] at @s run scoreboard players set @s
 execute as @a[scores={spellbound_hammer=0}] at @s run scoreboard players set @s spellbound_hammer_cooldown -1
 execute as @a[scores={spellbound_dagger=0}] at @s run scoreboard players set @s spellbound_dagger_cooldown -1
 execute as @a[scores={spellbound_evoker=0}] at @s run scoreboard players set @s spellbound_evoker_cooldown -1
-execute as @a[scores={spellbound_netherlight=0}] at @s run scoreboard players set @s spellbound_netherlight_cooldown -1
 execute as @a[scores={spellbound_chainfiring=0}] at @s run scoreboard players set @s spellbound_chainfiring_cooldown -1
 execute as @a[scores={spellbound_endlight=0}] at @s run scoreboard players set @s spellbound_endlight_cooldown -1
 execute as @a[scores={spellbound_magmus_charger=0}] at @s run scoreboard players set @s spellbound_magmus_charger_cooldown -1

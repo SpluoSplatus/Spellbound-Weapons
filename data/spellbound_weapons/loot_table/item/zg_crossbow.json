@@ -8,8 +8,24 @@
             "name": "minecraft:crossbow",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{SpellboundItem:1,CustomModelData:47033,SpellboundZGCrossbow:1,display:{Name:'{\"translate\":\"Warped Crossbow\",\"color\":\"#00a67f\",\"italic\":false}',Lore:['[{\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false},{\"translate\":\"item.minecraft.crossbow\"}]','{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}']}}"
+                "function": "minecraft:set_components",
+                "components": {
+
+                  "custom_model_data": 47033,
+
+                  "custom_data": {
+                    "SpellboundItem": 1,
+                    "SpellboundZGCrossbow": 1
+                  },
+                
+                 "attribute_modifiers": {"modifiers":[]},
+ "item_name": "{\"translate\":\"Warped Crossbow\",\"color\":\"#00a67f\",\"italic\":false}",
+
+                  "lore": ["[ {\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false}]","[{\"translate\":\"  \",\"color\":\"gray\",\"italic\": false},{\"color\":\"blue\",\"italic\": false,\"translate\":\"item.minecraft.crossbow\"}]","{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}"]
+                  
+
+                 
+                }
               }
             ]
           }

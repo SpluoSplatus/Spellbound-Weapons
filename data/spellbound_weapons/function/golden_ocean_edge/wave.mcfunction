@@ -17,7 +17,7 @@ execute if score @s spellbound_count matches 2.. at @s unless block ~ ~ ~ #spell
 
 
 particle minecraft:falling_water ~ ~.4 ~ .2 .4 .2 1 10 force @a[distance=..128]
-particle minecraft:block blue_concrete ~ ~ ~ ~ ~1000000000 ~ 0.000000001 0 force @a[distance=..128]
+particle minecraft:block{block_state:"blue_concrete"} ~ ~ ~ ~ ~1000000000 ~ 0.000000001 0 force @a[distance=..128]
 execute if predicate spellbound_weapons:chance/25_percent run particle poof ~ ~ ~ ~ ~1000000000 ~ 0.00000000005 0 force @a[distance=..128]
 #particle falling_water ~ ~ ~ .2 .2 .2 0 14 force @a[distance=..64]
 
@@ -38,6 +38,6 @@ execute if score @s spellbound_count matches 2..9 at @s if block ^ ^ ^.3 #spellb
 
 #kill events 
 
-execute if score @s spellbound_count matches 11.. run particle minecraft:block blue_concrete ~ ~ ~ .1 .1 .1 1 6 normal
+execute if score @s spellbound_count matches 11.. run particle minecraft:block{block_state:"blue_concrete"} ~ ~ ~ .1 .1 .1 1 6 normal
 execute if score @s spellbound_count matches 11.. run particle cloud ~ ~ ~ ~ ~1000000000 ~ 0.00000000001 0 normal
 execute if score @s spellbound_count matches 11.. run kill @s

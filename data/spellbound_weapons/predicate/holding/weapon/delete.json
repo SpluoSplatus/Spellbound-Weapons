@@ -4,7 +4,9 @@
     "predicate": {
       "equipment": {
         "mainhand": {
-          "nbt": "{SpellboundDelete:1}"
+          "predicates": {
+"custom_data":
+{"SpellboundDelete":1}}
         }
       }
     }

@@ -1,6 +1,4 @@
-
-summon item ~ ~ ~ {PickupDelay:20,Tags:["spellbound_crafteditem"],NoGravity:1b,Invulnerable:1b,Item:{id:"minecraft:diamond_sword",Count:1b,tag:{display:{Name:'{"translate":"Crucible","color":"#EB3868","italic":false}',Lore:['{"translate":"Color: Red","color":"gray","italic":false}','[{"translate":"Grindstone Repair: ","color":"gray","italic": false},{"translate":"item.minecraft.diamond_sword"}]','{"translate":"Spellbound Weapons","color":"#676E75","italic":true}']},CrucibleDye:1,CustomModelData:47042,SpellboundItem:1,SpellboundCrucible:1,Enchantments:[{id:"minecraft:unbreaking",lvl:2s}]}}}
-
+summon item ~ ~ ~ {Item:{id:"minecraft:diamond_sword",count:1,components:{custom_model_data:47042,enchantment_glint_override:true,fire_resistant:{},custom_data:{SpellboundItem:1b,SpellboundCrucible:1b,CrucibleDye:1b},item_name:"{\"translate\":\"Crucible\",\"color\":\"#EB3868\",\"italic\":false}",lore:["[{\"translate\":\"Color: Red\",\"color\":\"gray\",\"italic\":false}]","[ {\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false}]","[{\"translate\":\"  \",\"color\":\"gray\",\"italic\": false},{\"color\":\"blue\",\"italic\": false,\"translate\":\"item.minecraft.diamond_sword\"}]","{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}"]}},PickupDelay:30,Tags:["spellbound_itemaligned"],NoGravity:1b}
 
 particle end_rod ~ ~.15 ~ 0 0 0 .3 50 force @a[distance=..128]
 particle end_rod ~ ~.15 ~ 0 0 0 .6 50 force @a[distance=..128]
@@ -15,9 +13,9 @@ playsound minecraft:block.conduit.attack.target block @a[distance=..128] ~ ~ ~ 6
 
 function spellbound_weapons:other/item_merging/merged_common
 
-kill @e[sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:redstone_block"}}]
-kill @e[sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:netherite_ingot"}}]
-kill @e[sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:wither_skeleton_skull"}}]
+kill @n[type=item,nbt={Item:{id:"minecraft:redstone_block"}}]
+kill @n[type=item,nbt={Item:{id:"minecraft:netherite_ingot"}}]
+kill @n[type=item,nbt={Item:{id:"minecraft:wither_skeleton_skull"}}]
 
 
 

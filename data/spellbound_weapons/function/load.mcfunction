@@ -1,4 +1,4 @@
-tellraw @a [{"translate": "Successfully loaded","color": "gray"},{"translate": " Spellbound Weapons v4.0.5m","color": "green"}]
+tellraw @a [{"translate": "Successfully loaded","color": "gray"},{"translate": " Spellbound Weapons v4.1.0","color": "green"}]
 
 ### Pack Installed
 
@@ -128,8 +128,6 @@ scoreboard objectives add spellbound_echo_wand dummy
 scoreboard objectives add spellbound_echo_wand_cooldown dummy
 
 
-scoreboard objectives add spellbound_recipes trigger
-
 
 scoreboard objectives add spellbound_sneak_count dummy
 
@@ -146,12 +144,15 @@ scoreboard objectives add spellbound_durability_max dummy
 
 scoreboard objectives add spellbound_sand_cooldown dummy
 scoreboard objectives add spellbound_sand_jump dummy
+scoreboard objectives add spellbound_jump custom:jump
 
 scoreboard objectives add spelbloud_crucible_lastused dummy
 
 scoreboard objectives add spellbound_blastoff dummy
 
 scoreboard objectives add spellbound_blowgun_cooldown dummy
+
+scoreboard objectives add spellbound_storage dummy
 
 team add spellbound_red
 team modify spellbound_red color red
@@ -172,8 +173,6 @@ scoreboard objectives add spellbound_withering_energy dummy
 scoreboard objectives add spellbound_withering_hitcool dummy
 scoreboard objectives add spellbound_crucible_hitcool dummy
 
-scoreboard objectives add spellbound_movement custom:crouch_one_cm
-
 scoreboard objectives add spellbound_wither_lastused dummy
 
 
@@ -182,6 +181,22 @@ scoreboard objectives add spellbound_customkill dummy
 scoreboard objectives add spellbound_thorn dummy
 scoreboard objectives add spellbound_thorn_cooldown dummy
 scoreboard objectives add spellbound_enchantlevel dummy
+
+
+scoreboard objectives add spellbound_clock dummy
+scoreboard objectives add spellbound_settings dummy
+
+
+#schedule clocks
+
+schedule function spellbound_weapons:tick_clocks/2tick 2t
+
+schedule function spellbound_weapons:tick_clocks/4tick 4t
+
+schedule function spellbound_weapons:tick_clocks/5tick 5t
+
+schedule function spellbound_weapons:tick_clocks/10tick 10t
+
 
 
 function spellbound_weapons:other/action/default_settings

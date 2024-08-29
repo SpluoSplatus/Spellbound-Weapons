@@ -4,4 +4,4 @@ execute as @s[scores={spellbound_curse_time=200}] run data merge entity @s {Deat
 
 execute as @s[tag=spellbound_iscursed,scores={spellbound_curse_time=200..}] run tag @s remove spellbound_iscursed
 execute as @s[scores={spellbound_curse_time=200..}] run scoreboard players set @s spellbound_curse_time 0
-execute at @s run particle minecraft:block minecraft:water ~ ~1 ~ .3 .3 .3 3 3 force @a[distance=..32]
+execute at @s run particle minecraft:block{block_state:"minecraft:water"} ~ ~1 ~ .3 .3 .3 3 3 force @a[distance=..32]

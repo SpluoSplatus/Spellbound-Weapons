@@ -4,15 +4,14 @@ playsound minecraft:entity.vex.ambient player @a[distance=..16] ~ ~ ~ 1 1.25
 
 #particle poof ~ ~ ~ .4 .4 .4 .05 5 force @a[distance=..32]
 
+summon marker ^ ^ ^1.0001 {Tags:["spellbound_sand_wind","spellbound_sand_wind_heavy","spellbound_marker"]}
+execute as @s[predicate=spellbound_weapons:holding/enchant/sweeping_edge3] positioned ~ ~ ~ run scoreboard players set @n[type=marker,tag=spellbound_sand_wind_heavy] spellbound_enchantlevel 1
+data modify entity @n[type=marker,tag=spellbound_sand_wind] Rotation set from entity @s Rotation
 
-execute as @s[predicate=!spellbound_weapons:holding/enchant/sweeping_edge3] positioned ~ ~ ~ run summon marker ^ ^ ^1.0001 {Tags:["spellbound_sand_wind","spellbound_sand_wind_heavy","spellbound_marker"]}
-execute as @s[predicate=spellbound_weapons:holding/enchant/sweeping_edge3] positioned ~ ~ ~ run summon marker ^ ^ ^1.0001 {Tags:["spellbound_sand_wind","spellbound_sand_wind_heavy","spellbound_sand_wind_enchanted","spellbound_marker"]}
-data modify entity @e[sort=nearest,limit=1,type=marker,tag=spellbound_sand_wind] Rotation set from entity @s Rotation
-
-execute at @s store result score @e[sort=nearest,limit=1,type=marker,tag=spellbound_sand_wind] spellbound_uuid run scoreboard players get @s spellbound_uuid
-execute at @s store result score @e[sort=nearest,limit=1,type=marker,tag=spellbound_sand_wind] spellbound_uuid2 run scoreboard players get @s spellbound_uuid2
-execute at @s store result score @e[sort=nearest,limit=1,type=marker,tag=spellbound_sand_wind] spellbound_uuid3 run scoreboard players get @s spellbound_uuid3
-execute at @s store result score @e[sort=nearest,limit=1,type=marker,tag=spellbound_sand_wind] spellbound_uuid4 run scoreboard players get @s spellbound_uuid4
+execute at @s store result score @n[type=marker,tag=spellbound_sand_wind] spellbound_uuid run scoreboard players get @s spellbound_uuid
+execute at @s store result score @n[type=marker,tag=spellbound_sand_wind] spellbound_uuid2 run scoreboard players get @s spellbound_uuid2
+execute at @s store result score @n[type=marker,tag=spellbound_sand_wind] spellbound_uuid3 run scoreboard players get @s spellbound_uuid3
+execute at @s store result score @n[type=marker,tag=spellbound_sand_wind] spellbound_uuid4 run scoreboard players get @s spellbound_uuid4
 
 
 
@@ -23,7 +22,7 @@ execute as @s[predicate=spellbound_weapons:holding/enchant/unbreaking3] at @s if
 
 
 
-execute as @s[predicate=spellbound_weapons:holding/tag/0_durability] run particle minecraft:block sand ~ ~1 ~ .4 .3 .4 .4 30 normal
+execute as @s[predicate=spellbound_weapons:holding/tag/0_durability] run particle minecraft:block{block_state:"sand"} ~ ~1 ~ .4 .3 .4 .4 30 normal
 execute as @s[predicate=spellbound_weapons:holding/tag/0_durability] run playsound entity.item.break player @a[distance=..16] ~ ~ ~ 1 1
 execute as @s[predicate=spellbound_weapons:holding/tag/0_durability] run item replace entity @s weapon.mainhand with air
 
@@ -36,4 +35,4 @@ execute at @s positioned ~ ~-0.001 ~ if predicate spellbound_weapons:other/can_l
 
 
 scoreboard players set @s spellbound_windswept_cooldown 0
-function spellbound_weapons:other/action/set_cooldowns_to_0
+execute unless predicate spellbound_weapons:holding/spellbound_sword run function spellbound_weapons:other/action/set_cooldowns_to_0

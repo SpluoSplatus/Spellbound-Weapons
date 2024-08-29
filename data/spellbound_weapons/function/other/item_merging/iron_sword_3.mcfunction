@@ -5,25 +5,16 @@ execute run scoreboard players add @s spellbound_count 1
 
 
 execute if score @s spellbound_count matches 1.. run particle poof ~ ~.3 ~ 0 0 0 .05 1 force @a[distance=..64]
-execute if score @s spellbound_count matches 1.. run particle flame ~ ~.3 ~ 0 0 0 .02 1 force @a[distance=..64]
 
-execute if score @s spellbound_count matches 1 run playsound block.bamboo.place block @a[distance=..16] ~ ~ ~ 1 1
-execute if score @s spellbound_count matches 2 run playsound block.bamboo.place block @a[distance=..16] ~ ~ ~ 1 1
-execute if score @s spellbound_count matches 3 run playsound block.bamboo.place block @a[distance=..16] ~ ~ ~ 1 1
-execute if score @s spellbound_count matches 4 run playsound block.bamboo.place block @a[distance=..16] ~ ~ ~ 1 1
-execute if score @s spellbound_count matches 5 run playsound block.bamboo.place block @a[distance=..16] ~ ~ ~ 1 1
-execute if score @s spellbound_count matches 6 run playsound block.bamboo.place block @a[distance=..16] ~ ~ ~ 1 1
-execute if score @s spellbound_count matches 7 run playsound block.bamboo.place block @a[distance=..16] ~ ~ ~ 1 1
-
-execute if score @s spellbound_count matches 1 run playsound minecraft:ui.stonecutter.take_result block @a[distance=..16] ~ ~ ~ 1 2
-execute if score @s spellbound_count matches 2 run playsound minecraft:ui.stonecutter.take_result block @a[distance=..16] ~ ~ ~ 1 2
-execute if score @s spellbound_count matches 3 run playsound minecraft:ui.stonecutter.take_result block @a[distance=..16] ~ ~ ~ 1 2
-execute if score @s spellbound_count matches 4 run playsound minecraft:ui.stonecutter.take_result block @a[distance=..16] ~ ~ ~ 1 2
-execute if score @s spellbound_count matches 5 run playsound minecraft:ui.stonecutter.take_result block @a[distance=..16] ~ ~ ~ 1 2
-execute if score @s spellbound_count matches 6 run playsound minecraft:ui.stonecutter.take_result block @a[distance=..16] ~ ~ ~ 1 2
-execute if score @s spellbound_count matches 7 run playsound minecraft:ui.stonecutter.take_result block @a[distance=..16] ~ ~ ~ 1 2
+execute if score @s spellbound_count matches 1.. run playsound minecraft:ui.stonecutter.take_result block @a[distance=..24] ~ ~ ~ 1 2
 
 
-execute if score @s spellbound_count matches 7.. run function spellbound_weapons:other/item_merging/merged_blazeblade
+execute if score @s spellbound_count matches 7.. run particle flame ~ ~.2 ~ 0 0 0 .1 8 force @a[distance=..128]
+
+execute if score @s spellbound_count matches 6 run playsound block.bell.resonate block @a[distance=..32] ~ ~ ~ 1 1.2
+
+execute if score @s spellbound_count matches 1..4 run particle enchant ~ ~1.8 ~ 0 0 0 12 110 normal
+
+execute if score @s spellbound_count matches 14.. run function spellbound_weapons:other/item_merging/merged_blazeblade
 
 

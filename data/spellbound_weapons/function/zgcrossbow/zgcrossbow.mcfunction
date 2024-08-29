@@ -1,7 +1,7 @@
 #advancement grant @s only minecraft:adventure/spellbound_all_weapons warped_crossbow
 
 
-item modify entity @s[predicate=spellbound_weapons:holding/weapon/zg_crossbow,nbt={SelectedItem:{tag:{display:{Name:'{"text":"Warped Crossbow"}'}}}}] weapon.mainhand spellbound_weapons:name/zg_crossbow
+item modify entity @s[predicate=spellbound_weapons:holding/weapon/zg_crossbow,nbt={SelectedItem:{components:{"minecraft:custom_name":'"Warped Crossbow"'}}}] weapon.mainhand spellbound_weapons:name/zg_crossbow
 
 
 

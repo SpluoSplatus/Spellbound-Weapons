@@ -1,0 +1,6 @@
+{
+    "parent": "item/stick",
+    "textures": {
+        "layer0": "1_splatus:item/key"
+    }
+}

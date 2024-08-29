@@ -1,0 +1,54 @@
+{
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        
+        "player":
+        [{
+          "condition": "reference",
+          "name":"spellbound_weapons:weapons_achieveable" 
+        }],
+        "items": [
+         
+          {
+            "items": [
+              "minecraft:spore_blossom"
+            ]
+          }
+        ]
+      }
+    },
+    "2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        
+        "player":
+        [{
+          "condition": "reference",
+          "name":"spellbound_weapons:weapons_achieveable" 
+        }],
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "1",
+      "2"
+    ]
+    
+  ]
+  ,
+  "rewards": {
+    "recipes": [
+      "spellbound_weapons:thorn_blossom_diamond"
+    ]
+  }
+}

@@ -8,8 +8,26 @@
             "name": "minecraft:iron_sword",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{SpellboundItem:1,display:{Name:'{\"translate\": \"Thorn Blossom\",\"italic\": false,\"color\": \"#ff40a6\"}',Lore:['[{\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false},{\"translate\":\"item.minecraft.iron_sword\"}]','{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}']},SpellboundThornBlossom:1,CustomModelData:47050}"
+                "function": "minecraft:set_components",
+                "components": {
+
+                  "custom_model_data": 47050,
+
+                  "custom_data": {
+                    "SpellboundItem": 1,
+                    "SpellboundThornBlossom": 1
+                  },
+                  
+                  "max_damage": 320,
+                
+                 "attribute_modifiers": {"modifiers":[]},
+ "item_name": "{\"translate\":\"Thorn Blossom\",\"color\":\"#c0e3b3\",\"italic\":false}",
+
+                  "lore": ["[ {\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false}]","[{\"translate\":\"  \",\"color\":\"gray\",\"italic\": false},{\"color\":\"blue\",\"italic\": false,\"translate\":\"item.minecraft.iron_sword\"}]","{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}"]
+                  
+
+                 
+                }
               }
             ]
           }

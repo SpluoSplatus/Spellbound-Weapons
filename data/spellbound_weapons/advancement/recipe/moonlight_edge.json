@@ -1,0 +1,53 @@
+{
+    "criteria": {
+      "1": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player":
+          [{
+            "condition": "reference",
+            "name":"spellbound_weapons:weapons_achieveable" 
+          }],
+          "items": [
+           
+            {
+              "items": [
+                "minecraft:ender_pearl"
+              ]
+            }
+          ]
+        }
+      },
+      "2": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player":
+          [{
+            "condition": "reference",
+            "name":"spellbound_weapons:weapons_achieveable" 
+          }],
+          "items": [
+            {
+              "items": [
+                "minecraft:amethyst_shard"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "1",
+        "2"
+      ]
+      
+    ]
+    ,
+    "rewards": {
+      "recipes": [
+        "spellbound_weapons:moonlight_edge"
+      ]
+    }
+  }
+  

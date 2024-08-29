@@ -4,7 +4,7 @@ playsound minecraft:block.wood.break player @a[distance=..20] ~ ~ ~ 1 .5
 playsound minecraft:block.wood.break player @a[distance=..20] ~ ~ ~ 1 .5
 playsound minecraft:entity.blaze.hurt player @a[distance=..20] ~ ~ ~ .5 .1
 
-execute positioned ~ ~1.5 ~ run particle minecraft:block oak_planks ^ ^ ^1 .4 .4 .4 .2 10 force @a[distance=..32]
+execute positioned ~ ~1.5 ~ run particle minecraft:block{block_state:"oak_planks"} ^ ^ ^1 .4 .4 .4 .2 10 force @a[distance=..32]
 
 execute if entity @s[predicate=spellbound_weapons:holding/shield_offhand] run item modify entity @s weapon.offhand spellbound_weapons:creatures/damage_shield
 execute if entity @s[predicate=spellbound_weapons:holding/shield_mainhand] run item modify entity @s weapon.mainhand spellbound_weapons:creatures/damage_shield

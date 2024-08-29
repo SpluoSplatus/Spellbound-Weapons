@@ -1,6 +1,6 @@
 scoreboard players add @s spellbound_count 1
 particle snowflake ~ ~ ~ 0 0 0 0 1 force @a[distance=..64]
-particle dust_color_transition 1 1 1 1 1 1 1 ~ ~ ~ 0 0 0 0 1 force @a[distance=..64]
+particle dust_color_transition{from_color:[1.000,1.000,1.000],scale:1,to_color:[1.000,1.000,1.000]} ~ ~ ~ 0 0 0 0 1 force @a[distance=..64]
 execute if score @s spellbound_count matches 1 run data modify entity @s Rotation set from entity @p Rotation
 execute at @s if score @s spellbound_count matches 1..10 run tp @s ^ ^ ^.3
 execute at @s if score @s spellbound_count matches 11..20 run tp @s ^ ^ ^.15

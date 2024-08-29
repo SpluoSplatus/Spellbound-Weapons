@@ -10,10 +10,9 @@ execute if score @s spellbound_blazing_cooldown matches 96 run playsound minecra
 execute if score @s spellbound_blazing_cooldown matches 98 run playsound minecraft:block.respawn_anchor.charge player @a[distance=..32] ~ ~ ~ 1 1.7
 execute if score @s spellbound_blazing_cooldown matches 100 run playsound minecraft:block.respawn_anchor.charge player @a[distance=..32] ~ ~ ~ 1 2
 
-execute if score 2tick spellbound_count matches 1 run playsound minecraft:block.netherrack.place player @a[distance=..32] ~ ~ ~ 1 2
+execute if score 2tick spellbound_clock matches 1 run playsound minecraft:block.netherrack.place player @a[distance=..32] ~ ~ ~ 1 2
 
 #no you cant
-#execute if score @s spellbound_movement matches 1.. run scoreboard players set @s spellbound_blazing_cooldown 61
 #execute as @s[advancements={spellbound_weapons:player_hurt=true}] run scoreboard players set @s spellbound_blazing_cooldown 81
 execute unless predicate spellbound_weapons:sneaking run scoreboard players set @s spellbound_blazing_cooldown 81
 

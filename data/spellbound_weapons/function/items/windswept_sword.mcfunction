@@ -1,1 +1,0 @@
-give @s stone_sword{SpellboundItem:1,display:{Name:'{"translate": "Windswept Sword","italic": false,"color": "yellow"}',Lore:['{"translate":"Spellbound Weapons","color":"#676e75","italic": true}']},SpellboundWindsweptSword:1,CustomModelData:47014}

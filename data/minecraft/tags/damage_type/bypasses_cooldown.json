@@ -3,6 +3,7 @@
   "replace": false,
     "values": [
      "spellbound_weapons:magic_force",
-     "spellbound_weapons:melee_force"
+     "spellbound_weapons:melee_force",
+     "spellbound_weapons:explosion_force"
     ]
   }

@@ -1,0 +1,73 @@
+{
+    "criteria": {
+      "1": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          
+          "player":
+          [{
+            "condition": "reference",
+            "name":"spellbound_weapons:weapons_achieveable" 
+          }],
+          "items": [
+            
+           
+            {
+              "items": [
+                "minecraft:emerald_block"
+              ]
+            }
+          ]
+        }
+      },
+      "2": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player":
+          [{
+            "condition": "reference",
+            "name":"spellbound_weapons:weapons_achieveable" 
+          }],
+          "items": [
+            {
+              "items": [
+                "minecraft:emerald"
+              ]
+            }
+          ]
+        }
+      },
+      "3": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player":
+          [{
+            "condition": "reference",
+            "name":"spellbound_weapons:weapons_achieveable" 
+          }],
+          "items": [
+            {
+              "items": [
+                "minecraft:feather"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "1",
+        "2",
+        "3"
+      ]
+      
+    ]
+    ,
+    "rewards": {
+      "recipes": [
+        "spellbound_weapons:windsweeper"
+      ]
+    }
+  }
+  

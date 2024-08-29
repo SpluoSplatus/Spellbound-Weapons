@@ -1,17 +1,20 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "equipment": {
-        "mainhand": {
-          "enchantments": [
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "predicates": {
+          "minecraft:enchantments": [
             {
-              "enchantment": "minecraft:efficiency",
-              "levels": 5
+              "enchantments": "minecraft:efficiency",
+              "levels": {
+                "min": 5
+              }
             }
           ]
         }
       }
     }
   }
-  
+}

@@ -1,12 +1,13 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "equipment": {
-        "mainhand": {
-          "enchantments": [
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "predicates": {
+          "minecraft:enchantments": [
             {
-              "enchantment": "minecraft:fire_aspect",
+              "enchantments": "minecraft:fire_aspect",
               "levels": 2
             }
           ]
@@ -14,4 +15,4 @@
       }
     }
   }
-  
+}

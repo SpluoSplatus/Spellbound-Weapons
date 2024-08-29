@@ -1,7 +1,10 @@
 [
-    {
-      "function": "minecraft:set_nbt",
-      "tag": "{SpellboundItem:1}"
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "custom_data": {
+        "SpellboundItem": 1
+      }
     }
-  ]
-  
+  }
+]

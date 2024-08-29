@@ -1,6 +1,6 @@
 #advancement grant @s only minecraft:adventure/spellbound_all_weapons endlight_bow
 
-item modify entity @s[predicate=spellbound_weapons:holding/weapon/endlight,nbt={SelectedItem:{tag:{display:{Name:'{"text":"Endlight Bow"}'}}}}] weapon.mainhand spellbound_weapons:name/endlight
+item modify entity @s[predicate=spellbound_weapons:holding/weapon/endlight,nbt={SelectedItem:{components:{"minecraft:custom_name":'"Endlight Bow"'}}}] weapon.mainhand spellbound_weapons:name/endlight
 
 
 scoreboard players add @s spellbound_endlight_cooldown 0
@@ -8,7 +8,7 @@ execute as @s[advancements={spellbound_weapons:endlight=true}] run scoreboard pl
 execute as @s[advancements={spellbound_weapons:endlight=false}] run scoreboard players set @s spellbound_endlight_cooldown 0
 
 scoreboard players add @s[scores={spellbound_endlight_cooldown=100..}] spellbound_endlight_cooldown 1
-execute if score spellbound_nocooldown spellbound_count matches 1 run scoreboard players set @s[scores={spellbound_endlight_cooldown=..19}] spellbound_endlight_cooldown 22
+execute if score spellbound_nocooldown spellbound_settings matches 1 run scoreboard players set @s[scores={spellbound_endlight_cooldown=..19}] spellbound_endlight_cooldown 22
 
 
 

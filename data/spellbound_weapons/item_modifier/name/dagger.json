@@ -3,7 +3,7 @@
   {
     "function": "minecraft:set_name",
     "entity": "this",
-    "name": {"translate":"Dagger","color":"#91e060","italic":false}
+    "name": {"translate":"Dagger","color":"#abd9b2","italic":false}
     
   }
 ]

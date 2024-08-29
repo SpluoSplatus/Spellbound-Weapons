@@ -1,11 +1,16 @@
 {
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "equipment": {
-      "offhand": {
-        "nbt": "{SpellboundIceStaffBlock:1}"
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "predicates": {"custom_data": {"SpellboundIceStaffBlock":1}}
+          }
+        }
       }
     }
-  }
+  ]
 }

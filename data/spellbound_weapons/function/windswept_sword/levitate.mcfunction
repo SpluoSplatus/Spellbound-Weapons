@@ -2,8 +2,8 @@ scoreboard players add @s spellbound_windswept_levitation 1
 
 particle poof ~ ~ ~ 0 0 0 .02 1 force @a[distance=..64]
 
+execute if score @s spellbound_windswept_levitation matches 5 run attribute @s generic.jump_strength modifier remove spellbound_weapons:jump_strength
 
-execute if score @s spellbound_windswept_levitation matches 1 run effect give @s minecraft:jump_boost 1 128 true
 
 execute if score @s spellbound_windswept_levitation matches 1 run effect give @s levitation 1 12 true
 

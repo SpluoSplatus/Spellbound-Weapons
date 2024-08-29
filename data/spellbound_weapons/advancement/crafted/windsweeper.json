@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "spellbound_weapons:windsweeper"
+      }
+    }
+  },
+  "rewards": {
+    "function": "spellbound_weapons:other/craft_reward/any_high_tier"
+  }
+}

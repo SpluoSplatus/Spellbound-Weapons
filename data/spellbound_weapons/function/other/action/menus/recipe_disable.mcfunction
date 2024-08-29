@@ -1,4 +1,4 @@
-scoreboard players set spellbound_recipes spellbound_count 0
+scoreboard players set spellbound_recipes spellbound_settings 0
 
 
 

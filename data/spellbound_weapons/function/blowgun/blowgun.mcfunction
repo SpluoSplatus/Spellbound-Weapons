@@ -1,7 +1,7 @@
 #advancement grant @s only minecraft:adventure/spellbound_all_weapons blowgun
 
 
-item modify entity @s[predicate=spellbound_weapons:holding/weapon/blowgun,nbt={SelectedItem:{tag:{display:{Name:'{"text":"Blowgun"}'}}}}] weapon.mainhand spellbound_weapons:name/blowgun
+item modify entity @s[predicate=spellbound_weapons:holding/weapon/blowgun,nbt={SelectedItem:{components:{"minecraft:custom_name":'"Blowgun"'}}}] weapon.mainhand spellbound_weapons:name/blowgun
 
 execute if entity @s[advancements={spellbound_weapons:blowgun=true}] run scoreboard players add @s spellbound_blowgun_cooldown 1
 execute if entity @s[advancements={spellbound_weapons:blowgun=false}] run scoreboard players set @s spellbound_blowgun_cooldown 0

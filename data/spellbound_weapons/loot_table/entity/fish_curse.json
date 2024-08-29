@@ -11,8 +11,12 @@
             "name": "minecraft:prismarine_shard",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{DetectCursedMobDeath:1}"
+                "function": "minecraft:set_components",
+                "components": {
+                  "custom_data": {
+                    "DetectCursedMobDeath": 1
+                  }
+                }
               }
             ]
             

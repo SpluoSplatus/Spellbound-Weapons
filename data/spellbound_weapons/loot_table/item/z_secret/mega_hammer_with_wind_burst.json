@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "spellbound_weapons:item/mega_hammer",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "add": true,
+              "enchantments": {
+                "wind_burst": 3,
+                "efficiency": 5
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "parent": "item/diamond_sword",
+    "textures": {
+        "layer0": "1_splatus:item/crucible/red"
+    },
+   
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ 0, -90, 55 ],
+            "translation": [ 0, 7.0, 0.5 ],
+            "scale": [ 1.1, 1.1, 1.1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, -90, 25 ],
+            "translation": [ 1.13, 3.2, 1.13 ],
+            "scale": [ 0.78, 0.78, 0.78 ]
+        }
+    }
+}

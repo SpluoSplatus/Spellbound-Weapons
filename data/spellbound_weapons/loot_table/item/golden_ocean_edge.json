@@ -8,8 +8,25 @@
             "name": "minecraft:iron_sword",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:47045,SpellboundItem:1,SpellboundGoldenOceanEdge:1,display:{Name:'{\"translate\":\"Golden Sea Blade\",\"color\":\"#e5ff70\",\"italic\":false}',Lore:['[{\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false},{\"translate\":\"item.minecraft.iron_sword\"}]','{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}']}}"
+                "function": "minecraft:set_components",
+                "components": {
+
+                  "custom_model_data": 47045,
+
+                  "custom_data": {
+                    "SpellboundItem": 1,
+                    "SpellboundGoldenOceanEdge": 1
+                  },
+                
+                 "attribute_modifiers": {"modifiers":[]},
+ "item_name": "{\"translate\":\"Ocean Edge\",\"color\":\"#e5ff70\",\"italic\":false}",
+ "custom_name": "{\"translate\":\"Ocean Edge\",\"color\":\"#e5ff70\",\"italic\":false}",
+
+                  "lore": ["[ {\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false}]","[{\"translate\":\"  \",\"color\":\"gray\",\"italic\": false},{\"color\":\"blue\",\"italic\": false,\"translate\":\"item.minecraft.iron_sword\"}]","{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}"]
+                  
+
+                 
+                }
               }
             ]
           }

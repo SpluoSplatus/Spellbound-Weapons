@@ -1,0 +1,40 @@
+{
+  "condition": "any_of",
+  "terms": [
+
+
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "predicates": {
+              "custom_data": {
+                "SpellboundCrucible": 1,
+                "CrucibleDye": 2
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "predicates": {
+              "custom_data": {
+                "SpellboundCrucible": 1,
+                "CrucibleDye": 12
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
+

@@ -1,3 +1,7 @@
+
+#funny file that occurs went shooting a magmus max arrow directly below yourself
+
+
 scoreboard players add @s spellbound_blastoff 1
 execute if score @s spellbound_blastoff matches 1 run playsound minecraft:entity.firework_rocket.launch player @a[distance=..48] ~ ~ ~ 3 .6
 execute if score @s spellbound_blastoff matches 3 run playsound minecraft:entity.firework_rocket.launch player @a[distance=..48] ~ ~ ~ 3 .5

@@ -1,12 +1,13 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "equipment": {
-        "offhand": {
-          "enchantments": [
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "predicates": {
+          "minecraft:enchantments": [
             {
-              "enchantment": "minecraft:unbreaking",
+              "enchantments": "minecraft:unbreaking",
               "levels": 1
             }
           ]
@@ -14,4 +15,4 @@
       }
     }
   }
-  
+}

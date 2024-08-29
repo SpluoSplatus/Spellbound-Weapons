@@ -1,7 +1,7 @@
 
 #damage
-execute if score @s[tag=!spellbound_player_immunetocrucible] spellbound_crucible_stunned matches 1 as @a if score @s spellbound_uuid = @e[sort=nearest,limit=1,type=marker,tag=spellbound_crucible_releasedenergy] spellbound_uuid if score @s spellbound_uuid2 = @e[sort=nearest,limit=1,type=marker,tag=spellbound_crucible_releasedenergy] spellbound_uuid2 if score @s spellbound_uuid3 = @e[sort=nearest,limit=1,type=marker,tag=spellbound_crucible_releasedenergy] spellbound_uuid3 if score @s spellbound_uuid4 = @e[sort=nearest,limit=1,type=marker,tag=spellbound_crucible_releasedenergy] spellbound_uuid4 run tag @s add spellbound_temp5
-execute if score @s[type=!#spellbound_weapons:misc] spellbound_crucible_stunned matches 1 run damage @s 14 spellbound_weapons:magic_force by @p[tag=spellbound_temp5]
+execute if score @s[tag=!spellbound_player_immunetocrucible] spellbound_crucible_stunned matches 1 as @a if score @s spellbound_uuid = @n[type=marker,tag=spellbound_crucible_releasedenergy] spellbound_uuid if score @s spellbound_uuid2 = @n[type=marker,tag=spellbound_crucible_releasedenergy] spellbound_uuid2 if score @s spellbound_uuid3 = @n[type=marker,tag=spellbound_crucible_releasedenergy] spellbound_uuid3 if score @s spellbound_uuid4 = @n[type=marker,tag=spellbound_crucible_releasedenergy] spellbound_uuid4 run tag @s add spellbound_temp5
+execute if score @s[type=!#spellbound_weapons:misc] spellbound_crucible_stunned matches 1 run damage @s 14 spellbound_weapons:melee_force by @p[tag=spellbound_temp5]
 tag @a remove spellbound_temp5
 
 execute if score @s spellbound_crucible_stunned matches 1..50 run data merge entity @s[tag=!spellbound_player_immunetocrucible] {NoAI:1b}

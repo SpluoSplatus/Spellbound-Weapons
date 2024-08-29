@@ -1,0 +1,6 @@
+{
+    "parent": "item/glowstone_dust",
+    "textures": {
+        "layer0": "1_splatus:item/corrupt"
+    }
+}

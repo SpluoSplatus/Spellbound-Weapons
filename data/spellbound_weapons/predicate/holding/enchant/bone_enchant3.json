@@ -8,13 +8,15 @@
     "predicate": {
       "equipment": {
         "mainhand": {
-          "enchantments": [
+        "predicates": {
+          "minecraft:enchantments": [
             {
-              "enchantment": "minecraft:lure",
+              "enchantments": "minecraft:lure",
               "levels": 3
             }
           ]
         }
+      }
       }
     }
   },
@@ -24,13 +26,15 @@
     "predicate": {
       "equipment": {
         "mainhand": {
-          "enchantments": [
+        "predicates": {
+          "minecraft:enchantments": [
             {
-              "enchantment": "minecraft:luck_of_the_sea",
+              "enchantments": "minecraft:luck_of_the_sea",
               "levels": 3
             }
           ]
         }
+      }
       }
     }
   }

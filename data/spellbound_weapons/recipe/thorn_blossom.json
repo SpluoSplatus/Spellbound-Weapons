@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "#g#",
+    "#b#",
+    "222"
+  ],
+  "key": {
+    "2": {
+      "item": "minecraft:copper_block"
+    },
+    "#": {
+      "item": "minecraft:moss_block"
+    },
+    "b": {
+      "item": "minecraft:iron_sword"
+    },
+    "g": {
+      "item": "minecraft:spore_blossom"
+    }
+  },
+  "result": {
+    "id": "minecraft:iron_sword",
+   "components": {
+
+                  "custom_model_data": 47050,
+
+                  "custom_data": {
+                    "SpellboundItem": 1,
+                    "SpellboundThornBlossom": 1
+                  },
+                  
+                  "max_damage": 320,
+                  
+                  "minecraft:attribute_modifiers":
+                  
+                  [
+                    {
+                      
+                      "type": "minecraft:generic.attack_damage",
+                      "amount": 5.5,
+                      "operation": "add_value",
+                      "id": "base_attack_damage",
+                      "slot": "mainhand"
+                    }
+                  ,
+                    {
+                      "type": "minecraft:generic.attack_speed",
+                      "amount": -2.5,
+                      "operation": "add_value",
+                      "id": "base_attack_speed",
+                      "slot": "mainhand"
+                    }
+                  ],
+                
+ "item_name": "{\"translate\":\"Thorn Blossom\",\"color\":\"#c0e3b3\",\"italic\":false}",
+
+                  "lore": ["[ {\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false}]","[{\"translate\":\"  \",\"color\":\"gray\",\"italic\": false},{\"color\":\"blue\",\"italic\": false,\"translate\":\"item.minecraft.iron_sword\"}]","{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}"]
+                  
+               
+                 
+                }
+  }
+}

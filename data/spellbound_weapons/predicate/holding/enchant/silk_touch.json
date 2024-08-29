@@ -1,16 +1,18 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "equipment": {
-        "mainhand": {
-          "enchantments": [
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "predicates": {
+          "minecraft:enchantments": [
             {
-              "enchantment": "minecraft:silk_touch"
+              "enchantments": "minecraft:silk_touch",
+              "levels": 1
             }
           ]
         }
       }
     }
   }
-  
+}

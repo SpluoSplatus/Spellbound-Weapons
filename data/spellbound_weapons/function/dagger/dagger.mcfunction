@@ -5,7 +5,7 @@
 #execute as @s[scores={spellbound_dagger_cooldown=..9}] at @s run scoreboard players add @s spellbound_dagger_cooldown 1
 
 
-item modify entity @s[nbt={SelectedItem:{tag:{display:{Name:'{"text":"Dagger"}'}}}}] weapon.mainhand spellbound_weapons:name/dagger
+item modify entity @s[nbt={SelectedItem:{components:{"minecraft:custom_name":'"Dagger"'}}}] weapon.mainhand spellbound_weapons:name/dagger
 
 
 execute as @s[predicate=!spellbound_weapons:holding/enchant/efficency1-5] at @s run item modify entity @s weapon.mainhand spellbound_weapons:stats/dagger_0

@@ -8,7 +8,7 @@
                 
               {
                 "type": "minecraft:loot_table",
-                "name": "spellbound_weapons:item/chainfiring"
+                "value": "spellbound_weapons:item/chainfiring"
               ,
                 "functions": [
                     {

@@ -1,5 +1,8 @@
+execute at @s as @e[distance=1..5,sort=nearest,limit=1,type=!#spellbound_weapons:misc,nbt={HurtTime:10s}] at @s run function spellbound_weapons:windswept_sword/hit_mob
+
+#summon wind unless critical hit
+execute unless score @s spellbound_fallspeed matches ..-20 as @s[predicate=!spellbound_weapons:holding/enchant/sweeping_edge3] at @s positioned ^ ^ ^1.25 run summon marker ~ ~1 ~ {Tags:["spellbound_sand_wind","spellbound_sand_wind_hit","spellbound_marker"]}
+execute unless score @s spellbound_fallspeed matches ..-20 as @s[predicate=spellbound_weapons:holding/enchant/sweeping_edge3] at @s positioned ^ ^ ^1.25 run summon marker ~ ~1 ~ {Tags:["spellbound_sand_wind","spellbound_sand_wind_hit","spellbound_sand_wind_enchanted","spellbound_marker"]}
 
 
-execute as @s[distance=..0.8,type=player] at @s run function spellbound_weapons:windswept_sword/jump
-execute as @s[distance=..0.8,type=!player] at @s facing entity @p[scores={spellbound_sand=1..}] eyes run function spellbound_weapons:windswept_sword/move
-execute as @s[distance=..0.8,type=!#spellbound_weapons:misc] at @s run function spellbound_weapons:other/damage/entity_damage1
+execute at @s positioned ~ ~1 ~ run data modify entity @e[limit=1,type=marker,tag=spellbound_sand_wind,sort=nearest] Rotation set from entity @s Rotation

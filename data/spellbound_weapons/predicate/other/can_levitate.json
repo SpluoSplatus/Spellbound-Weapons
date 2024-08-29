@@ -1,31 +1,26 @@
 {
-    "condition": "minecraft:all_of",
-    "terms": [
-        {
-            "condition": "minecraft:inverted",
-            "term":
-            {
-                "condition": "minecraft:location_check",
-                "predicate": {
-                  "block": {
-                    "tag": "spellbound_weapons:permeable"
-                  }
-                }
-              }
-        }
-        
-        
-     ,
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "spellbound_rotation": {
-            "min": 86,
-            "max": 90
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "blocks": "#spellbound_weapons:permeable"
           }
         }
       }
-    ]
-  }
-  
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "spellbound_rotation": {
+          "min": 86,
+          "max": 90
+        }
+      }
+    }
+  ]
+}

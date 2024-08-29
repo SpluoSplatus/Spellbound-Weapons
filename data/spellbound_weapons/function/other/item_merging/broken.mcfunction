@@ -5,7 +5,7 @@ execute run scoreboard players add @s spellbound_count 1
 
 
 execute if score @s spellbound_count matches 1.. run particle poof ~ ~.3 ~ 0 0 0 .05 1 force @a[distance=..64]
-execute if score @s spellbound_count matches 1.. run particle block netherite_block ~ ~.2 ~ 0 0 0 0 1 force @a[distance=..32] 
+execute if score @s spellbound_count matches 1.. run particle block{block_state:"netherite_block"} ~ ~.2 ~ 0 0 0 0 1 force @a[distance=..32] 
 
 execute if score @s spellbound_count matches 8 run playsound item.trident.hit_ground block @a[distance=..16] ~ ~ ~ 0.1 1.75
 execute if score @s spellbound_count matches 9 run playsound item.trident.hit_ground block @a[distance=..16] ~ ~ ~ 0.2 1.75

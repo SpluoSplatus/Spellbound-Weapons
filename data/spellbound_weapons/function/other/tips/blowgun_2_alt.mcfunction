@@ -1,1 +1,1 @@
-execute if score spellbound_tips spellbound_count matches 1 run title @s[tag=!1_splatus_actionbar_disabled] actionbar [{"translate":"Hold "},{"keybind":"key.use"},{"translate": " to aim and then release to shoot"},{"text": " (Requires arrow in Survival Mode)"}]
+execute if score spellbound_tips spellbound_settings matches 1 run title @s[tag=!1_splatus_actionbar_disabled] actionbar [{"translate":"Hold "},{"keybind":"key.use"},{"translate": " to aim and then release to shoot"},{"text": " (Requires arrow in Survival Mode)"}]

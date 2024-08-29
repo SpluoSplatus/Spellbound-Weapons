@@ -1,28 +1,7 @@
 {
-    "parent": "item/iron_axe",
+    "parent": "1_splatus:item/hammer",
     "textures": {
-        "layer0": "1_splatus:item/hammer_ready"
-    },
-    "display": {
-        "thirdperson_righthand": {
-            "rotation": [ 0, -90, 55 ],
-            "translation": [ 0, 4.0, 0.5 ],
-            "scale": [ 1.3, 1.3, 1.3 ]
-        },
-        "thirdperson_lefthand": {
-            "rotation": [ 0, 90, -55 ],
-            "translation": [ 0, 4.0, 0.5 ],
-            "scale": [ 1.3, 1.3, 1.3 ]
-        },
-        "firstperson_righthand": {
-            "rotation": [ 0, -90, 25 ],
-            "translation": [ 1.13, 3.2, 1.13 ],
-            "scale": [ 1.05, 1.05, 1.05 ]
-        },
-        "firstperson_lefthand": {
-            "rotation": [ 0, 90, -25 ],
-            "translation": [ 1.13, 3.2, 1.13 ],
-            "scale": [ 1.05, 1.05, 1.05 ]
-        }
+        "layer0": "1_splatus:item/hammer",
+        "layer1": "1_splatus:item/hammer_ready"
     }
 }

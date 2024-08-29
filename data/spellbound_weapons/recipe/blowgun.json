@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " #",
+    " g"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bamboo_block"
+    },
+    "g": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "id": "minecraft:bow",
+    "components": {
+
+                  "custom_model_data": 47032,
+                  "max_damage": 60,
+
+                  "custom_data": {
+                    "SpellboundItem": 1,
+                    "SpellboundBlowgun": 1
+                  },
+                
+                 "attribute_modifiers": {"modifiers":[]},
+ "item_name": "{\"translate\":\"Blowgun\",\"color\":\"#b4d9ab\",\"italic\":false}",
+
+                  "lore": ["[ {\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false}]","[{\"translate\":\"  \",\"color\":\"gray\",\"italic\": false},{\"color\":\"blue\",\"italic\": false,\"translate\":\"item.minecraft.bow\"}]","{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}"]
+                  
+
+                 
+                }
+  }
+}

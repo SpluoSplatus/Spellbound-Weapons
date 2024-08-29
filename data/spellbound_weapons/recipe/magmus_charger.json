@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "#g#",
+      "#b#",
+      "#2#"
+    ],
+    "key": {
+      "2": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "#": {
+        "item": "minecraft:fire_charge"
+      },
+      "b": {
+        "item": "minecraft:bow"
+      },
+      "g": {
+        "item": "minecraft:gold_block"
+      }
+    },
+    "result": {
+      "id": "minecraft:bow",
+      "components": {
+
+                  "custom_model_data": 47040,
+                  "fire_resistant": {},
+
+                  "custom_data": {
+                    "SpellboundItem": 1,
+                    "SpellboundMagmusCharger": 1
+                  },
+                
+                 "attribute_modifiers": {"modifiers":[]},
+ "item_name": "{\"translate\":\"Magmus Charger\",\"color\":\"#e34627\",\"italic\":false}",
+
+                  "lore": ["[ {\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false}]","[{\"translate\":\"  \",\"color\":\"gray\",\"italic\": false},{\"color\":\"blue\",\"italic\": false,\"translate\":\"item.minecraft.bow\"}]","{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}"]
+                  
+
+                 
+                }
+    }
+  }
+  

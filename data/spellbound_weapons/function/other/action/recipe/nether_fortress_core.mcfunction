@@ -1,1 +1,0 @@
-tellraw @s [{"translate":"You have learned a new weapon recipe, ","color":"gray"},{"translate": "Blazeblade","color": "#ff8400"},{"translate": " and "},{"translate": "Witherblade","color": "#7f7aa1"},{"translate": ". Use /trigger spellbound_recipes in chat to view your current recipes"}]

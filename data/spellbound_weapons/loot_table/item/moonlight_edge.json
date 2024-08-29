@@ -8,8 +8,24 @@
             "name": "minecraft:diamond_sword",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:47046,SpellboundItem:1,SpellboundMoonlightEdge:1,display:{Name:'{\"translate\":\"Moonlight Edge\",\"color\":\"#9d64ed\",\"italic\":false}',Lore:['[{\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false},{\"translate\":\"item.minecraft.diamond_sword\"}]','{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}']}}"
+                "function": "minecraft:set_components",
+                "components": {
+
+                  "custom_model_data": 47046,
+
+                  "custom_data": {
+                    "SpellboundItem": 1,
+                    "SpellboundMoonlightEdge": 1
+                  },
+                
+                 "attribute_modifiers": {"modifiers":[]},
+ "item_name": "{\"translate\":\"Moonlight Edge\",\"color\":\"#9d64ed\",\"italic\":false}",
+
+                  "lore": ["[ {\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false}]","[{\"translate\":\"  \",\"color\":\"gray\",\"italic\": false},{\"color\":\"blue\",\"italic\": false,\"translate\":\"item.minecraft.diamond_sword\"}]","{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}"]
+                  
+
+                 
+                }
               }
             ]
           }

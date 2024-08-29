@@ -1,17 +1,20 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "equipment": {
-        "offhand": {
-          "enchantments": [
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "predicates": {
+          "minecraft:enchantments": [
             {
-              "enchantment": "minecraft:luck_of_the_sea",
-              "levels": 3
+              "enchantments": "minecraft:luck_of_the_sea",
+              "levels": {
+                "min": 3
+              }
             }
           ]
         }
       }
     }
   }
-  
+}

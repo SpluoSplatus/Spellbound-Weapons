@@ -1,15 +1,16 @@
-summon marker ~ ~.9 ~ {Tags:["spellbound_thorn","spellbound_marker"]}
-data modify entity @e[type=marker,tag=spellbound_thorn,sort=nearest,limit=1] Rotation set from entity @s Rotation
+summon marker ~ ~ ~ {Tags:["spellbound_thorn","spellbound_marker"]}
+data modify entity @n[type=marker,tag=spellbound_thorn] Rotation set from entity @s Rotation
 
-execute store result score @e[sort=nearest,limit=1,type=marker,tag=spellbound_thorn] spellbound_uuid run scoreboard players get @s spellbound_uuid
-execute store result score @e[sort=nearest,limit=1,type=marker,tag=spellbound_thorn] spellbound_uuid2 run scoreboard players get @s spellbound_uuid2
-execute store result score @e[sort=nearest,limit=1,type=marker,tag=spellbound_thorn] spellbound_uuid3 run scoreboard players get @s spellbound_uuid3
-execute store result score @e[sort=nearest,limit=1,type=marker,tag=spellbound_thorn] spellbound_uuid4 run scoreboard players get @s spellbound_uuid4
+execute if predicate spellbound_weapons:holding/weapon/thorn_blossom_cherry run tag @n[type=marker,tag=spellbound_thorn] add spellbound_thorn_cherry
 
-execute as @s[predicate=spellbound_weapons:holding/enchant/sweeping_edge1] run scoreboard players set @e[sort=nearest,limit=1,type=marker,tag=spellbound_thorn] spellbound_enchantlevel 1
-execute as @s[predicate=spellbound_weapons:holding/enchant/sweeping_edge2] run scoreboard players set @e[sort=nearest,limit=1,type=marker,tag=spellbound_thorn] spellbound_enchantlevel 2
-execute as @s[predicate=spellbound_weapons:holding/enchant/sweeping_edge3] run scoreboard players set @e[sort=nearest,limit=1,type=marker,tag=spellbound_thorn] spellbound_enchantlevel 3 
+execute store result score @n[type=marker,tag=spellbound_thorn] spellbound_uuid run scoreboard players get @s spellbound_uuid
+execute store result score @n[type=marker,tag=spellbound_thorn] spellbound_uuid2 run scoreboard players get @s spellbound_uuid2
+execute store result score @n[type=marker,tag=spellbound_thorn] spellbound_uuid3 run scoreboard players get @s spellbound_uuid3
+execute store result score @n[type=marker,tag=spellbound_thorn] spellbound_uuid4 run scoreboard players get @s spellbound_uuid4
 
+execute as @n[type=marker,tag=spellbound_thorn] store result score @s spellbound_rotation2 run data get entity @s Rotation[1]
+execute as @n[type=marker,tag=spellbound_thorn] if score @s spellbound_rotation2 matches ..-20 run tag @s add spellbound_thorn_end
+execute as @n[type=marker,tag=spellbound_thorn] if score @s spellbound_rotation2 matches 45.. run tag @s add spellbound_thorn_end
 
 
 

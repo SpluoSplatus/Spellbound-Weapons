@@ -1,7 +1,7 @@
 
 tag @s add spellbound_temp_explosion_user
 
-particle explosion_emitter ~ ~1 ~ 0 0 0 0 1 force @a[distance=..256]
+particle explosion_emitter ~ ~-2 ~ 0 0 0 0 1 force @a[distance=..256]
 particle explosion ~ ~1 ~ 4 4 4 0 5 force @a[distance=..256]
 particle large_smoke ~ ~1 ~ 0 0 0 .2 40 force @a[distance=..64]
 particle flame ~ ~1 ~ 0 0 0 .2 40 normal @a[distance=..32]
@@ -31,7 +31,7 @@ execute if predicate spellbound_weapons:chance/33_percent run execute positioned
 execute if predicate spellbound_weapons:chance/33_percent run execute positioned ~-2 ~ ~-2 run function spellbound_weapons:other/asset/summon_fire
 execute if predicate spellbound_weapons:chance/33_percent run execute positioned ~-1 ~ ~-2 run function spellbound_weapons:other/asset/summon_fire
 execute if predicate spellbound_weapons:chance/33_percent run execute positioned ~2 ~ ~1 run function spellbound_weapons:other/asset/summon_fire
-execute if predicate spellbound_weapons:chance/33_percent run execute positioned ~3 ~ ~ run function 1_spslatus:spellbound/other/asset/summon_fire
+execute if predicate spellbound_weapons:chance/33_percent run execute positioned ~3 ~ ~ run function spellbound_weapons:other/asset/summon_fire
 execute if predicate spellbound_weapons:chance/33_percent run execute positioned ~-1 ~ ~-4 run function spellbound_weapons:other/asset/summon_fire
 execute if predicate spellbound_weapons:chance/33_percent run execute positioned ~2 ~ ~3 run function spellbound_weapons:other/asset/summon_fire
 execute if predicate spellbound_weapons:chance/33_percent run execute positioned ~2 ~ ~-1 run function spellbound_weapons:other/asset/summon_fire
@@ -60,13 +60,13 @@ execute as @s[predicate=spellbound_weapons:holding/enchant/unbreaking3] if predi
 
 # break
 
-execute as @s[predicate=spellbound_weapons:holding/weapon/golden_ocean_edge,predicate=spellbound_weapons:holding/tag/0_durability] run particle minecraft:block netherite_block ~ ~1 ~ .4 .3 .4 .4 30 normal
-execute as @s[predicate=spellbound_weapons:holding/weapon/golden_ocean_edge,predicate=spellbound_weapons:holding/tag/0_durability] run playsound entity.item.break player @a[distance=..16] ~ ~ ~ 1 1
-execute as @s[predicate=spellbound_weapons:holding/weapon/golden_ocean_edge,predicate=spellbound_weapons:holding/tag/0_durability] run item replace entity @s weapon.mainhand with air
+execute as @s[predicate=spellbound_weapons:holding/weapon/blazing_sword,predicate=spellbound_weapons:holding/tag/0_durability] run particle block{block_state:"minecraft:netherite_block"} ~ ~1 ~ .4 .3 .4 .4 30 normal
+execute as @s[predicate=spellbound_weapons:holding/weapon/blazing_sword,predicate=spellbound_weapons:holding/tag/0_durability] run playsound entity.item.break player @a[distance=..16] ~ ~ ~ 1 1
+execute as @s[predicate=spellbound_weapons:holding/weapon/blazing_sword,predicate=spellbound_weapons:holding/tag/0_durability] run item replace entity @s weapon.mainhand with air
 
 
-execute as @e[distance=0.001..3,type=!#spellbound_weapons:misc] at @s run damage @s 10 spellbound_weapons:explosion by @p
-execute as @e[distance=3..6,type=!#spellbound_weapons:misc] at @s run damage @s 5 spellbound_weapons:explosion by @p
+execute as @e[distance=0.001..4,type=!#spellbound_weapons:misc] at @s run damage @s 10 spellbound_weapons:explosion by @p
+execute as @e[distance=4..6,type=!#spellbound_weapons:misc] at @s run damage @s 5 spellbound_weapons:explosion by @p
 
 tag @s remove spellbound_temp_explosion_user
 

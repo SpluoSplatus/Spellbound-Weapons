@@ -7,7 +7,9 @@
           "items": [
             "minecraft:diamond_sword"
           ],
-          "nbt": "{SpellboundMoonlightEdge:1}"
+          "predicates": {
+"custom_data":
+{"SpellboundMoonlightEdge":1}}
         }
       }
     }

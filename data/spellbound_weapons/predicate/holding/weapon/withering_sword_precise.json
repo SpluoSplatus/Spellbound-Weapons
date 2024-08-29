@@ -7,7 +7,9 @@
           "items": [
             "minecraft:diamond_sword"
           ],
-          "nbt": "{SpellboundWithering:1}"
+          "predicates": {
+"custom_data":
+{"SpellboundWithering":1}}
         }
       }
     }

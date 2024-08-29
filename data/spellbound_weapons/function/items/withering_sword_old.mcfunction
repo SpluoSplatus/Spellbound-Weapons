@@ -1,1 +1,0 @@
-give @s stone_sword{SpellboundItem:1,display:{Name:'{"translate": "Witherblade","italic": false,"color": "#7f7aa1"}',Lore:['{"translate":"Withering II","color":"gray","italic":false}','{"translate":"Spellbound Weapons","color":"#676e75","italic": true}']},SpellboundWithering:1,CustomModelData:47015}

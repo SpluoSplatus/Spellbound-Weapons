@@ -1,0 +1,56 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components":  {
+
+                  "custom_model_data": 47050,
+
+                  "custom_data": {
+                    "SpellboundItem": 1,
+                    "SpellboundThornBlossom": 1
+                  },
+                  
+                  "minecraft:attribute_modifiers":
+                  
+                  [
+                    {
+                      
+                      "type": "minecraft:generic.attack_damage",
+                      "amount": 6.0,
+                      "operation": "add_value",
+                      "id": "base_attack_damage",
+                      "slot": "mainhand"
+                    }
+                  ,
+                    {
+                      "type": "minecraft:generic.attack_speed",
+                      "amount": -2.5,
+                      "operation": "add_value",
+                      "id": "base_attack_speed",
+                      "slot": "mainhand"
+                    }
+                  ],
+                
+ "item_name": "{\"translate\":\"Thorn Blossom\",\"color\":\"#6fc959\",\"italic\":false}",
+
+                  "lore": ["[ {\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false}]","[{\"translate\":\"  \",\"color\":\"gray\",\"italic\": false},{\"color\":\"blue\",\"italic\": false,\"translate\":\"item.minecraft.diamond_sword\"}]","{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}"]
+                  
+
+                 
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

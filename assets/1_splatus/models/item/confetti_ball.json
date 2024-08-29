@@ -1,0 +1,6 @@
+{
+    "parent": "item/snowball",
+    "textures": {
+        "layer0": "1_splatus:item/confetti_ball"
+    }
+}

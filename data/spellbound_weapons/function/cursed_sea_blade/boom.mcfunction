@@ -1,4 +1,4 @@
-particle block water ~ ~1 ~ 0 0 0 0 5 force @a[distance=..64]
+particle block{block_state:"water"} ~ ~1 ~ 0 0 0 0 5 force @a[distance=..64]
 execute if score @s spellbound_curse_cooldown matches 20.. run particle poof ~ ~1 ~ 0 0 0 .15 1 force @a[distance=..128]
 
 execute if score @s spellbound_curse_cooldown matches 1 run playsound minecraft:entity.guardian.attack player @a[distance=..32] ~ ~ ~ 2 1.5

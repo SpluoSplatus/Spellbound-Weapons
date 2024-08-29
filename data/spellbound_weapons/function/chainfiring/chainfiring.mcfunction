@@ -1,7 +1,7 @@
 #advancement grant @s only minecraft:adventure/spellbound_all_weapons chainfiring_crossbow
 
 
-item modify entity @s[predicate=spellbound_weapons:holding/weapon/chainfiring,nbt={SelectedItem:{tag:{display:{Name:'{"text":"Chainfiring Crossbow"}'}}}}] weapon.mainhand spellbound_weapons:name/chainfiring
+item modify entity @s[predicate=spellbound_weapons:holding/weapon/chainfiring,nbt={SelectedItem:{components:{"minecraft:custom_name":'"Chainfiring Crossbow"'}}}] weapon.mainhand spellbound_weapons:name/chainfiring
 
 execute as @s[predicate=spellbound_weapons:holding/weapon/chainfiring,predicate=!spellbound_weapons:holding/tag/ranged] at @s run item modify entity @s weapon.mainhand spellbound_weapons:ranged
 execute as @s[predicate=spellbound_weapons:holding/weapon/chainfiring_offhand,predicate=!spellbound_weapons:holding/tag/ranged_offhand] at @s run item modify entity @s weapon.offhand spellbound_weapons:ranged

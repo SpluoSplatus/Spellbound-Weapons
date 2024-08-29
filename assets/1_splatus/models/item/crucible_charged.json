@@ -1,7 +1,7 @@
 {
-    "parent": "item/iron_sword",
+    "parent": "1_splatus:item/crucible_base",
     "textures": {
-        "layer0": "1_splatus:item/crucible_charged"
+        "layer0": "1_splatus:item/crucible/crucible_charged"
     },
     "display": {
         "thirdperson_righthand": {

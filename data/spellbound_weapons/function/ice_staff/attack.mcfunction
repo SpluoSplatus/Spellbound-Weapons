@@ -2,17 +2,17 @@
 ######################################################################
 
 #durability mainhand
-execute as @s[predicate=spellbound_weapons:holding/weapon/ice_staff,predicate=!spellbound_weapons:holding/enchant/unbreaking1-3] if predicate spellbound_weapons:chance/50_percent run item modify entity @s[gamemode=!creative] weapon.mainhand spellbound_weapons:damage2
-execute as @s[predicate=spellbound_weapons:holding/weapon/ice_staff,predicate=spellbound_weapons:holding/enchant/unbreaking1] if predicate spellbound_weapons:chance/50_percent if predicate spellbound_weapons:chance/50_percent run item modify entity @s[gamemode=!creative] weapon.mainhand spellbound_weapons:damage2
-execute as @s[predicate=spellbound_weapons:holding/weapon/ice_staff,predicate=spellbound_weapons:holding/enchant/unbreaking2] if predicate spellbound_weapons:chance/50_percent if predicate spellbound_weapons:chance/33_percent run item modify entity @s[gamemode=!creative] weapon.mainhand spellbound_weapons:damage2
-execute as @s[predicate=spellbound_weapons:holding/weapon/ice_staff,predicate=spellbound_weapons:holding/enchant/unbreaking3] if predicate spellbound_weapons:chance/50_percent if predicate spellbound_weapons:chance/25_percent run item modify entity @s[gamemode=!creative] weapon.mainhand spellbound_weapons:damage2
+execute as @s[predicate=spellbound_weapons:holding/weapon/ice_staff,predicate=!spellbound_weapons:holding/enchant/unbreaking1-3] run item modify entity @s[gamemode=!creative] weapon.mainhand spellbound_weapons:damage0.5
+execute as @s[predicate=spellbound_weapons:holding/weapon/ice_staff,predicate=spellbound_weapons:holding/enchant/unbreaking1] if predicate spellbound_weapons:chance/50_percent run item modify entity @s[gamemode=!creative] weapon.mainhand spellbound_weapons:damage0.5
+execute as @s[predicate=spellbound_weapons:holding/weapon/ice_staff,predicate=spellbound_weapons:holding/enchant/unbreaking2] if predicate spellbound_weapons:chance/50_percent if predicate spellbound_weapons:chance/33_percent run item modify entity @s[gamemode=!creative] weapon.mainhand spellbound_weapons:damage0.5
+execute as @s[predicate=spellbound_weapons:holding/weapon/ice_staff,predicate=spellbound_weapons:holding/enchant/unbreaking3] if predicate spellbound_weapons:chance/50_percent if predicate spellbound_weapons:chance/25_percent run item modify entity @s[gamemode=!creative] weapon.mainhand spellbound_weapons:damage0.5
 
 
 #durability offhand
-execute as @s[predicate=spellbound_weapons:holding/weapon/ice_staff_offhand,predicate=!spellbound_weapons:holding/enchant/unbreaking1-3_offhand] if predicate spellbound_weapons:chance/50_percent run item modify entity @s[gamemode=!creative] weapon.offhand spellbound_weapons:damage2
-execute as @s[predicate=spellbound_weapons:holding/weapon/ice_staff_offhand,predicate=spellbound_weapons:holding/enchant/unbreaking1_offhand] if predicate spellbound_weapons:chance/50_percent if predicate spellbound_weapons:chance/50_percent run item modify entity @s[gamemode=!creative] weapon.offhand spellbound_weapons:damage2
-execute as @s[predicate=spellbound_weapons:holding/weapon/ice_staff_offhand,predicate=spellbound_weapons:holding/enchant/unbreaking2_offhand] if predicate spellbound_weapons:chance/50_percent if predicate spellbound_weapons:chance/33_percent run item modify entity @s[gamemode=!creative] weapon.offhand spellbound_weapons:damage2
-execute as @s[predicate=spellbound_weapons:holding/weapon/ice_staff_offhand,predicate=spellbound_weapons:holding/enchant/unbreaking3_offhand] if predicate spellbound_weapons:chance/50_percent if predicate spellbound_weapons:chance/25_percent run item modify entity @s[gamemode=!creative] weapon.offhand spellbound_weapons:damage2
+execute as @s[predicate=spellbound_weapons:holding/weapon/ice_staff_offhand,predicate=!spellbound_weapons:holding/enchant/unbreaking1-3_offhand] if predicate spellbound_weapons:chance/50_percent run item modify entity @s[gamemode=!creative] weapon.offhand spellbound_weapons:damage0.5
+execute as @s[predicate=spellbound_weapons:holding/weapon/ice_staff_offhand,predicate=spellbound_weapons:holding/enchant/unbreaking1_offhand] if predicate spellbound_weapons:chance/50_percent if predicate spellbound_weapons:chance/50_percent run item modify entity @s[gamemode=!creative] weapon.offhand spellbound_weapons:damage0.5
+execute as @s[predicate=spellbound_weapons:holding/weapon/ice_staff_offhand,predicate=spellbound_weapons:holding/enchant/unbreaking2_offhand] if predicate spellbound_weapons:chance/50_percent if predicate spellbound_weapons:chance/33_percent run item modify entity @s[gamemode=!creative] weapon.offhand spellbound_weapons:damage0.5
+execute as @s[predicate=spellbound_weapons:holding/weapon/ice_staff_offhand,predicate=spellbound_weapons:holding/enchant/unbreaking3_offhand] if predicate spellbound_weapons:chance/50_percent if predicate spellbound_weapons:chance/25_percent run item modify entity @s[gamemode=!creative] weapon.offhand spellbound_weapons:damage0.5
 
 ######################################################################
 
@@ -27,18 +27,23 @@ execute as @s run playsound block.amethyst_block.step player @a[distance=..20] ~
 execute as @s run playsound block.amethyst_block.step player @a[distance=..20] ~ ~ ~ 1.5 2
 
 # bam
-execute as @s[predicate=spellbound_weapons:holding/weapon/ice_staff,predicate=spellbound_weapons:holding/enchant/luck_of_the_sea2] run summon armor_stand ^ ^ ^1.25 {Tags:["spellbound_ice_staff_ice","spellbound_ice_staff_ice_enchanted_low"],ArmorItems:[{},{},{},{id:"minecraft:ice",Count:1b,tag:{SpellboundIceStaffBlock:1}}],Invisible:1b,Invulnerable:1b,NoGravity:1b,CustomName:'{"translate":"Ice Block"}'}
-execute as @s[predicate=spellbound_weapons:holding/weapon/ice_staff,predicate=spellbound_weapons:holding/enchant/luck_of_the_sea3] run summon armor_stand ^ ^ ^1.25 {Tags:["spellbound_ice_staff_ice","spellbound_ice_staff_ice_enchanted"],ArmorItems:[{},{},{},{id:"minecraft:ice",Count:1b,tag:{SpellboundIceStaffBlock:1}}],Invisible:1b,Invulnerable:1b,NoGravity:1b,CustomName:'{"translate":"Ice Block"}'}
-execute as @s[predicate=spellbound_weapons:holding/weapon/ice_staff,predicate=!spellbound_weapons:holding/enchant/luck_of_the_sea3,predicate=!spellbound_weapons:holding/enchant/luck_of_the_sea2] run summon armor_stand ^ ^ ^1.25 {Tags:["spellbound_ice_staff_ice"],ArmorItems:[{},{},{},{id:"minecraft:ice",Count:1b,tag:{SpellboundIceStaffBlock:1}}],Invisible:1b,Invulnerable:1b,NoGravity:1b,CustomName:'{"translate":"Ice Block"}'}
+summon armor_stand ^ ^ ^1.25 {Tags:["spellbound_ice_staff_ice"],ArmorItems:[{},{},{},{id:"minecraft:ice",count:1,components:{"custom_data":{"SpellboundIceStaffBlock":1}}}],Invisible:1b,Invulnerable:1b,NoGravity:1b,CustomName:'{"translate":"Ice Block"}'}
 
-execute as @s[predicate=spellbound_weapons:holding/weapon/ice_staff_offhand,predicate=spellbound_weapons:holding/enchant/luck_of_the_sea2_offhand] run summon armor_stand ^ ^ ^1.25 {Tags:["spellbound_ice_staff_ice","spellbound_ice_staff_ice_enchanted_low"],ArmorItems:[{},{},{},{id:"minecraft:ice",Count:1b,tag:{SpellboundIceStaffBlock:1}}],Invisible:1b,Invulnerable:1b,NoGravity:1b,CustomName:'{"translate":"Ice Block"}'}
-execute as @s[predicate=spellbound_weapons:holding/weapon/ice_staff_offhand,predicate=spellbound_weapons:holding/enchant/luck_of_the_sea3_offhand] run summon armor_stand ^ ^ ^1.25 {Tags:["spellbound_ice_staff_ice","spellbound_ice_staff_ice_enchanted"],ArmorItems:[{},{},{},{id:"minecraft:ice",Count:1b,tag:{SpellboundIceStaffBlock:1}}],Invisible:1b,Invulnerable:1b,NoGravity:1b,CustomName:'{"translate":"Ice Block"}'}
-execute as @s[predicate=spellbound_weapons:holding/weapon/ice_staff_offhand,predicate=!spellbound_weapons:holding/enchant/luck_of_the_sea3_offhand,predicate=!spellbound_weapons:holding/enchant/luck_of_the_sea2_offhand] run summon armor_stand ^ ^ ^1.25 {Tags:["spellbound_ice_staff_ice"],ArmorItems:[{},{},{},{id:"minecraft:ice",Count:1b,tag:{SpellboundIceStaffBlock:1}}],Invisible:1b,Invulnerable:1b,NoGravity:1b,CustomName:'{"translate":"Ice Block"}'}
+#enchant?
 
-execute at @s store result score @e[sort=nearest,limit=1,type=armor_stand,tag=spellbound_ice_staff_ice] spellbound_uuid run scoreboard players get @s spellbound_uuid
-execute at @s store result score @e[sort=nearest,limit=1,type=armor_stand,tag=spellbound_ice_staff_ice] spellbound_uuid2 run scoreboard players get @s spellbound_uuid2
-execute at @s store result score @e[sort=nearest,limit=1,type=armor_stand,tag=spellbound_ice_staff_ice] spellbound_uuid3 run scoreboard players get @s spellbound_uuid3
-execute at @s store result score @e[sort=nearest,limit=1,type=armor_stand,tag=spellbound_ice_staff_ice] spellbound_uuid4 run scoreboard players get @s spellbound_uuid4
+execute if entity @s[predicate=spellbound_weapons:holding/enchant/luck_of_the_sea1,predicate=spellbound_weapons:holding/weapon/ice_staff] run scoreboard players set @n[type=armor_stand,tag=spellbound_ice_staff_ice] spellbound_enchantlevel 1
+execute if entity @s[predicate=spellbound_weapons:holding/enchant/luck_of_the_sea2,predicate=spellbound_weapons:holding/weapon/ice_staff] run scoreboard players set @n[type=armor_stand,tag=spellbound_ice_staff_ice] spellbound_enchantlevel 2
+execute if entity @s[predicate=spellbound_weapons:holding/enchant/luck_of_the_sea3,predicate=spellbound_weapons:holding/weapon/ice_staff] run scoreboard players set @n[type=armor_stand,tag=spellbound_ice_staff_ice] spellbound_enchantlevel 3
+
+execute if entity @s[predicate=spellbound_weapons:holding/enchant/luck_of_the_sea1_offhand,predicate=spellbound_weapons:holding/weapon/ice_staff_offhand] run scoreboard players set @n[type=armor_stand,tag=spellbound_ice_staff_ice] spellbound_enchantlevel 1
+execute if entity @s[predicate=spellbound_weapons:holding/enchant/luck_of_the_sea2_offhand,predicate=spellbound_weapons:holding/weapon/ice_staff_offhand] run scoreboard players set @n[type=armor_stand,tag=spellbound_ice_staff_ice] spellbound_enchantlevel 2
+execute if entity @s[predicate=spellbound_weapons:holding/enchant/luck_of_the_sea3_offhand,predicate=spellbound_weapons:holding/weapon/ice_staff_offhand] run scoreboard players set @n[type=armor_stand,tag=spellbound_ice_staff_ice] spellbound_enchantlevel 3
+
+
+execute at @s store result score @n[type=armor_stand,tag=spellbound_ice_staff_ice] spellbound_uuid run scoreboard players get @s spellbound_uuid
+execute at @s store result score @n[type=armor_stand,tag=spellbound_ice_staff_ice] spellbound_uuid2 run scoreboard players get @s spellbound_uuid2
+execute at @s store result score @n[type=armor_stand,tag=spellbound_ice_staff_ice] spellbound_uuid3 run scoreboard players get @s spellbound_uuid3
+execute at @s store result score @n[type=armor_stand,tag=spellbound_ice_staff_ice] spellbound_uuid4 run scoreboard players get @s spellbound_uuid4
 
 
 
@@ -47,14 +52,4 @@ execute as @s run data modify entity @e[type=armor_stand,tag=spellbound_ice_staf
 
 execute as @s run particle minecraft:poof ~ ~1.5 ~ .3 .3 .3 .075 10 force @a[distance=..32]
 
-# break
-#execute as @s[scores={spellbound_i_staff_cooldown=..60},nbt={Inventory:[{id:"minecraft:fishing_rod",Count:1b,tag:{SpellboundIceStaff:1,Damage:64}}]}] run particle minecraft:block orange_concrete ~ ~1 ~ .4 .3 .4 .4 30 normal
-#execute as @s[scores={spellbound_i_staff_cooldown=..60},nbt={Inventory:[{id:"minecraft:fishing_rod",Count:1b,tag:{SpellboundIceStaff:1,Damage:64}}]}] run playsound item.shield.break player @a[distance=..10] ~ ~ ~ 1 0.9
-#execute as @s[scores={spellbound_i_staff_cooldown=..60},nbt={Inventory:[{id:"minecraft:fishing_rod",Count:1b,tag:{SpellboundIceStaff:1,Damage:64}}]}] run item replace entity @s weapon.mainhand with air
-
-# break
-#execute as @s[scores={spellbound_i_staff_cooldown=..60},nbt={Inventory:[{id:"minecraft:fishing_rod",Count:1b,tag:{SpellboundIceStaff:1,Damage:63}}]}] run particle minecraft:block orange_concrete ~ ~1 ~ .4 .3 .4 .4 30 normal
-#execute as @s[scores={spellbound_i_staff_cooldown=..60},nbt={Inventory:[{id:"minecraft:fishing_rod",Count:1b,tag:{SpellboundIceStaff:1,Damage:63}}]}] run playsound item.shield.break player @a[distance=..10] ~ ~ ~ 1 0.9
-#execute as @s[scores={spellbound_i_staff_cooldown=..60},nbt={Inventory:[{id:"minecraft:fishing_rod",Count:1b,tag:{SpellboundIceStaff:1,Damage:63}}]}] run item replace entity @s weapon.mainhand with air
-
-function spellbound_weapons:other/action/set_cooldowns_to_0
+execute unless predicate spellbound_weapons:holding/spellbound_sword run function spellbound_weapons:other/action/set_cooldowns_to_0

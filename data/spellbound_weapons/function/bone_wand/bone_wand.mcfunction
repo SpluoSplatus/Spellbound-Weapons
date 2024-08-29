@@ -1,10 +1,8 @@
 #advancement grant @s only minecraft:adventure/spellbound_all_weapons bone_wand
 
 
-item modify entity @s[predicate=spellbound_weapons:holding/weapon/bone_wand,nbt={SelectedItem:{tag:{display:{Name:'{"text":"Bone Wand"}'}}}}] weapon.mainhand spellbound_weapons:name/bone_wand
+item modify entity @s[predicate=spellbound_weapons:holding/weapon/bone_wand,nbt={SelectedItem:{components:{"minecraft:custom_name":'"Bone Wand"'}}}] weapon.mainhand spellbound_weapons:name/bone_wand
 
-execute if score count spellbound_count matches 1 if score spellbound_tip spellbound_count matches 1 run tellraw @s[tag=!spellbound_player_hasbeenchecked_bonewand] [{"translate":"","color":"gray"},{"translate": "Weapon Tip:","color": "yellow"},{"translate":" Triple clicking "},{"keybind":"key.sneak","color": "gray"},{"translate":" will break your currently existing bone blocks.","color": "gray"}]
-execute if score count spellbound_count matches 1 if score spellbound_tip spellbound_count matches 1 run tag @s add spellbound_player_hasbeenchecked_bonewand
 
 
 execute as @s[predicate=spellbound_weapons:holding/weapon/bone_wand,predicate=!spellbound_weapons:holding/tag/ranged] at @s run item modify entity @s weapon.mainhand spellbound_weapons:ranged
@@ -31,30 +29,45 @@ execute run item modify entity @s[predicate=spellbound_weapons:holding/weapon/bo
 
 
 
-### right click
-execute as @s[scores={spellbound_right_click=1..}] at @s positioned ~ ~1 ~ positioned ^ ^ ^1.5 align zyx positioned ~.5 ~.5 ~.5 if block ~ ~ ~ #spellbound_weapons:bone_wand_replaceable run function spellbound_weapons:bone_wand/right_click
-
 
 
 
 # break
-execute as @s[predicate=spellbound_weapons:holding/weapon/bone_wand,predicate=spellbound_weapons:holding/tag/0_durability] run particle minecraft:block bone_block ~ ~1 ~ .4 .3 .4 .4 30 normal
+execute as @s[predicate=spellbound_weapons:holding/weapon/bone_wand,predicate=spellbound_weapons:holding/tag/0_durability] run particle minecraft:block{block_state:"bone_block"} ~ ~1 ~ .4 .3 .4 .4 30 normal
 execute as @s[predicate=spellbound_weapons:holding/weapon/bone_wand,predicate=spellbound_weapons:holding/tag/0_durability] at @s run playsound item.shield.break player @a[distance=..10] ~ ~ ~ 1 1.5
 execute as @s[predicate=spellbound_weapons:holding/weapon/bone_wand,predicate=spellbound_weapons:holding/tag/0_durability] at @s run playsound entity.skeleton.death player @a[distance=..10] ~ ~ ~ 1 2
 execute as @s[predicate=spellbound_weapons:holding/weapon/bone_wand,predicate=spellbound_weapons:holding/tag/0_durability] run item replace entity @s weapon.mainhand with air
 
-execute as @s[predicate=spellbound_weapons:holding/weapon/bone_wand_offhand,predicate=spellbound_weapons:holding/tag/0_durability_offhand] run particle minecraft:block bone_block ~ ~1 ~ .4 .3 .4 .4 30 normal
+execute as @s[predicate=spellbound_weapons:holding/weapon/bone_wand_offhand,predicate=spellbound_weapons:holding/tag/0_durability_offhand] run particle minecraft:block{block_state:"bone_block"} ~ ~1 ~ .4 .3 .4 .4 30 normal
 execute as @s[predicate=spellbound_weapons:holding/weapon/bone_wand_offhand,predicate=spellbound_weapons:holding/tag/0_durability_offhand] at @s run playsound item.shield.break player @a[distance=..10] ~ ~ ~ 1 1.5
 execute as @s[predicate=spellbound_weapons:holding/weapon/bone_wand_offhand,predicate=spellbound_weapons:holding/tag/0_durability_offhand] at @s run playsound entity.skeleton.death player @a[distance=..10] ~ ~ ~ 1 2
 execute as @s[predicate=spellbound_weapons:holding/weapon/bone_wand_offhand,predicate=spellbound_weapons:holding/tag/0_durability_offhand] run item replace entity @s weapon.offhand with air
 
 
 
-# break all with triple shift
-execute as @s[scores={spellbound_bonewand=1,spellbound_sneak_count=3..}] at @s run function spellbound_weapons:bone_wand/remove_existing_bone_blocks
+#sneak detect (triple shift)
 
-execute if score @s spellbound_movement matches ..0 if predicate spellbound_weapons:sneaking as @s[scores={spellbound_right_click=1..}] run function spellbound_weapons:bone_wand/right_click_wall
-scoreboard players set @s spellbound_movement 0
+    execute if score 10tick spellbound_clock matches 1 run scoreboard players set @a spellbound_sneak_count 0
+
+
+    execute as @a[predicate=spellbound_weapons:sneaking,tag=!spellbound_player_sneaking] at @s run scoreboard players add @s spellbound_sneak_count 1
+    execute as @a[predicate=spellbound_weapons:sneaking,tag=!spellbound_player_sneaking] at @s run tag @s add spellbound_player_sneaking
+    execute as @a[predicate=!spellbound_weapons:sneaking,tag=spellbound_player_sneaking] at @s run tag @s remove spellbound_player_sneaking
+
+
+# break all with triple shift
+execute as @s[scores={spellbound_bonewand=1,spellbound_sneak_count=2..}] at @s run function spellbound_weapons:bone_wand/remove_existing_bone_blocks
+
+
+
+#wall sneak right click
+execute unless predicate spellbound_weapons:player_moving if predicate spellbound_weapons:sneaking as @s[scores={spellbound_right_click=1..}] run function spellbound_weapons:bone_wand/right_click_wall
+
+### right click
+execute as @s[scores={spellbound_right_click=1..},tag=!spellbound_bone_wand_right_clicked] at @s positioned ~ ~1 ~ positioned ^ ^ ^1.5 align zyx positioned ~.5 ~.5 ~.5 if block ~ ~ ~ #spellbound_weapons:bone_wand_replaceable run function spellbound_weapons:bone_wand/right_click
+
+tag @s remove spellbound_bone_wand_right_clicked
+
 
 
 #tips

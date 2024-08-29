@@ -6,7 +6,7 @@
       "type": "minecraft:fixed",
       "name": "spellbound_survival"
     },
-    "score": "spellbound_count",
+    "score": "spellbound_settings",
     "scale": 1
   },
   "range": 1

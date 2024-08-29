@@ -5,7 +5,7 @@
     "predicate": {
       "equipment": {
         "mainhand": {
-          "tag": "spellbound_weapons:ranged"
+          "items": "#spellbound_weapons:ranged"
         }
       }
     }
@@ -16,7 +16,7 @@
     "predicate": {
       "equipment": {
         "offhand": {
-          "tag": "spellbound_weapons:ranged"
+          "items": "#spellbound_weapons:ranged"
         }
       }
     }

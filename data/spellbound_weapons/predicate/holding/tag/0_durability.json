@@ -4,9 +4,13 @@
   "predicate": {
     "equipment": {
       "mainhand": {
-        "durability": {
-          "min": 0,
-          "max": 0
+        "predicates": {
+          "damage": {
+            "durability": {
+              "min": 0,
+              "max": 0
+            }
+          }
         }
       }
     }

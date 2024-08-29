@@ -1,18 +1,18 @@
 {
     "parent": "item/iron_sword",
     "textures": {
-        "layer0": "1_splatus:item/thorn_blossom"
+        "layer0": "1_splatus:item/thorn_blossom/normal"
     },
     "display": {
         "thirdperson_righthand": {
             "rotation": [ 0, -90, 55 ],
             "translation": [ 0, 4.0, 0.5 ],
-            "scale": [ 0.95, 0.95, 0.95 ]
+            "scale": [ 1.05, 1.05, 1.05 ]
         },
         "thirdperson_lefthand": {
             "rotation": [ 0, 90, -55 ],
             "translation": [ 0, 4.0, 0.5 ],
-            "scale": [ 0.95, 0.95, 0.95 ]
+            "scale": [ 1.05, 1.05, 1.05 ]
         },
         "firstperson_righthand": {
             "rotation": [ 0, -90, 25 ],

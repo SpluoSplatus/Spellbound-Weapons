@@ -1,20 +1,34 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:diamond_sword",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{SpellboundItem:1,display:{Name:'{\"translate\": \"Windsweeper\",\"italic\": false,\"color\": \"#e1e8a5\"}',Lore:['[{\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false},{\"translate\":\"item.minecraft.diamond_sword\"}]','{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}']},SpellboundWindsweptSword:1,CustomModelData:47014}"
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "max_damage": 1600,
+                "custom_model_data": 47014,
+                "custom_data": {
+                  "SpellboundItem": 1,
+                  "SpellboundWindsweptSword": 1
+                },
+                "attribute_modifiers": {
+                  "modifiers": []
+                },
+                "item_name": "{\"translate\":\"Windsweeper\",\"color\":\"#e1e8a5\",\"italic\":false}",
+                "lore": [
+                  "[ {\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false}]","[{\"translate\":\"  \",\"color\":\"gray\",\"italic\": false},{\"color\":\"blue\",\"italic\": false,\"translate\":\"item.minecraft.diamond_sword\"}]",
+                  "{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}"
+                ]
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

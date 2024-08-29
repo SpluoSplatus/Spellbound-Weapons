@@ -1,1 +1,1 @@
-execute if score spellbound_tips spellbound_count matches 1 run title @s[tag=!1_splatus_actionbar_disabled] actionbar [{"translate":"Perform a critical hit (jump and then hit whilst falling)"},{"translate":" to release a Fang Trap"}]
+execute if score spellbound_tips spellbound_settings matches 1 run title @s[tag=!1_splatus_actionbar_disabled] actionbar [{"translate":"Perform a critical hit (jump and then hit whilst falling)"},{"translate":" to release a Fang Trap"}]

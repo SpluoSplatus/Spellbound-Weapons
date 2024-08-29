@@ -15,7 +15,7 @@ execute at @s as @p[distance=..5,scores={spellbound_curse=1..}] if score @s spel
 #### Golden Sea Blade ####
 execute at @s as @p[distance=..5,scores={spellbound_golden_ocean_edge=1..}] if score @s spellbound_golden_ocean_edge matches 1 if entity @s as @e[sort=nearest,limit=1] run playsound minecraft:entity.puffer_fish.blow_out player @a[distance=..20] ~ ~ ~ .75 .5
 execute at @s as @p[distance=..5,scores={spellbound_golden_ocean_edge=1..}] if score @s spellbound_golden_ocean_edge matches 1 if entity @s as @e[sort=nearest,limit=1] run playsound minecraft:entity.generic.swim player @a[distance=..20] ~ ~ ~ .75 1.5
-execute at @s as @p[distance=..5,scores={spellbound_golden_ocean_edge=1..}] if score @s spellbound_golden_ocean_edge matches 1 if entity @s as @e[sort=nearest,limit=1] run particle minecraft:block water ~ ~1 ~ .5 .1 .5 .2 20 force
+execute at @s as @p[distance=..5,scores={spellbound_golden_ocean_edge=1..}] if score @s spellbound_golden_ocean_edge matches 1 if entity @s as @e[sort=nearest,limit=1] run particle minecraft:block{block_state:"water"} ~ ~1 ~ .5 .1 .5 .2 20 force
 execute at @s as @p[distance=..5,scores={spellbound_golden_ocean_edge=1..}] if score @s spellbound_golden_ocean_edge matches 1 if entity @s as @e[sort=nearest,limit=1] run particle minecraft:falling_water ~ ~1 ~ .5 .1 .5 .2 20 force
 
 
@@ -35,11 +35,6 @@ execute at @s as @p[scores={spellbound_delete=1..},distance=..5] if score @s spe
 
 ### MEGA HAMMER
 execute at @s as @p[scores={spellbound_hammer=1..},distance=..5] if score @s spellbound_hammer matches 1 as @e[sort=nearest,limit=1] run function spellbound_weapons:other/hits/mega_hammer
-
-### DAGGER
-execute at @s as @p[distance=..5,scores={s=1..}] at @s if score @s spellbound_dagger matches 1 run particle minecraft:poof ~ ~ ~ .3 .3 .3 .265 2 force @a[distance=..32]
-execute at @s as @p[scores={spellbound_dagger=1..},distance=..5] at @s if score @s spellbound_dagger matches 1 if score @s spellbound_dagger_cooldown matches 10 run effect give @p speed 1 0 false
-execute at @s as @p[scores={spellbound_dagger=1..},distance=..5] at @s if score @s spellbound_dagger matches 1 if score @s spellbound_dagger_cooldown matches 10 run scoreboard players set @p spellbound_dagger_cooldown 0
 
 
 #### evokers wrath ####

@@ -14,4 +14,4 @@ execute at @s if score @s spellbound_count matches 21.. if block ~ ~-.1 ~ #spell
 
 
 execute at @s if score @s spellbound_count matches 20.. if predicate spellbound_weapons:chance/2_percent run kill @s
-execute at @s if entity @e[sort=nearest,limit=1,distance=..3,type=!#spellbound_weapons:misc,type=!#spellbound_weapons:fish,predicate=!spellbound_weapons:holding/weapon/cursed_sea_blade] if predicate spellbound_weapons:chance/5_percent run kill @s
+execute at @s if entity @n[distance=..3,type=!#spellbound_weapons:misc,type=!#spellbound_weapons:fish,predicate=!spellbound_weapons:holding/weapon/cursed_sea_blade] if predicate spellbound_weapons:chance/5_percent run kill @s

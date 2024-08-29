@@ -2,10 +2,11 @@
 #advancement grant @s only minecraft:adventure/spellbound_all_weapons magmus_bow
 
 execute unless score @s[advancements={spellbound_weapons:magmus_charger=true}] spellbound_magmus_charger_cooldown matches 91.. run scoreboard players add @s spellbound_magmus_charger_cooldown 1
+execute if score spellbound_nocooldown spellbound_settings matches 1 unless score @s[advancements={spellbound_weapons:magmus_charger=true}] spellbound_magmus_charger_cooldown matches 80.. run scoreboard players set @s spellbound_magmus_charger_cooldown 80
 
 
 
-item modify entity @s[predicate=spellbound_weapons:holding/weapon/magmus,nbt={SelectedItem:{tag:{display:{Name:'{"text":"Magmus Charger"}'}}}}] weapon.mainhand spellbound_weapons:name/magmus_charger
+item modify entity @s[predicate=spellbound_weapons:holding/weapon/magmus,nbt={SelectedItem:{components:{"minecraft:custom_name":'"Magmus Charger"'}}}] weapon.mainhand spellbound_weapons:name/magmus_charger
 
 
 
@@ -53,4 +54,6 @@ execute if score @s spellbound_magmus_charger_cooldown matches 100 run playsound
 # arrow stuff
 
 
-execute if score @s spellbound_magmus_charger_cooldown matches 1.. as @e[distance=..6,type=#spellbound_weapons:arrow,tag=!spellbound_arrow_checked2,limit=1,sort=nearest,nbt=!{inGround:1b}] if score @s spellbound_uuid = @p[scores={spellbound_magmus_charger_cooldown=1..}] spellbound_uuid if score @s spellbound_uuid2 = @p[scores={spellbound_magmus_charger_cooldown=1..}] spellbound_uuid2 if score @s spellbound_uuid3 = @p[scores={spellbound_magmus_charger_cooldown=1..}] spellbound_uuid3 if score @s spellbound_uuid4 = @p[scores={spellbound_magmus_charger_cooldown=1..}] spellbound_uuid4 run function spellbound_weapons:magmus_charger/arrow_action
+
+execute if score @s spellbound_magmus_charger_cooldown matches 1.. as @e[type=#arrows,tag=!spellbound_arrow_checked2] on origin if entity @s[scores={spellbound_magmus_charger_cooldown=1..}] as @n[type=#arrows,tag=!spellbound_arrow_checked2] run function spellbound_weapons:magmus_charger/arrow_action
+

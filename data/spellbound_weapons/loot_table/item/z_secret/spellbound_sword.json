@@ -1,0 +1,82 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+
+                "custom_model_data": 47997,
+                "unbreakable": {"show_in_tooltip": true},
+                "enchantments": {"levels":{
+                  
+                  "sweeping_edge": 3,
+                  "efficiency": 5,
+                  "fortune": 3,
+                  "silk_touch": 3,
+                  "lure": 3,
+                  "luck_of_the_sea": 3
+                },
+                "show_in_tooltip": false
+                },
+
+                "custom_data": {
+                  "TheSpellboundSword": 1,
+                  "SpellboundItem": 1,
+                  "EndExcalibur": 1,
+                  "BlazingSword": 1,
+                  "CursedSeaBlade": 1,
+                  "SpellboundDagger": 1,
+                  "SpellboundEvokersWrath": 1,
+                  "SpellboundWithering": 1,
+                  "SpellboundWindsweptSword": 1,
+                  "SpellboundCrucible": 1,
+                  "SpellboundMoonlightEdge": 1,
+                  "SpellboundMegaHammer": 1,
+                  "SpellboundIceStaff": 1,
+                  "FireStaff": 1,
+                  "SpellboundElectricStaff": 1
+                },
+                
+                "max_damage": 600,
+                "attribute_modifiers": {
+                  "show_in_tooltip": false,
+                  "modifiers": [
+                    {
+                      "id": "base_attack_damage",
+                      "amount": 6.5,
+                      "operation": "add_value",
+                      "type": "generic.attack_damage",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "base_attack_speed",
+                      "amount": -1.6,
+                      "operation": "add_value",
+                      "type": "generic.attack_speed",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                
+              
+"item_name": "{\"translate\":\"Spellbound Sword\",\"color\":\"#bb00ff\",\"italic\":false,\"obfuscated\":false}",
+"custom_name": "{\"translate\":\"Spellbound Sword\",\"color\":\"#bb00ff\",\"italic\":false,\"obfuscated\":false}",
+
+                "lore": ["{\"translate\":\"The essence of each weapon combined\",\"color\":\"gray\",\"italic\": false}","{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}"]
+                
+
+               
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_shovel",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+
+                  "custom_model_data": 47020,
+                  "max_damage": 400,
+
+                  "custom_data": {
+                    "SpellboundItem": 1,
+                    "SpellboundDagger": 1,
+                    "SpellboundDaggerVariant": 3
+                  },
+                
+                 "attribute_modifiers": {"modifiers":[]},
+ "item_name": "{\"translate\":\"Dagger\",\"color\":\"#60e0cb\",\"italic\":false}",
+ "custom_name": "{\"translate\":\"Dagger\",\"color\":\"#60e0cb\",\"italic\":false}",
+
+                  "lore": ["{\"translate\":\"Variant: Diamond-Plated\",\"color\":\"gray\",\"italic\":false}","[ {\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false}]","[{\"translate\":\"  \",\"color\":\"gray\",\"italic\": false},{\"color\":\"blue\",\"italic\": false,\"translate\":\"item.minecraft.iron_shovel\"}]","{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}"]
+                  
+
+                 
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

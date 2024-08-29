@@ -8,8 +8,26 @@
             "name": "minecraft:fishing_rod",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:47019,SpellboundItem:1,SpellboundBoneWand:1,display:{Name:'{\"translate\":\"Bone Wand\",\"italic\":false,\"color\": \"#aeb1bd\"}',Lore:['[{\"translate\":\"Grindstone Repair: Fishing Rod\",\"color\":\"gray\",\"italic\": false}]','{\"translate\":\"Spellbound Weapons\",\"color\":\"#c7c5db\",\"italic\": true}']}}"
+                "function": "minecraft:set_components",
+                "components": {
+
+                  "custom_model_data": 47019,
+
+                  "custom_data": {
+                    "SpellboundItem": 1,
+                    "SpellboundBoneWand": 1
+                  },
+                  "max_damage": 250,
+                
+                 "attribute_modifiers": {"modifiers":[]},
+ "item_name": "{\"translate\":\"Bone Wand\",\"color\":\"#dbecff\",\"italic\":false}",
+ "custom_name": "{\"translate\":\"Bone Wand\",\"color\":\"#dbecff\",\"italic\":false}",
+
+                  "lore": ["[ {\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false}]","[{\"translate\":\"  \",\"color\":\"gray\",\"italic\": false},{\"color\":\"blue\",\"italic\": false,\"translate\":\"item.minecraft.fishing_rod\"}]","{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}"]
+                  
+
+                 
+                }
               }
             ]
           }
