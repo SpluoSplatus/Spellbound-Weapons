@@ -1,4 +1,4 @@
-tellraw @a [{"translate": "Successfully loaded","color": "gray"},{"translate": " Spellbound Weapons v4.1.0b","color": "green"}]
+tellraw @a [{"translate": "Successfully loaded","color": "gray"},{"translate": " Spellbound Weapons v4.1.0c","color": "green"}]
 
 ### Pack Installed
 

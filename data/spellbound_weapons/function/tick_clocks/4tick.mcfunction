@@ -12,7 +12,7 @@ execute as @a at @s store result score @s spellbound_rotation run data get entit
 
 
 #fried weapon lol
-execute as @a[predicate=spellbound_weapons:holding/tag/netherite_sword] at @s run title @s[tag=!1_splatus_actionbar_disabled] actionbar {"translate":"Your weapon burned whilst converting to netherite. Drop it on the ground to revert it back"}
+execute as @a[predicate=spellbound_weapons:holding/tag/netherite_sword,predicate=spellbound_weapons:holding/tag/spellbound_weapon] at @s run title @s[tag=!1_splatus_actionbar_disabled] actionbar {"translate":"Your weapon burned whilst converting to netherite. Drop it on the ground to revert it back"}
 
 
 execute store result score gamerule_mobGriefing spellbound_count run gamerule mobGriefing
