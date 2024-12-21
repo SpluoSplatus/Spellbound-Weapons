@@ -1,0 +1,182 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+    {
+        "threshold": 47001,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/end_excalibur"
+    }},
+    {
+        "threshold": 47002,
+        "model": {
+        "type": "model",
+        "model": "1_splatus:item/end_excalibur_ready"
+    }},
+    {
+        "threshold": 47003,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/end_excalibur_ready_loop"
+    }},
+    {
+        "threshold": 47014,
+        "model": {
+        "type": "model",
+        "model": "1_splatus:item/windsweeper"
+    }},
+
+    {
+        "threshold": 47015,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/withering_sword_v2"
+    }},
+    {
+        "threshold": 47042,
+        "model": {
+        "type": "model",
+        "model": "1_splatus:item/crucible"
+    }},
+    {
+        "threshold": 47043,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/crucible/charged"
+    }},
+    
+
+    
+    {
+        "threshold": 47046,
+        "model": {
+        "type": "model",
+        "model": "1_splatus:item/moonlight_edge"
+    }},
+    
+    {
+        "threshold": 47047,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/moonlight_edge_charged"
+    }},
+    {
+        "threshold": 47050,
+        "model": {
+        "type": "model",
+        "model": "1_splatus:item/thorn_blossom_diamond"
+    }},
+    {
+        "threshold": 47051,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/thorn_blossom_diamond_pink"
+    }}
+    
+
+
+
+,
+    {
+        "threshold": 47202,
+        "model": {
+        "type": "model",
+        "model": "1_splatus:item/crucible2"
+    }},
+    {
+        "threshold": 47203,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/crucible3"
+    }},
+    {
+        "threshold": 47204,
+        "model": {
+        "type": "model",
+        "model": "1_splatus:item/crucible4"
+    }},
+    {
+        "threshold": 47205,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/crucible5"
+    }},
+    {
+        "threshold": 47206,
+        "model": {
+        "type": "model",
+        "model": "1_splatus:item/crucible6"
+    }},
+    {
+        "threshold": 47207,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/crucible7"
+    }},
+    {
+        "threshold": 47208,
+        "model": {
+        "type": "model",
+        "model": "1_splatus:item/crucible8"
+    }},
+    {
+        "threshold": 47209,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/crucible9"
+    }},
+    {
+        "threshold": 47210,
+        "model": {
+        "type": "model",
+        "model": "1_splatus:item/crucible10"
+    }},
+    {
+        "threshold": 47211,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/crucible11"
+    }},
+    {
+        "threshold": 47212,
+        "model": {
+        "type": "model",
+        "model": "1_splatus:item/crucible12"
+    }},
+    {
+        "threshold": 47213,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/crucible13"
+    }},
+    {
+        "threshold": 47214,
+        "model": {
+        "type": "model",
+        "model": "1_splatus:item/crucible14"
+    }},
+    {
+        "threshold": 47215,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/crucible15"
+    }},
+    {
+        "threshold": 47216,
+        "model": {
+        "type": "model",
+        "model": "1_splatus:item/crucible16"
+    }},
+    {
+        "threshold": 1450003,
+        "model": {"type":"model","model":"incendium:item/chilling"
+    }}
+    
+  ], 
+  "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/diamond_sword"
+    }
+}}

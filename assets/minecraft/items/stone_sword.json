@@ -1,0 +1,82 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 27002,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/windswept"
+        }
+      },
+      {
+        "threshold": 27003,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/withering_sword"
+        }
+      },
+      {
+        "threshold": 47004,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/blazing_sword"
+        }
+      },
+      {
+        "threshold": 47005,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/blazing_sword_extinguish"
+        }
+      },
+      {
+        "threshold": 47006,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/cursed_sea_blade"
+        }
+      },
+      {
+        "threshold": 47014,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/windswept"
+        }
+      },
+      {
+        "threshold": 47015,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/withering_sword"
+        }
+      },
+      {
+        "threshold": 47020,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/evokers_wrath"
+        }
+      },
+      {
+        "threshold": 47021,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/evokers_wrath_ready"
+        }
+      },
+      {
+        "threshold": 47204,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/blazing_sword_soul_fire"
+        }
+      }
+    ], 
+    "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/stone_sword"
+      }
+  }
+}

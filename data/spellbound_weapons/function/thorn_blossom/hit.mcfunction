@@ -1,7 +1,9 @@
 tag @s add spellbound_thorn_blossom_player
 
-playsound minecraft:block.vine.break player @a[distance=..32] ~ ~ ~ 1 1.3
-playsound minecraft:block.vine.break player @a[distance=..32] ~ ~ ~ 1 1.3
+
+execute if entity @s[predicate=spellbound_weapons:holding/weapon/thorn_blossom_cherry] run playsound block.cherry_leaves.break player @a[distance=..32] ~ ~ ~ 1 .8
+execute if entity @s[predicate=spellbound_weapons:holding/weapon/thorn_blossom_diamond] run playsound block.gravel.break player @a[distance=..32] ~ ~ ~ .5 .6
+
 playsound minecraft:block.vine.break player @a[distance=..32] ~ ~ ~ 1 1.3
 playsound minecraft:block.vine.break player @a[distance=..32] ~ ~ ~ 1 .8
 playsound minecraft:block.vine.break player @a[distance=..32] ~ ~ ~ 1 .8

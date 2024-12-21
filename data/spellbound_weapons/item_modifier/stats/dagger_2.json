@@ -12,14 +12,14 @@
     "modifiers": [
       {
         "id": "base_attack_damage",
-        "attribute": "minecraft:generic.attack_damage",
+        "attribute": "minecraft:attack_damage",
         "amount": 4,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
         "id": "base_attack_speed",
-        "attribute": "minecraft:generic.attack_speed",
+        "attribute": "minecraft:attack_speed",
         "amount": -2.15,
         "operation": "add_value",
         "slot": "mainhand"
@@ -38,14 +38,14 @@
     "modifiers": [
       {
         "id": "base_attack_damage",
-        "attribute": "minecraft:generic.attack_damage",
+        "attribute": "minecraft:attack_damage",
         "amount": 5,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
         "id": "base_attack_speed",
-        "attribute": "minecraft:generic.attack_speed",
+        "attribute": "minecraft:attack_speed",
         "amount": -2.15,
         "operation": "add_value",
         "slot": "mainhand"

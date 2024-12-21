@@ -11,7 +11,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "max_damage": 1600,
-                "custom_model_data": 47014,
+                "custom_model_data": { "floats": [47014]},
                 "custom_data": {
                   "SpellboundItem": 1,
                   "SpellboundWindsweptSword": 1

@@ -6,7 +6,7 @@ playsound minecraft:item.glow_ink_sac.use player @a[distance=..32] ~ ~ ~ 1 .8
 particle poof ~ ~.5 ~ .2 0 .2 .02 10 force @a[distance=..64]
 particle block{block_state:"iron_block"} ~ ~.75 ~ .25 0 .25 1 5 force @a[distance=..32]
 
-data modify entity @s Item.components.minecraft:custom_model_data set value 47051
+data modify entity @s Item.components.minecraft:custom_model_data set value {"floats":[47051]}
 
 data modify entity @s[nbt={Item:{id:"minecraft:iron_sword"}}] Item.components.minecraft:item_name set value "{\"translate\":\"Thorn Blossom\",\"color\":\"#ffbde1\",\"italic\":false}"
 

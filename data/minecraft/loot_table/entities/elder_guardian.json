@@ -6,9 +6,8 @@
         "rolls": 1,
         "entries": [
           {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "minecraft:air"
+            "type": "minecraft:empty",
+            "weight": 1
           },
           {
             "type": "minecraft:loot_table",

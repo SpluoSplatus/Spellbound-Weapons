@@ -1,7 +1,13 @@
 [
     {
-      "function": "minecraft:set_custom_model_data",
-      "value": 47021
+        "function": "minecraft:set_custom_model_data",
+        "floats": {
+            "values": [
+                47021
+            ],
+            "mode": "replace_all"
+        }
     }
-  ]
+]
+
   

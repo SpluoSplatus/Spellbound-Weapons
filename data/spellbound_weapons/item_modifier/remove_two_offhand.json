@@ -3,6 +3,8 @@
       "function": "minecraft:set_count",
       "count": -2,
       "add": true
+            
     }
-  ]
+]
+
   

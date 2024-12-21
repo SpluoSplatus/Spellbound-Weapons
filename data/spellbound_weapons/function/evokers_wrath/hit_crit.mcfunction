@@ -17,27 +17,31 @@ execute if predicate spellbound_weapons:holding/enchant/sweeping_edge3 run summo
 
 #############################
 
-execute at @e[type=evoker_fangs,tag=spellbound_temp_uuid] run data modify entity @e[type=evoker_fangs,limit=1,sort=nearest] Owner set from entity @s UUID
-execute as @e[type=evoker_fangs,tag=spellbound_temp_uuid] run tag @s remove spellbound_temp_uuid
+execute as @e[distance=..5,type=evoker_fangs,tag=spellbound_temp_uuid] run data modify entity @s Owner set from entity @p UUID
+execute as @e[distance=..5,type=evoker_fangs,tag=spellbound_temp_uuid] run tag @s remove spellbound_temp_uuid
+
+execute as @e[distance=..5,type=marker,tag=spellbound_temp] run data modify entity @s data.Owner set from entity @p UUID
+execute as @e[distance=..5,type=marker,tag=spellbound_temp] run tag @s remove spellbound_temp
 
 execute at @e[type=marker,tag=spellbound_temp] run data modify entity @e[type=marker,limit=1,sort=nearest] data.Owner set from entity @s UUID
 execute as @e[type=marker,tag=spellbound_temp] run tag @s remove spellbound_temp
 
-execute if predicate spellbound_weapons:holding/enchant/sweeping_edge3 at @e[type=marker,tag=spellbound_temp2] run data modify entity @e[type=marker,limit=1,sort=nearest] data.Owner set from entity @s UUID
-execute if predicate spellbound_weapons:holding/enchant/sweeping_edge3 as @e[type=marker,tag=spellbound_temp2] run tag @s remove spellbound_temp2
+execute if predicate spellbound_weapons:holding/enchant/sweeping_edge3 as @e[distance=..5,type=marker,tag=spellbound_temp2] run data modify entity @s data.Owner set from entity @p UUID
+execute if predicate spellbound_weapons:holding/enchant/sweeping_edge3 as @e[distance=..5,type=marker,tag=spellbound_temp2] run tag @s remove spellbound_temp2
+
 
 #############################
 
 
-summon vex ~ ~2 ~ {Tags:["spellbound_evoker_vex","spellbound_marker"],Invulnerable:1b,Attributes:[{Base:-999.00d,Name:"generic.attack_damage"}]}
-summon vex ~ ~2 ~ {Tags:["spellbound_evoker_vex","spellbound_marker"],Invulnerable:1b,Attributes:[{Base:-999.00d,Name:"generic.attack_damage"}]}
-summon vex ~ ~2 ~ {Tags:["spellbound_evoker_vex","spellbound_marker"],Invulnerable:1b,Attributes:[{Base:-999.00d,Name:"generic.attack_damage"}]}
-summon vex ~ ~2 ~ {Tags:["spellbound_evoker_vex","spellbound_marker"],Invulnerable:1b,Attributes:[{Base:-999.00d,Name:"generic.attack_damage"}]}
-summon vex ~ ~2 ~ {Tags:["spellbound_evoker_vex","spellbound_marker"],Invulnerable:1b,Attributes:[{Base:-999.00d,Name:"generic.attack_damage"}]}
-summon vex ~ ~2 ~ {Tags:["spellbound_evoker_vex","spellbound_marker"],Invulnerable:1b,Attributes:[{Base:-999.00d,Name:"generic.attack_damage"}]}
-summon vex ~ ~2 ~ {Tags:["spellbound_evoker_vex","spellbound_marker"],Invulnerable:1b,Attributes:[{Base:-999.00d,Name:"generic.attack_damage"}]}
-summon vex ~ ~2 ~ {Tags:["spellbound_evoker_vex","spellbound_marker"],Invulnerable:1b,Attributes:[{Base:-999.00d,Name:"generic.attack_damage"}]}
-execute if predicate spellbound_weapons:chance/10_percent run summon allay ~ ~2 ~ {Tags:["spellbound_evoker_vex","spellbound_marker"],Invulnerable:1b,Attributes:[{Base:-999.00d,Name:"generic.attack_damage"}]}
+summon vex ~ ~2 ~ {Tags:["spellbound_evoker_vex","spellbound_marker"],Invulnerable:1b,attributes:[{base:-999.00d,id:"attack_damage"}]}
+summon vex ~ ~2 ~ {Tags:["spellbound_evoker_vex","spellbound_marker"],Invulnerable:1b,attributes:[{base:-999.00d,id:"attack_damage"}]}
+summon vex ~ ~2 ~ {Tags:["spellbound_evoker_vex","spellbound_marker"],Invulnerable:1b,attributes:[{base:-999.00d,id:"attack_damage"}]}
+summon vex ~ ~2 ~ {Tags:["spellbound_evoker_vex","spellbound_marker"],Invulnerable:1b,attributes:[{base:-999.00d,id:"attack_damage"}]}
+summon vex ~ ~2 ~ {Tags:["spellbound_evoker_vex","spellbound_marker"],Invulnerable:1b,attributes:[{base:-999.00d,id:"attack_damage"}]}
+summon vex ~ ~2 ~ {Tags:["spellbound_evoker_vex","spellbound_marker"],Invulnerable:1b,attributes:[{base:-999.00d,id:"attack_damage"}]}
+summon vex ~ ~2 ~ {Tags:["spellbound_evoker_vex","spellbound_marker"],Invulnerable:1b,attributes:[{base:-999.00d,id:"attack_damage"}]}
+summon vex ~ ~2 ~ {Tags:["spellbound_evoker_vex","spellbound_marker"],Invulnerable:1b,attributes:[{base:-999.00d,id:"attack_damage"}]}
+execute if predicate spellbound_weapons:chance/10_percent run summon allay ~ ~2 ~ {Tags:["spellbound_evoker_vex","spellbound_marker"],Invulnerable:1b,attributes:[{base:-999.00d,id:"attack_damage"}]}
 
 
 

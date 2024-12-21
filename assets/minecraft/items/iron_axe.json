@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 47016,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/hammer"
+        }
+      },
+      {
+        "threshold": 47017,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/hammer_ready"
+        }
+      }
+    ], 
+    "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/iron_axe"
+      }
+  }
+}

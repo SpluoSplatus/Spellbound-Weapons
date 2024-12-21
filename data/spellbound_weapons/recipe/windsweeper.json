@@ -7,26 +7,17 @@
     "#2#"
   ],
   "key": {
-    "2": {
-      "item": "minecraft:emerald_block"
-    },
-    "#": {
-      "item": "minecraft:feather"
-    },
-    "b": {
-      "item": "minecraft:iron_sword"
-    },
-    "K": {
-      "item": "minecraft:diamond"
-    },
-    "g": {
-      "item": "minecraft:sandstone"
-    }
+    "2": "minecraft:emerald_block",
+    "#": "minecraft:feather",
+    "b": "minecraft:iron_sword",
+    "K": "minecraft:diamond",
+    "g": "minecraft:sandstone"
+    
   },
   "result": {
     "id": "minecraft:diamond_sword",
     "components": {
-      "custom_model_data": 47014,
+      "custom_model_data": {"floats":[47014]},
       "custom_data": {
         "SpellboundItem": 1,
         "SpellboundWindsweptSword": 1
@@ -37,7 +28,7 @@
       "attribute_modifiers": {
         "modifiers":  [
           {
-            "type": "minecraft:generic.attack_damage",
+            "type": "minecraft:attack_damage",
             "amount": 5.5,
             "operation": "add_value",
             "id": "base_attack_damage",
@@ -45,7 +36,7 @@
           }
         ,
           {
-            "type": "minecraft:generic.attack_speed",
+            "type": "minecraft:attack_speed",
             "amount": -2.4,
             "operation": "add_value",
             "id": "base_attack_speed",

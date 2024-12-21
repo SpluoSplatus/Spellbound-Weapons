@@ -11,7 +11,8 @@
                 "function": "minecraft:set_components",
                 "components": {
 
-                  "custom_model_data": 47032,
+                  "custom_model_data": {
+                                  "floats": [47032]},
                   "max_damage": 60,
 
                   "custom_data": {

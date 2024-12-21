@@ -1,0 +1,95 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+
+    {
+     "threshold": 27016,
+     "model": {
+      "type": "model",
+      "model": "1_splatus:item/blaze_staff"
+     }
+
+    },
+    {
+     "threshold": 27017,
+     "model": {
+      "type": "model",
+      "model": "1_splatus:item/blaze_staff_ready"
+     }
+
+    },
+    {
+     "threshold": 47008,
+     "model": {
+      "type": "model",
+      "model": "1_splatus:item/ice_staff"
+     }
+    },
+    {
+     "threshold": 47009,
+     "model": {
+      "type": "model",
+      "model": "1_splatus:item/fire_staff"
+     }
+    },
+    {
+     "threshold": 47010,
+     "model": {
+      "type": "model",
+      "model": "1_splatus:item/electric_staff"
+     }
+    },
+    {
+     "threshold": 47011,
+     "model": {
+      "type": "model",
+      "model": "1_splatus:item/ice_staff_ready"
+     }
+    },
+    {
+     "threshold": 47012,
+     "model": {
+      "type": "model",
+      "model": "1_splatus:item/fire_staff_ready"
+     }
+    },
+    {
+     "threshold": 47013,
+     "model": {
+      "type": "model",
+      "model": "1_splatus:item/electric_staff_ready"
+     }
+
+    },
+    {
+     "threshold": 47019,
+     "model": {
+      "type": "model",
+      "model": "1_splatus:item/bone_wand"
+     }
+
+    },
+    {
+     "threshold": 47067,
+     "model": {
+      "type": "model",
+      "model": "1_splatus:item/echo_wand"
+     }
+
+    },
+    {
+     "threshold": 47997,
+     "model": {
+      "type": "model",
+      "model": "1_splatus:item/unused/spellbound_sword"
+     }
+    }
+    
+  ], 
+  "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/fishing_rod"
+    }
+}}

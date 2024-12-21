@@ -7,27 +7,18 @@
     "222"
   ],
   "key": {
-    "2": {
-      "item": "minecraft:copper_block"
-    },
-    "#": {
-      "item": "minecraft:moss_block"
-    },
-    "b": {
-      "item": "minecraft:iron_sword"
-    },
-    "K": {
-      "item": "minecraft:diamond"
-    },
-    "g": {
-      "item": "minecraft:spore_blossom"
-    }
+    "2": "minecraft:copper_block",
+    "#": "minecraft:moss_block",
+    "b": "minecraft:iron_sword",
+    "K": "minecraft:diamond",
+    "g": "minecraft:spore_blossom"
+    
   },
   "result": {
     "id": "minecraft:diamond_sword",
    "components": {
 
-                  "custom_model_data": 47050,
+                  "custom_model_data": {"floats":[47050]},
 
                   "custom_data": {
                     "SpellboundItem": 1,
@@ -39,7 +30,7 @@
                   [
                     {
                       
-                      "type": "minecraft:generic.attack_damage",
+                      "type": "minecraft:attack_damage",
                       "amount": 6.0,
                       "operation": "add_value",
                       "id": "base_attack_damage",
@@ -47,7 +38,7 @@
                     }
                   ,
                     {
-                      "type": "minecraft:generic.attack_speed",
+                      "type": "minecraft:attack_speed",
                       "amount": -2.5,
                       "operation": "add_value",
                       "id": "base_attack_speed",

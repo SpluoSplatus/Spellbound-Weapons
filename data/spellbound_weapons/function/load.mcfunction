@@ -1,4 +1,7 @@
-tellraw @a [{"translate": "Successfully loaded","color": "gray"},{"translate": " Spellbound Weapons v4.1.0c","color": "green"}]
+
+execute unless score load_message refresh_settings matches ..0 run tellraw @a [{"translate": "Successfully loaded","color": "gray"},{"translate": " Spellbound Weapons v4.1.2","color": "green"}]
+
+scoreboard objectives add refresh_settings dummy
 
 ### Pack Installed
 

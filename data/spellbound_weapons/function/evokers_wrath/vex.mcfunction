@@ -1,11 +1,10 @@
 
 scoreboard players add @s spellbound_count 1
 
-attribute @s generic.movement_speed base set 1
-attribute @s generic.flying_speed base set 1
-#attribute @s generic.follow_range base set 0
+attribute @s movement_speed base set 1
+attribute @s flying_speed base set 1
 
-effect give @s weakness 10000 255 true
+#attribute @s follow_range base set 0
 
 execute if score @s spellbound_count matches 10.. if predicate spellbound_weapons:chance/3_percent run function spellbound_weapons:other/disappear_effect
 

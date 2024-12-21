@@ -20,13 +20,12 @@ effect give @e[distance=..2,tag=!spellbound_electric_staff_immune] glowing 5
 
 ## loop raycast - distance based on enchant level
 
-execute if score @s spellbound_enchantlevel matches 0 unless block ~ ~ ~ #spellbound_weapons:water unless score temp spellbound_count matches 18.. positioned ^ ^ ^1 run function spellbound_weapons:electric_staff/raycast
+execute if score @s spellbound_enchantlevel matches 0 unless block ~ ~ ~ #spellbound_weapons:water unless score temp spellbound_count matches 17.. positioned ^ ^ ^1 run function spellbound_weapons:electric_staff/raycast
 
-execute if score @s spellbound_enchantlevel matches 1 unless block ~ ~ ~ #spellbound_weapons:water unless score temp spellbound_count matches 20.. positioned ^ ^ ^1 run function spellbound_weapons:electric_staff/raycast
+execute if score @s spellbound_enchantlevel matches 1 unless block ~ ~ ~ #spellbound_weapons:water unless score temp spellbound_count matches 18.. positioned ^ ^ ^1 run function spellbound_weapons:electric_staff/raycast
 
-execute if score @s spellbound_enchantlevel matches 2 unless block ~ ~ ~ #spellbound_weapons:water unless score temp spellbound_count matches 22.. positioned ^ ^ ^1 run function spellbound_weapons:electric_staff/raycast
+execute if score @s spellbound_enchantlevel matches 2 unless block ~ ~ ~ #spellbound_weapons:water unless score temp spellbound_count matches 19.. positioned ^ ^ ^1 run function spellbound_weapons:electric_staff/raycast
 
-execute if score @s spellbound_enchantlevel matches 3 unless block ~ ~ ~ #spellbound_weapons:water unless score temp spellbound_count matches 24.. positioned ^ ^ ^1 run function spellbound_weapons:electric_staff/raycast
+execute if score @s spellbound_enchantlevel matches 3 unless block ~ ~ ~ #spellbound_weapons:water unless score temp spellbound_count matches 20.. positioned ^ ^ ^1 run function spellbound_weapons:electric_staff/raycast
 
 
-scoreboard players reset temp spellbound_count

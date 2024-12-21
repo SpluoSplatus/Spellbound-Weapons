@@ -11,8 +11,11 @@
                 "function": "minecraft:set_components",
                 "components": {
 
-                  "custom_model_data": 47040,
-                  "fire_resistant": {},
+                  "custom_model_data": {
+                                  "floats": [47040]},
+                  "damage_resistant": {
+                    "types": "#is_fire"
+                  },
 
                   "custom_data": {
                     "SpellboundItem": 1,

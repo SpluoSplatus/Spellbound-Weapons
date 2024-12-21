@@ -28,15 +28,15 @@ execute at @s store result score @n[type=marker,tag=spellbound_firestaff] spellb
 #durability mainhand
 execute as @s[predicate=spellbound_weapons:holding/weapon/fire_staff,predicate=!spellbound_weapons:holding/enchant/unbreaking1-3] run item modify entity @s[gamemode=!creative] weapon.mainhand spellbound_weapons:damage0.5
 execute as @s[predicate=spellbound_weapons:holding/weapon/fire_staff,predicate=spellbound_weapons:holding/enchant/unbreaking1] if predicate spellbound_weapons:chance/50_percent run item modify entity @s[gamemode=!creative] weapon.mainhand spellbound_weapons:damage0.5
-execute as @s[predicate=spellbound_weapons:holding/weapon/fire_staff,predicate=spellbound_weapons:holding/enchant/unbreaking2] if predicate spellbound_weapons:chance/50_percent if predicate spellbound_weapons:chance/33_percent run item modify entity @s[gamemode=!creative] weapon.mainhand spellbound_weapons:damage0.5
-execute as @s[predicate=spellbound_weapons:holding/weapon/fire_staff,predicate=spellbound_weapons:holding/enchant/unbreaking3] if predicate spellbound_weapons:chance/50_percent if predicate spellbound_weapons:chance/25_percent run item modify entity @s[gamemode=!creative] weapon.mainhand spellbound_weapons:damage0.5
+execute as @s[predicate=spellbound_weapons:holding/weapon/fire_staff,predicate=spellbound_weapons:holding/enchant/unbreaking2] if predicate spellbound_weapons:chance/33_percent run item modify entity @s[gamemode=!creative] weapon.mainhand spellbound_weapons:damage0.5
+execute as @s[predicate=spellbound_weapons:holding/weapon/fire_staff,predicate=spellbound_weapons:holding/enchant/unbreaking3] if predicate spellbound_weapons:chance/25_percent run item modify entity @s[gamemode=!creative] weapon.mainhand spellbound_weapons:damage0.5
 
 
 #durability offhand
-execute as @s[predicate=spellbound_weapons:holding/weapon/fire_staff_offhand,predicate=!spellbound_weapons:holding/enchant/unbreaking1-3_offhand] if predicate spellbound_weapons:chance/50_percent run item modify entity @s[gamemode=!creative] weapon.offhand spellbound_weapons:damage0.5
-execute as @s[predicate=spellbound_weapons:holding/weapon/fire_staff_offhand,predicate=spellbound_weapons:holding/enchant/unbreaking1_offhand] if predicate spellbound_weapons:chance/50_percent if predicate spellbound_weapons:chance/50_percent run item modify entity @s[gamemode=!creative] weapon.offhand spellbound_weapons:damage0.5
-execute as @s[predicate=spellbound_weapons:holding/weapon/fire_staff_offhand,predicate=spellbound_weapons:holding/enchant/unbreaking2_offhand] if predicate spellbound_weapons:chance/50_percent if predicate spellbound_weapons:chance/33_percent run item modify entity @s[gamemode=!creative] weapon.offhand spellbound_weapons:damage0.5
-execute as @s[predicate=spellbound_weapons:holding/weapon/fire_staff_offhand,predicate=spellbound_weapons:holding/enchant/unbreaking3_offhand] if predicate spellbound_weapons:chance/50_percent if predicate spellbound_weapons:chance/25_percent run item modify entity @s[gamemode=!creative] weapon.offhand spellbound_weapons:damage0.5
+execute as @s[predicate=spellbound_weapons:holding/weapon/fire_staff_offhand,predicate=!spellbound_weapons:holding/enchant/unbreaking1-3_offhand] run item modify entity @s[gamemode=!creative] weapon.offhand spellbound_weapons:damage0.5
+execute as @s[predicate=spellbound_weapons:holding/weapon/fire_staff_offhand,predicate=spellbound_weapons:holding/enchant/unbreaking1_offhand] if predicate spellbound_weapons:chance/50_percent run item modify entity @s[gamemode=!creative] weapon.offhand spellbound_weapons:damage0.5
+execute as @s[predicate=spellbound_weapons:holding/weapon/fire_staff_offhand,predicate=spellbound_weapons:holding/enchant/unbreaking2_offhand] if predicate spellbound_weapons:chance/33_percent run item modify entity @s[gamemode=!creative] weapon.offhand spellbound_weapons:damage0.5
+execute as @s[predicate=spellbound_weapons:holding/weapon/fire_staff_offhand,predicate=spellbound_weapons:holding/enchant/unbreaking3_offhand] if predicate spellbound_weapons:chance/25_percent run item modify entity @s[gamemode=!creative] weapon.offhand spellbound_weapons:damage0.5
 
 ######################################################################
 

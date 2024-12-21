@@ -1,0 +1,96 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 47001,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/burnt_end_excalibur"
+        }
+      },
+      {
+        "threshold": 47014,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/burnt_windsweeper"
+        }
+      },
+      {
+        "threshold": 47015,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/burnt_witherblade"
+        }
+      },
+      {
+        "threshold": 47042,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/burnt_crucible"
+        }
+      },
+      {
+        "threshold": 47046,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/burnt_moonlight_edge"
+        }
+      },
+      {
+        "threshold": 47050,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/thorn_blossom_burnt"
+        }
+      },
+      {
+        "threshold": 47995,
+        "model": {
+          "type": "model",
+          "model": "1_splatus:item/unused/light"
+        }
+      },
+      {
+        "threshold": 1450000,
+        "model": {
+          "type": "model",
+          "model": "incendium:item/patron/daybreaker"
+        }
+      },
+      {
+        "threshold": 1450001,
+        "model": {
+          "type": "model",
+          "model": "incendium:item/patron/witherblade"
+        }
+      },
+      {
+        "threshold": 1450003,
+        "model": {
+          "type": "model",
+          "model": "incendium:item/chilling"
+        }
+      },
+      {
+        "threshold": 1450004,
+        "model": {
+          "type": "model",
+          "model": "incendium:item/sacrifice"
+        }
+      },
+      {
+        "threshold": 1450005,
+        "model": {
+          "type": "model",
+          "model": "incendium:item/vampire"
+        }
+      }
+    ], 
+    "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/netherite_sword"
+      }
+  }
+}

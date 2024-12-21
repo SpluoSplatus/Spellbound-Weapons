@@ -11,7 +11,7 @@
               "function": "minecraft:set_components",
               "components": {
 
-                "custom_model_data": 47997,
+                "custom_model_data": {"floats": [47997]},
                 "unbreakable": {"show_in_tooltip": true},
                 "enchantments": {"levels":{
                   
@@ -51,14 +51,14 @@
                       "id": "base_attack_damage",
                       "amount": 6.5,
                       "operation": "add_value",
-                      "type": "generic.attack_damage",
+                      "type": "minecraft:attack_damage",
                       "slot": "mainhand"
                     },
                     {
                       "id": "base_attack_speed",
                       "amount": -1.6,
                       "operation": "add_value",
-                      "type": "generic.attack_speed",
+                      "type": "minecraft:attack_speed",
                       "slot": "mainhand"
                     }
                   ]

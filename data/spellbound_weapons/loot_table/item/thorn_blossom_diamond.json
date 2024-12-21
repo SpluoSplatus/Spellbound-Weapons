@@ -11,7 +11,8 @@
                 "function": "minecraft:set_components",
                 "components":  {
 
-                  "custom_model_data": 47050,
+                  "custom_model_data": {
+                                  "floats": [47050]},
 
                   "custom_data": {
                     "SpellboundItem": 1,
@@ -23,7 +24,7 @@
                   [
                     {
                       
-                      "type": "minecraft:generic.attack_damage",
+                      "type": "minecraft:attack_damage",
                       "amount": 6.0,
                       "operation": "add_value",
                       "id": "base_attack_damage",
@@ -31,7 +32,7 @@
                     }
                   ,
                     {
-                      "type": "minecraft:generic.attack_speed",
+                      "type": "minecraft:attack_speed",
                       "amount": -2.5,
                       "operation": "add_value",
                       "id": "base_attack_speed",

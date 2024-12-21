@@ -5,7 +5,7 @@
       "equipment": {
         "mainhand": {
           "components": {
-"minecraft:custom_model_data": 47051
+"minecraft:custom_model_data": {"floats":[47051]}
 }
         }
       }

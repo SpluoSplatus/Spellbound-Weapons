@@ -1,0 +1,20 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+
+  {
+      "threshold": 47051,
+      "model":{
+      "type": "model",
+      "model": "1_splatus:item/nether_fortress_notch"
+    }}
+    
+  
+], 
+"fallback": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/nether_brick"
+  }
+}}

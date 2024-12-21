@@ -59,9 +59,9 @@ execute at @s as @s[scores={spellbound_evoker=1..}] at @s run function spellboun
 execute at @s as @s[scores={spellbound_crucible=1..}] at @s run function spellbound_weapons:crucible/hit
 
 
-#### netherlight op
+# #### netherlight op
 
-execute at @s as @s[scores={spellbound_netherlight=1..},distance=..5] at @s if score @s spellbound_netherlight matches 1 if score @s spellbound_netherlight_cooldown matches 20 run function spellbound_weapons:netherlight/summon_beam2
+# execute at @s as @s[scores={spellbound_netherlight=1..},distance=..5] at @s if score @s spellbound_netherlight matches 1 if score @s spellbound_netherlight_cooldown matches 20 run function spellbound_weapons:netherlight/summon_beam2
 
 
 

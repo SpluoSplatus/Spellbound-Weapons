@@ -6,18 +6,15 @@
     " g"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:bamboo_block"
-    },
-    "g": {
-      "item": "minecraft:bone"
-    }
+    "#": "minecraft:bamboo_block",
+    "g": "minecraft:bone"
+    
   },
   "result": {
     "id": "minecraft:bow",
     "components": {
 
-                  "custom_model_data": 47032,
+                  "custom_model_data": {"floats":[47032]},
                   "max_damage": 60,
 
                   "custom_data": {

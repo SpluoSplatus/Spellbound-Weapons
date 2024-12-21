@@ -1,0 +1,31 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+
+  {
+    "threshold": 47018,
+    "model": {
+      "type": "model",
+    "model": "1_splatus:item/dagger"
+  }},
+  {
+    "threshold": 47019,
+    "model": {
+      "type": "model",
+    "model": "1_splatus:item/dagger_gold"
+  }},
+  {
+    "threshold": 47020,
+    "model": {
+      "type": "model",
+    "model": "1_splatus:item/dagger_diamond"
+  }}
+  
+], 
+"fallback": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/iron_shovel"
+  }
+}}

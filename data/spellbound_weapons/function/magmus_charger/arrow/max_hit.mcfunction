@@ -46,8 +46,8 @@ execute as @s[tag=spellbound_magmus_charger_arrow_area_max_spectral] run effect 
 #particle explosion_emitter ~ ~ ~ 0 0 0 0 1 force @a[distance=..256]
 particle explosion ~ ~.5 ~ 2 2 2 0 12 force @a[distance=..256]
 
-particle trial_spawner_detection ~ ~ ~ 1 1 1 .1 200 force @a[distance=..64]
-particle trial_spawner_detection ~ ~ ~ 1 1 1 .05 200 force @a[distance=..64]
+particle trial_spawner_detection ~ ~ ~ 1 1 1 .15 200 force @a[distance=..64]
+particle trial_spawner_detection ~ ~ ~ 1.2 1.2 1.2 .1 200 force @a[distance=..64]
 
 
 execute as @a if score @s spellbound_uuid = @n[type=marker,tag=spellbound_magmus_charger_arrow_area_max] spellbound_uuid if score @s spellbound_uuid2 = @n[type=marker,tag=spellbound_magmus_charger_arrow_area_max] spellbound_uuid2 if score @s spellbound_uuid3 = @n[type=marker,tag=spellbound_magmus_charger_arrow_area_max] spellbound_uuid3 if score @s spellbound_uuid4 = @n[type=marker,tag=spellbound_magmus_charger_arrow_area_max] spellbound_uuid4 run tag @s add spellbound_temp5

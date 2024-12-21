@@ -10,4 +10,9 @@ particle end_rod ~ ~ ~ 0 0 0 .5 5 force @a[distance=..64]
 
 function spellbound_weapons:electric_staff/summon_electirc
 
-execute as @e[distance=..2,dy=0,type=!#spellbound_weapons:misc,tag=!spellbound_electric_staff_immune,predicate=!spellbound_weapons:not_creative_spec] run damage @s 7 spellbound_weapons:magic by @p[tag=spellbound_electric_staff_immune]
+#as hit mob
+execute as @e[distance=..2,dy=0,type=!#spellbound_weapons:misc,tag=!spellbound_electric_staff_immune,predicate=!spellbound_weapons:not_creative_spec,sort=nearest] run function spellbound_weapons:electric_staff/hit_mob
+
+
+
+ playsound block.respawn_anchor.deplete player @a[distance=..32,tag=!spellbound_electric_staff_immune] ~ ~ ~ 1 1.75

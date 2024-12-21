@@ -29,7 +29,7 @@ execute if predicate spellbound_weapons:chance/20_percent run execute positioned
 
 
 
-particle explosion ~ ~.5 ~ 2 2 2 0 12 force @a[distance=..256]
+particle explosion ~ ~.5 ~ 2 2 2 0 6 force @a[distance=..256]
 
 particle trial_spawner_detection ~ ~-1 ~ 1 0.5 1 .1 100 force @a[distance=..64]
 particle trial_spawner_detection ~ ~-1 ~ 1 0.5 1 .05 100 force @a[distance=..64]

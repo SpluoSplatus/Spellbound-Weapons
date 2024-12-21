@@ -5,8 +5,8 @@ execute unless score @s spellbound_crucible_hitcool matches 24.. run scoreboard 
 
 item modify entity @s weapon.mainhand spellbound_weapons:stats/crucible
 
-#attribute @s minecraft:generic.attack_speed base set 3.2
-#attribute @s minecraft:generic.attack_damage base set 2.5
+#attribute @s minecraft:attack_speed base set 3.2
+#attribute @s minecraft:attack_damage base set 2.5
 
 execute store result score @s spellbound_crucible_dye run data get entity @s SelectedItem.components.minecraft:custom_data.CrucibleDye
 

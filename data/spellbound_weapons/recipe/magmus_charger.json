@@ -7,25 +7,22 @@
       "#2#"
     ],
     "key": {
-      "2": {
-        "item": "minecraft:netherite_ingot"
-      },
-      "#": {
-        "item": "minecraft:fire_charge"
-      },
-      "b": {
-        "item": "minecraft:bow"
-      },
-      "g": {
-        "item": "minecraft:gold_block"
-      }
+      "2": "minecraft:netherite_ingot",
+
+      "#": "minecraft:fire_charge",
+
+      "b": "minecraft:bow",
+
+      "g": "minecraft:gold_block"
     },
     "result": {
       "id": "minecraft:bow",
       "components": {
 
-                  "custom_model_data": 47040,
-                  "fire_resistant": {},
+                  "custom_model_data": {"floats":[47040]},
+                  "damage_resistant": {
+                    "types": "#is_fire"
+                  },
 
                   "custom_data": {
                     "SpellboundItem": 1,

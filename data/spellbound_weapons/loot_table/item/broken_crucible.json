@@ -11,7 +11,8 @@
                 "function": "minecraft:set_components",
                 "components": {
 
-                  "custom_model_data": 47044,
+                  "custom_model_data": {
+                                  "floats": [47044]},
                   "rarity": "uncommon",
 
                   "custom_data": {

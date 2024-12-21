@@ -8,7 +8,7 @@ particle block{block_state:"red_concrete"} ~ ~.75 ~ .25 0 .25 1 5 force @a[dista
 
 
 data modify entity @s Item.components.minecraft:custom_data.CrucibleDye set value 1b
-data modify entity @s Item.components.minecraft:custom_model_data set value 47042
+data modify entity @s Item.components.minecraft:custom_model_data set value {"floats":[47042]}
 data modify entity @s Item.components.minecraft:custom_name set value "{\"translate\":\"Crucible\",\"color\":\"#EB3868\",\"italic\":false}"
 data modify entity @s Item.components.minecraft:lore set value ["{\"translate\":\"Color: Red\",\"color\":\"gray\",\"italic\":false}","[ {\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false}]","[{\"translate\":\"  \",\"color\":\"gray\",\"italic\": false},{\"color\":\"blue\",\"italic\": false,\"translate\":\"item.minecraft.diamond_sword\"}]","{\"translate\":\"Spellbound Weapons\",\"color\":\"#676E75\",\"italic\":true}"]
 

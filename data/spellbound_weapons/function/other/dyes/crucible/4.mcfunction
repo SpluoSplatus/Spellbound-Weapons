@@ -7,7 +7,7 @@ particle poof ~ ~.5 ~ .2 0 .2 .02 10 force @a[distance=..64]
 particle block{block_state:"lime_concrete"} ~ ~.75 ~ .25 0 .25 1 5 force @a[distance=..32]
 
 data modify entity @s Item.components.minecraft:custom_data.CrucibleDye set value 4b
-data modify entity @s Item.components.minecraft:custom_model_data set value 47204
+data modify entity @s Item.components.minecraft:custom_model_data set value {"floats":[47204]}
 data modify entity @s Item.components.minecraft:custom_name set value "{\"translate\":\"Crucible\",\"color\":\"#80C71F\",\"italic\":false}"
 data modify entity @s Item.components.minecraft:lore set value ["{\"translate\":\"Color: Lime\",\"color\":\"gray\",\"italic\":false}","[ {\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false}]","[{\"translate\":\"  \",\"color\":\"gray\",\"italic\": false},{\"color\":\"blue\",\"italic\": false,\"translate\":\"item.minecraft.diamond_sword\"}]","{\"translate\":\"Spellbound Weapons\",\"color\":\"#676E75\",\"italic\":true}"]
 

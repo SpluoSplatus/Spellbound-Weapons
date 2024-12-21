@@ -1,7 +1,7 @@
 
 
 
-attribute @s generic.jump_strength modifier add spellbound_weapons:jump_strength -10 add_value
+attribute @s jump_strength modifier add spellbound_weapons:jump_strength -10 add_value
 
 
 execute as @s[predicate=!spellbound_weapons:holding/enchant/unbreaking1-3] at @s run item modify entity @s weapon.mainhand spellbound_weapons:damage0.1

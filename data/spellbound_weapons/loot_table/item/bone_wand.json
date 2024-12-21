@@ -11,7 +11,8 @@
                 "function": "minecraft:set_components",
                 "components": {
 
-                  "custom_model_data": 47019,
+                  "custom_model_data": {
+                                  "floats": [47019]},
 
                   "custom_data": {
                     "SpellboundItem": 1,
