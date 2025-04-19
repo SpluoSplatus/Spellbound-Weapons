@@ -8,7 +8,7 @@ execute as @s[tag=spellbound_magmus_charger_arrow_mid] if score @s spellbound_co
 execute as @s[tag=spellbound_magmus_charger_arrow_mid] if score @s spellbound_count matches 1 store result entity @s Motion[1] double 0.00008 run data get entity @s Motion[1] 10000
 execute as @s[tag=spellbound_magmus_charger_arrow_mid] if score @s spellbound_count matches 1 store result entity @s Motion[2] double 0.00008 run data get entity @s Motion[2] 10000
 
-execute if score @s[tag=spellbound_magmus_charger_arrow_mid] spellbound_count matches 1 run summon minecraft:area_effect_cloud ~.5 ~ ~.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_magmus_charger_arrow_area","spellbound_magmus_charger_arrow_area_mid"]}
+execute if score @s[tag=spellbound_magmus_charger_arrow_mid] spellbound_count matches 1 run summon minecraft:area_effect_cloud ~.5 ~ ~.5 {Particle:{type:"minecraft:block",block_state:"minecraft:air"},Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_magmus_charger_arrow_area","spellbound_magmus_charger_arrow_area_mid"]}
 
 execute at @s if score @s[tag=spellbound_magmus_charger_arrow_mid] spellbound_count matches 1 store result score @n[type=area_effect_cloud,tag=spellbound_magmus_charger_arrow_area_mid] spellbound_uuid run data get entity @s Owner[0]
 execute at @s if score @s[tag=spellbound_magmus_charger_arrow_mid] spellbound_count matches 1 store result score @n[type=area_effect_cloud,tag=spellbound_magmus_charger_arrow_area_mid] spellbound_uuid2 run data get entity @s Owner[1]

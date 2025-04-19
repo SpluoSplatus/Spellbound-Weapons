@@ -1,4 +1,3 @@
 
-execute if predicate spellbound_weapons:chance/8_percent run data merge entity @s {HandItems:[{id:"minecraft:iron_shovel",count:1,components:{custom_model_data:{"floats":[47018]},max_damage:350,custom_data:{SpellboundItem:1,SpellboundDagger:1},attribute_modifiers:{modifiers:[]},item_name:"{\"translate\":\"Dagger\",\"color\":\"#abd9b2\",\"italic\":false}",lore:["{\"translate\":\"Variant: Iron-Plated\",\"color\":\"gray\",\"italic\":false}","[ {\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false}]","[{\"translate\":\"  \",\"color\":\"gray\",\"italic\": false},{\"color\":\"blue\",\"italic\": false,\"translate\":\"item.minecraft.iron_shovel\"}]","{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}"]}},{}],HandDropChances:[0.0f,0.0f],DeathLootTable:"spellbound_weapons:entity/dagger_zombie"}
-
+execute if predicate spellbound_weapons:chance/8_percent run function spellbound_weapons:dagger/spawn_set
 tag @s add spellbound_spawnattempted

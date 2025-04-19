@@ -9,7 +9,7 @@ execute unless score @s spellbound_moonlight_edge_cooldown matches 59..61 if sco
 
 #text
 execute if score @s[tag=!spellbound_player_text_moonlight_edge] spellbound_moonlight_edge_cooldown matches 0..59 run title @s[tag=!1_splatus_actionbar_disabled] actionbar [{"translate": "Charging beam... - "},{"score":{"name":"@s","objective": "spellbound_moonlight_edge_cooldown"}},{"translate": "/60"}]
-execute if score @s[tag=!spellbound_player_text_moonlight_edge] spellbound_moonlight_edge_cooldown matches 60..80 unless score @s spellbound_moonlight_edge_fall_speed matches ..-2 run title @s[tag=!1_splatus_actionbar_disabled] actionbar [{"translate": "Ready! Press "},{"keybind":"key.sneak"},{"translate":" to release beam - 60/60"}]
+execute if score @s[tag=!spellbound_player_text_moonlight_edge] spellbound_moonlight_edge_cooldown matches 60..80 unless score @s spellbound_moonlight_edge_fall_speed matches ..-2 run title @s[tag=!1_splatus_actionbar_disabled] actionbar [{"translate": "Ready! Press "},{"keybind":"key.sneak","color":"yellow"},{"translate":" to release beam - 60/60"}]
 
 
 #im not going to let you cheat fall damage so easily lol

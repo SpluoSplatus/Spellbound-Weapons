@@ -12,8 +12,8 @@
               "components": {
 
                 "custom_model_data": {"floats": [47997]},
-                "unbreakable": {"show_in_tooltip": true},
-                "enchantments": {"levels":{
+                "unbreakable": {},
+                "enchantments": {
                   
                   "sweeping_edge": 3,
                   "efficiency": 5,
@@ -21,8 +21,7 @@
                   "silk_touch": 3,
                   "lure": 3,
                   "luck_of_the_sea": 3
-                },
-                "show_in_tooltip": false
+                
                 },
 
                 "custom_data": {
@@ -44,10 +43,11 @@
                 },
                 
                 "max_damage": 600,
-                "attribute_modifiers": {
-                  "show_in_tooltip": false,
-                  "modifiers": [
+                "attribute_modifiers": [
                     {
+                      "display": {
+                        "type": "default"
+                      },
                       "id": "base_attack_damage",
                       "amount": 6.5,
                       "operation": "add_value",
@@ -55,6 +55,9 @@
                       "slot": "mainhand"
                     },
                     {
+                      "display": {
+                        "type": "default"
+                      },
                       "id": "base_attack_speed",
                       "amount": -1.6,
                       "operation": "add_value",
@@ -62,13 +65,13 @@
                       "slot": "mainhand"
                     }
                   ]
-                },
+                ,
                 
               
-"item_name": "{\"translate\":\"Spellbound Sword\",\"color\":\"#bb00ff\",\"italic\":false,\"obfuscated\":false}",
-"custom_name": "{\"translate\":\"Spellbound Sword\",\"color\":\"#bb00ff\",\"italic\":false,\"obfuscated\":false}",
+"item_name": {"translate":"Spellbound Sword","color":"#bb00ff","italic":false,"obfuscated":false},
+"custom_name": {"translate":"Spellbound Sword","color":"#bb00ff","italic":false,"obfuscated":false},
 
-                "lore": ["{\"translate\":\"The essence of each weapon combined\",\"color\":\"gray\",\"italic\": false}","{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}"]
+                "lore": [{"translate":"The essence of each weapon combined","color":"gray","italic": false},{"translate":"Spellbound Weapons","color":"#676e75","italic": true}]
                 
 
                

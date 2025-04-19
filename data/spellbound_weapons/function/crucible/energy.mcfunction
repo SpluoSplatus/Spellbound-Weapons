@@ -26,7 +26,7 @@ execute if score @s spellbound_crucible_dye matches 4 positioned ^-.25 ^ ^.5 run
 
 execute if score @s spellbound_crucible_dye matches 5 positioned ^-.25 ^ ^.5 run particle dust_color_transition{from_color:[0.114,0.941,0.525],scale:2.25,to_color:[0.710,1.000,0.329]} ~ ~1 ~ 1 1 1 0 6 force @a[distance=..128]
 
-execute if score @s spellbound_crucible_dye matches 6 positioned ^-.25 ^ ^.5 run particle dust_color_transition{from_color:[0.471,1.000,0.875],scale:2.25,to_color:[0.000,0.663,0.831]} ~ ~1 ~ 1 1 1 0 6 force @a[distance=..128]
+execute if score @s spellbound_crucible_dye matches 6 positioned ^-.25 ^ ^.5 run particle dust_color_transition{from_color:[0.000,0.765,0.851],scale:2.25,to_color:[0.000,0.506,0.659]} ~ ~1 ~ 1 1 1 0 6 force @a[distance=..128]
 
 execute if score @s spellbound_crucible_dye matches 7 positioned ^-.25 ^ ^.5 run particle dust_color_transition{from_color:[0.631,0.890,1.000],scale:2.25,to_color:[0.169,0.694,1.000]} ~ ~1 ~ 1 1 1 0 6 force @a[distance=..128]
 

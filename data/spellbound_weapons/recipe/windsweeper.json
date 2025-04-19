@@ -25,9 +25,11 @@
       
       "max_damage": 1600,
       
-      "attribute_modifiers": {
-        "modifiers":  [
+      "attribute_modifiers":[
           {
+            "display": {
+              "type": "default"
+            },
             "type": "minecraft:attack_damage",
             "amount": 5.5,
             "operation": "add_value",
@@ -36,6 +38,9 @@
           }
         ,
           {
+            "display": {
+              "type": "default"
+            },
             "type": "minecraft:attack_speed",
             "amount": -2.4,
             "operation": "add_value",
@@ -43,11 +48,10 @@
             "slot": "mainhand"
           }
         ]
-      },
-      "item_name": "{\"translate\":\"Windsweeper\",\"color\":\"#e1e8a5\",\"italic\":false}",
+      ,
+      "item_name": {"translate":"Windsweeper","color":"#e1e8a5","italic":false},
       "lore": [
-        "[ {\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false}]","[{\"translate\":\"  \",\"color\":\"gray\",\"italic\": false},{\"color\":\"blue\",\"italic\": false,\"translate\":\"item.minecraft.diamond_sword\"}]",
-        "{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}"
+        [ {"translate":"Grindstone Repair: ","color":"gray","italic": false}],[{"translate":"  ","color":"gray","italic": false},{"color":"blue","italic": false,"translate":"item.minecraft.diamond_sword"}],{"translate":"Spellbound Weapons","color":"#676e75","italic": true}
       ]
     }
   }

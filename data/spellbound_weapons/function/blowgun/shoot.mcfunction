@@ -6,7 +6,7 @@ execute as @p[scores={spellbound_blowgun=1..}] at @s anchored eyes positioned ^ 
 execute as @p[scores={spellbound_blowgun=1..}] at @s if score @s spellbound_blowgun_cooldown matches ..8 positioned ^ ^ ^1.5 run tag @e[limit=1,sort=nearest,type=marker,tag=spellbound_blowgun_arrow_raycast] add spellbound_blowgun_arrow_raycast_speed_slow
 
 #somewhat charged
-execute as @p[scores={spellbound_blowgun=1..}] at @s if score @s spellbound_blowgun_cooldown matches 9..15 positioned ^ ^ ^1.5 run tag @e[limit=1,sort=nearest,type=marker,tag=spellbound_blowgun_arrow_raycast] add spellbound_blowgun_arrow_raycast_speed_normal
+execute as @p[scores={spellbound_blowgun=1..}] at @s if score @s spellbound_blowgun_cooldown matches 8..15 positioned ^ ^ ^1.5 run tag @e[limit=1,sort=nearest,type=marker,tag=spellbound_blowgun_arrow_raycast] add spellbound_blowgun_arrow_raycast_speed_normal
 
 #fully charged
 execute as @p[scores={spellbound_blowgun=1..}] at @s if score @s spellbound_blowgun_cooldown matches 16.. positioned ^ ^ ^1.5 run tag @e[limit=1,sort=nearest,type=marker,tag=spellbound_blowgun_arrow_raycast] add spellbound_blowgun_arrow_raycast_speed_fast

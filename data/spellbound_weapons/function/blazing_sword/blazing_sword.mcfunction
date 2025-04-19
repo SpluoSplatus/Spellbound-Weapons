@@ -19,7 +19,7 @@ execute as @s[scores={spellbound_blazing_cooldown=80..}] at @s if predicate spel
 
 execute if score @s spellbound_blazing_cooldown matches 80 run scoreboard players add @s spellbound_blazing_cooldown 1
 
-#execute if score @s spellbound_blazing_cooldown matches 80 run title @s[tag=!1_splatus_actionbar_disabled] actionbar [{"translate":"Blazeblade"},{"translate":" charged! Hold "},{"keybind":"key.sneak"},{"translate": " to release flames"}]
+#execute if score @s spellbound_blazing_cooldown matches 80 run title @s[tag=!1_splatus_actionbar_disabled] actionbar [{"translate":"Blazeblade"},{"translate":" charged! Hold "},{"keybind":"key.sneak","color":"yellow"},{"translate": " to release flames"}]
 execute if score @s spellbound_blazing_cooldown matches 81.. if predicate spellbound_weapons:sneaking run scoreboard players add @s spellbound_blazing_cooldown 1
 execute if score @s spellbound_blazing_cooldown matches 82.. run function spellbound_weapons:blazing_sword/charging
 

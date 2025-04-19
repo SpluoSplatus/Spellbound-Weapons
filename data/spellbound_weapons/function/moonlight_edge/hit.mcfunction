@@ -15,8 +15,6 @@ execute unless score @s spellbound_moonlight_edge_cooldown matches 0.. run score
 scoreboard players set @s[scores={spellbound_moonlight_edge_cooldown=45..}] spellbound_moonlight_edge_cooldown 45
 
 
-tag @s add spellbound_player_usingbeam
-
 execute at @s unless score @s spellbound_fallspeed matches ..-20 store result score @n[type=marker,tag=spellbound_moonlight_edge_beam] spellbound_uuid run scoreboard players get @s spellbound_uuid
 execute at @s unless score @s spellbound_fallspeed matches ..-20 store result score @n[type=marker,tag=spellbound_moonlight_edge_beam] spellbound_uuid2 run scoreboard players get @s spellbound_uuid2
 execute at @s unless score @s spellbound_fallspeed matches ..-20 store result score @n[type=marker,tag=spellbound_moonlight_edge_beam] spellbound_uuid3 run scoreboard players get @s spellbound_uuid3

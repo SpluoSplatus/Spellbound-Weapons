@@ -1,6 +1,6 @@
 
 
-summon item ~ ~ ~ {PickupDelay:20,Tags:["spellbound_item_blazeblade","spellbound_crafteditem"],Item:{id:"minecraft:diamond_sword",count:1,components:{custom_model_data:47015,custom_data:{SpellboundItem:1b,SpellboundWithering:1b},attribute_modifiers:{modifiers:[]},item_name:"{\"translate\":\"Witherblade\",\"color\":\"#7f7aa1\",\"italic\":false}",lore:["[ {\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false}]","[{\"translate\":\"  \",\"color\":\"gray\",\"italic\": false},{\"color\":\"blue\",\"italic\": false,\"translate\":\"item.minecraft.diamond_sword\"}]","{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}"]}}}
+summon item ~ ~ ~ {PickupDelay:20,Tags:["spellbound_item_blazeblade","spellbound_crafteditem"],Item:{id:"minecraft:diamond_sword",count:1,components:{custom_model_data:{floats:[47015]},custom_data:{SpellboundItem:1b,SpellboundWithering:1b},attribute_modifiers:[],item_name:{"translate":"Witherblade","color":"#7f7aa1","italic":false},lore:[ [ {"translate":"Grindstone Repair: ","color":"gray","italic": false}],[{"translate":"  ","color":"gray","italic": false},{"color":"blue","italic": false,"translate":"item.minecraft.diamond_sword"}],{"translate":"Spellbound Weapons","color":"#676e75","italic": true} ]}}}
 
 
 

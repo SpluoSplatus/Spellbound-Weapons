@@ -15,14 +15,14 @@ playsound minecraft:entity.generic.swim player @a[distance=..30] ~ ~ ~ 1.25 .75
 
 scoreboard players set @s spellbound_golden_ocean_edge_cooldown 0
 
-summon minecraft:area_effect_cloud ~ ~ ~ {Rotation:[45f,0f],Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
-summon minecraft:area_effect_cloud ~ ~ ~ {Rotation:[90f,0f],Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
-summon minecraft:area_effect_cloud ~ ~ ~ {Rotation:[135f,0f],Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
-summon minecraft:area_effect_cloud ~ ~ ~ {Rotation:[180f,0f],Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
-summon minecraft:area_effect_cloud ~ ~ ~ {Rotation:[225f,0f],Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
-summon minecraft:area_effect_cloud ~ ~ ~ {Rotation:[270f,0f],Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
-summon minecraft:area_effect_cloud ~ ~ ~ {Rotation:[315f,0f],Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
-summon minecraft:area_effect_cloud ~ ~ ~ {Rotation:[360f,0f],Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
+summon minecraft:area_effect_cloud ~ ~ ~ {Particle:{type:"minecraft:block",block_state:"minecraft:air"},Rotation:[45f,0f],Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
+summon minecraft:area_effect_cloud ~ ~ ~ {Particle:{type:"minecraft:block",block_state:"minecraft:air"},Rotation:[90f,0f],Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
+summon minecraft:area_effect_cloud ~ ~ ~ {Particle:{type:"minecraft:block",block_state:"minecraft:air"},Rotation:[135f,0f],Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
+summon minecraft:area_effect_cloud ~ ~ ~ {Particle:{type:"minecraft:block",block_state:"minecraft:air"},Rotation:[180f,0f],Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
+summon minecraft:area_effect_cloud ~ ~ ~ {Particle:{type:"minecraft:block",block_state:"minecraft:air"},Rotation:[225f,0f],Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
+summon minecraft:area_effect_cloud ~ ~ ~ {Particle:{type:"minecraft:block",block_state:"minecraft:air"},Rotation:[270f,0f],Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
+summon minecraft:area_effect_cloud ~ ~ ~ {Particle:{type:"minecraft:block",block_state:"minecraft:air"},Rotation:[315f,0f],Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
+summon minecraft:area_effect_cloud ~ ~ ~ {Particle:{type:"minecraft:block",block_state:"minecraft:air"},Rotation:[360f,0f],Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
 
 execute as @e[distance=..0.0001,type=area_effect_cloud,tag=spellbound_golden_ocean_edge_wave,limit=8] run scoreboard players set @s spellbound_count 6
 

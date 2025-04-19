@@ -25,7 +25,7 @@ execute if score @s spellbound_withering_cooldown matches 100.. if predicate spe
 execute if score @s spellbound_withering_cooldown matches 100.. if score @s spellbound_jump matches 1.. run scoreboard players set @s spellbound_withering_cooldown 100
 execute if score @s spellbound_withering_cooldown matches 100.. unless predicate spellbound_weapons:sneaking run scoreboard players set @s spellbound_withering_cooldown 100
 execute if score @s spellbound_withering_cooldown matches 100.. as @s[advancements={spellbound_weapons:player_hurt=true}] run scoreboard players set @s spellbound_withering_cooldown 100
-execute if score @s spellbound_withering_cooldown matches 100.. run title @s[tag=!1_splatus_actionbar_disabled] actionbar [{"translate":"Witherblade has absorbed max souls! Hold down "},{"keybind":"key.sneak"},{"translate": " to heal"}]
+execute if score @s spellbound_withering_cooldown matches 100.. run title @s[tag=!1_splatus_actionbar_disabled] actionbar [{"translate":"Witherblade has absorbed max souls! Hold down "},{"keybind":"key.sneak","color":"yellow"},{"translate": " to heal"}]
 
 
 execute if score @s spellbound_withering_cooldown matches 100 if predicate spellbound_weapons:chance/25_percent run particle soul ~ ~1 ~ .05 .05 .05 .1 1 force @a[distance=..64]

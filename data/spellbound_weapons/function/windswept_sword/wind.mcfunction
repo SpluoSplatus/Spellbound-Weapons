@@ -29,6 +29,10 @@ tag @a remove spellbound_temp5
 
 execute as @e[distance=..2,type=item] at @s facing entity @n[type=marker,tag=spellbound_sand_wind] eyes run function spellbound_weapons:windswept_sword/push
 
+
+execute at @s positioned ^ ^ ^.6 unless block ^ ^ ^ #spellbound_weapons:permeable_by_wind if block ~ ~1 ~ #spellbound_weapons:permeable_by_wind positioned ^ ^ ^-.6 align y run tp @s ~ ~1.1 ~
+
+
 execute at @s if block ^ ^ ^.2 #spellbound_weapons:permeable_by_wind run tp @s[tag=!spellbound_sand_wind_heavy,tag=!spellbound_sand_wind_enchanted] ^ ^ ^.1
 execute at @s if block ^ ^ ^.6 #spellbound_weapons:permeable_by_wind run tp @s[tag=spellbound_sand_wind_heavy,tag=!spellbound_sand_wind_enchanted] ^ ^ ^.4
 

@@ -12,7 +12,7 @@
               "components": {
 
                 "custom_model_data": {"floats": [47999]},
-                "unbreakable": {"show_in_tooltip": false},
+                "unbreakable": {},
 
                 "custom_data": {
                   "SpellboundItem": 1,
@@ -21,11 +21,11 @@
                 
                 "max_damage": 600,
               
-               "attribute_modifiers": {"modifiers":[]},
-"item_name": "{\"translate\":\"Delete\",\"color\":\"#ff0015\",\"italic\":false,\"obfuscated\":true}",
-"custom_name": "{\"translate\":\"Delete\",\"color\":\"#ff0015\",\"italic\":false,\"obfuscated\":true}",
+               "attribute_modifiers": [],
+"item_name": {"translate":"Delete","color":"#ff0015","italic":false,"obfuscated":true},
+"custom_name": {"translate":"Delete","color":"#ff0015","italic":false,"obfuscated":true},
 
-                "lore": ["[ {\"translate\":\"When in Mainhand: \",\"color\":\"gray\",\"italic\": false}]","[{\"translate\":\"  \",\"color\":\"gray\",\"italic\": false},{\"color\":\"dark_green\",\"italic\": false,\"translate\":\"-�99999e+23? Attack Damage\"}]","{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}"]
+                "lore": [ [{"translate":"When in Mainhand: ","color":"gray","italic": false}],[{"translate":"  ","color":"gray","italic": false},{"color":"dark_green","italic": false,"translate":"-�99999e+23? Attack Damage"}],{"translate":"Spellbound Weapons","color":"#676e75","italic": true}]
                 
 
                

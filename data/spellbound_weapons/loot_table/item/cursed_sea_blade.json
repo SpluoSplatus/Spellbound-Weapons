@@ -19,11 +19,11 @@
                     "CursedSeaBlade": 1
                   },
                 
-                 "attribute_modifiers": {"modifiers":[]},
- "item_name": "{\"translate\":\"Cursed Sea Blade\",\"color\":\"#71ebc6\",\"italic\":false}",
- "custom_name": "{\"translate\":\"Cursed Sea Blade\",\"color\":\"#71ebc6\",\"italic\":false}",
+                 "attribute_modifiers": [],
+ "item_name": {"translate":"Cursed Sea Blade","color":"#71ebc6","italic":false},
+ "custom_name": {"translate":"Cursed Sea Blade","color":"#71ebc6","italic":false},
 
-                  "lore": ["{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}"]
+                  "lore": [{"translate":"Spellbound Weapons","color":"#676e75","italic": true}]
                   
 
                  

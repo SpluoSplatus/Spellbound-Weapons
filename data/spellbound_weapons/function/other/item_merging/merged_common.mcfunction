@@ -4,9 +4,10 @@ data modify entity @e[distance=..3,sort=nearest,limit=1,tag=spellbound_craftedit
 
 
 particle flash ~ ~ ~ 0 0 0 0 5 force @a[distance=..32]
-particle poof ~ ~.2 ~ .3 .3 .3 .15 12 force @a[distance=..64]
-particle poof ~ ~.2 ~ .3 .3 .3 .05 12 force @a[distance=..64]
+particle poof ~ ~.2 ~ .3 .3 .3 .15 6 force @a[distance=..64]
+particle poof ~ ~.2 ~ .3 .3 .3 .05 6 force @a[distance=..64]
 
+particle minecraft:firefly ~ ~ ~ .3 .3 .3 0 20 force @a[distance=..64]
 
 tag @e[distance=..3,type=item,tag=spellbound_crafteditem] remove spellbound_crafteditem
 

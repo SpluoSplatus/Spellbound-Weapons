@@ -20,7 +20,8 @@ execute positioned ~1 ~ ~-1 run function spellbound_weapons:other/asset/summon_f
 execute positioned ~-1 ~ ~-1 run function spellbound_weapons:other/asset/summon_fire
 execute positioned ~-1 ~ ~1 run function spellbound_weapons:other/asset/summon_fire
 
-particle large_smoke ~ ~ ~ 0 0 0 .15 80 normal @a[distance=..64]
+particle large_smoke ~ ~ ~ 0 0 0 .3 80 normal @a[distance=..64]
+particle large_smoke ~ ~ ~ 0 0 0 .2 80 normal @a[distance=..64]
 
 execute if predicate spellbound_weapons:chance/50_percent run execute positioned ~4 ~ ~ run function spellbound_weapons:other/asset/summon_fire
 execute if predicate spellbound_weapons:chance/50_percent run execute positioned ~2 ~ ~2 run function spellbound_weapons:other/asset/summon_fire
@@ -77,21 +78,27 @@ execute if score @s spellbound_enchantlevel matches 5 as @e[distance=4..6,type=!
 
 tag @a[tag=spellbound_temp5] remove spellbound_temp5
 
-execute as @s[tag=!spellbound_magmus_charger_arrow_max_blue] run summon firework_rocket ~ ~.35 ~ {FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"large_ball",has_twinkle:true,has_trail:true,colors:[I;16749124,16775011,16733440,16755200],fade_colors:[I;16711680,16736768]}]}}}}
+execute as @s[tag=!spellbound_magmus_charger_arrow_max_blue] run summon firework_rocket ~ ~.4 ~ {FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"large_ball",has_twinkle:true,has_trail:true,colors:[I;16749124,16775011,16733440,16755200],fade_colors:[I;16711680,16736768]}]}}}}
 
-execute as @s[tag=spellbound_magmus_charger_arrow_max_blue] run summon firework_rocket ~ ~.35 ~ {FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"large_ball",has_twinkle:true,has_trail:true,colors:[I;16711680,16711680,11271423,5556735],fade_colors:[I;7935,2588394]}]}}}}
+execute as @s[tag=!spellbound_magmus_charger_arrow_max_blue] run summon firework_rocket ~-0.0000 ~1 ~ {FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"burst",has_twinkle:true,has_trail:false,colors:[I;16749124,16775011,16733440,16755200],fade_colors:[I;16711680,16736768]}]}}}}
+
+
+#blue
+execute as @s[tag=spellbound_magmus_charger_arrow_max_blue] run summon firework_rocket ~ ~.4 ~ {FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"large_ball",has_twinkle:true,has_trail:true,colors:[I;5435135,48127,5435135,48127,5435135,48127,16755223,16721679],fade_colors:[I;7935,2588394]}]}}}}
+
+execute as @s[tag=spellbound_magmus_charger_arrow_max_blue] run summon firework_rocket ~ ~.4 ~ {FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"burst",has_twinkle:true,has_trail:false,colors:[I;5435135,48127,5435135,48127,5435135,48127,16755223,16721679],fade_colors:[I;7935,2588394]}]}}}}
+
+
 data modify entity @e[limit=1,sort=nearest,type=firework_rocket] Owner set from entity @s data.Owner
 
 #TNT!!!!!!!!!!
 execute if score spellbound_tnt spellbound_count matches 1 run summon tnt
 
 
-#blast off
+#blast off firework
 execute positioned ~ ~.5 ~ as @e[distance=..0.5,type=!#spellbound_weapons:misc] at @s run function spellbound_weapons:magmus_charger/blastoff
 
 #death
 
 playsound entity.generic.explode player @a[distance=..48] ~ ~ ~ 6 .8
 playsound entity.generic.explode player @a[distance=..48] ~ ~ ~ 5 .6
-
-kill @s

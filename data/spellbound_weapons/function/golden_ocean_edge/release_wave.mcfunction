@@ -15,13 +15,13 @@ playsound minecraft:entity.generic.swim player @a[distance=..30] ~ ~ ~ 1.25 .75
 
 scoreboard players set @s spellbound_golden_ocean_edge_cooldown 0
 
-summon minecraft:area_effect_cloud ^1.8 ^ ^0.6 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
-summon minecraft:area_effect_cloud ^1.2 ^ ^0.6 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
-summon minecraft:area_effect_cloud ^.6 ^ ^0.6 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
-summon minecraft:area_effect_cloud ^ ^ ^0.6 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
-summon minecraft:area_effect_cloud ^-.6 ^ ^0.6 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
-summon minecraft:area_effect_cloud ^-1.2 ^ ^0.6 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
-summon minecraft:area_effect_cloud ^-1.8 ^ ^0.6 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
+summon minecraft:area_effect_cloud ^1.8 ^ ^0.6 {Particle:{type:"minecraft:block",block_state:"minecraft:air"},Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
+summon minecraft:area_effect_cloud ^1.2 ^ ^0.6 {Particle:{type:"minecraft:block",block_state:"minecraft:air"},Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
+summon minecraft:area_effect_cloud ^.6 ^ ^0.6 {Particle:{type:"minecraft:block",block_state:"minecraft:air"},Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
+summon minecraft:area_effect_cloud ^ ^ ^0.6 {Particle:{type:"minecraft:block",block_state:"minecraft:air"},Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
+summon minecraft:area_effect_cloud ^-.6 ^ ^0.6 {Particle:{type:"minecraft:block",block_state:"minecraft:air"},Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
+summon minecraft:area_effect_cloud ^-1.2 ^ ^0.6 {Particle:{type:"minecraft:block",block_state:"minecraft:air"},Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
+summon minecraft:area_effect_cloud ^-1.8 ^ ^0.6 {Particle:{type:"minecraft:block",block_state:"minecraft:air"},Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["spellbound_golden_ocean_edge_wave"]}
 
 
 

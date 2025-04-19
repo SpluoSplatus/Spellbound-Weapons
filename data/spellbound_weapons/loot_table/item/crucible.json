@@ -24,11 +24,11 @@
                     "CrucibleDye": 1
                   },
                 
-                 "attribute_modifiers": {"modifiers":[]},
- "item_name": "{\"translate\":\"Crucible\",\"color\":\"#EB3868\",\"italic\":false}",
- "custom_name": "{\"translate\":\"Crucible\",\"color\":\"#EB3868\",\"italic\":false}",
+                 "attribute_modifiers": [],
+ "item_name": {"translate":"Crucible","color":"#EB3868","italic":false},
+ "custom_name": {"translate":"Crucible","color":"#EB3868","italic":false},
 
-                  "lore": ["[{\"translate\":\"Color: Red\",\"color\":\"gray\",\"italic\":false}]","[ {\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false}]","[{\"translate\":\"  \",\"color\":\"gray\",\"italic\": false},{\"color\":\"blue\",\"italic\": false,\"translate\":\"item.minecraft.diamond_sword\"}]","{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}"]
+                  "lore": [ [{"translate":"Color: Red","color":"gray","italic":false}],[ {"translate":"Grindstone Repair: ","color":"gray","italic": false}],[{"translate":"  ","color":"gray","italic": false},{"color":"blue","italic": false,"translate":"item.minecraft.diamond_sword"}],{"translate":"Spellbound Weapons","color":"#676e75","italic": true}]
                   
 
                  

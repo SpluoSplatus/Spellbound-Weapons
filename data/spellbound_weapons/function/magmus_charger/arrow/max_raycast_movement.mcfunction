@@ -1,7 +1,7 @@
 execute at @s if score @s spellbound_count matches ..20 run scoreboard players add @s spellbound_count2 1
 scoreboard players add @s spellbound_count 1
 
-particle flame ~ ~ ~ 0 0 0 .005 1 force @a[distance=..512]
+execute at @s[tag=!spellbound_magmus_charger_arrow_max_blue] run particle flame ~ ~ ~ 0 0 0 .005 1 force @a[distance=..512]
 execute if predicate spellbound_weapons:chance/25_percent at @s[tag=spellbound_magmus_charger_arrow_max_blue] run particle soul_fire_flame ~ ~ ~ 0 0 0 .1 1 force @a[distance=..512]
 
 execute at @s[tag=!spellbound_magmus_charger_arrow_max_blue] if predicate spellbound_weapons:chance/10_percent run particle lava ~ ~ ~ 0 0 0 0 1 force @a[distance=..128]

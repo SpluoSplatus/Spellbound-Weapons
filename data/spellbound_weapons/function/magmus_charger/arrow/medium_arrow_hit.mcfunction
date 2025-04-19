@@ -39,7 +39,8 @@ execute as @e[distance=..3,type=!#spellbound_weapons:misc] run data merge entity
 
 execute as @a if score @s spellbound_uuid = @n[type=area_effect_cloud,tag=spellbound_magmus_charger_arrow_area_mid] spellbound_uuid if score @s spellbound_uuid2 = @n[type=area_effect_cloud,tag=spellbound_magmus_charger_arrow_area_mid] spellbound_uuid2 if score @s spellbound_uuid3 = @n[type=area_effect_cloud,tag=spellbound_magmus_charger_arrow_area_mid] spellbound_uuid3 if score @s spellbound_uuid4 = @n[type=area_effect_cloud,tag=spellbound_magmus_charger_arrow_area_mid] spellbound_uuid4 run tag @s add spellbound_temp5
 
-execute as @e[distance=..3,type=!#spellbound_weapons:misc] at @s run damage @s 5 spellbound_weapons:explosion_force by @p[tag=spellbound_temp5]
+execute as @n[distance=..2,type=!#spellbound_weapons:misc] at @s run damage @s 2 spellbound_weapons:explosion_force by @p[tag=spellbound_temp5]
+execute as @e[distance=..3,type=!#spellbound_weapons:misc] at @s run damage @s 5 spellbound_weapons:explosion by @p[tag=spellbound_temp5]
 playsound entity.generic.explode player @a[distance=..48] ~ ~ ~ 4 1.2
 
 tag @a remove spellbound_temp5

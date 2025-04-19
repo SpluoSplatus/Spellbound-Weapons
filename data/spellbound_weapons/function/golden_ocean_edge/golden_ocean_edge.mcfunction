@@ -12,7 +12,7 @@ execute if entity @s if score @s spellbound_golden_ocean_edge_cooldown matches 4
 execute if entity @s if score @s spellbound_golden_ocean_edge_cooldown matches 40.. if entity @s[predicate=spellbound_weapons:sneaking] if block ~ ~ ~ #spellbound_weapons:water run function spellbound_weapons:golden_ocean_edge/release_dash
 
 execute if entity @s if score @s spellbound_golden_ocean_edge_cooldown matches 0..39 run title @s[tag=!1_splatus_actionbar_disabled,tag=!spellbound_player_text_golden] actionbar [{"translate": "Charging Wave... - "},{"score":{"name":"@s","objective": "spellbound_golden_ocean_edge_cooldown"}},{"translate": "/40"}]
-execute if entity @s if score @s spellbound_golden_ocean_edge_cooldown matches 40..60 run title @s[tag=!1_splatus_actionbar_disabled,tag=!spellbound_player_text_golden] actionbar [{"translate": "Ready! Press "},{"keybind":"key.sneak"},{"translate":" to Release a Wave - 40/40"}]
+execute if entity @s if score @s spellbound_golden_ocean_edge_cooldown matches 40..60 run title @s[tag=!1_splatus_actionbar_disabled,tag=!spellbound_player_text_golden] actionbar [{"translate": "Ready! Press "},{"keybind":"key.sneak","color":"yellow"},{"translate":" to Release a Wave - 40/40"}]
 
 #execute if entity @s run title @s[tag=!1_splatus_actionbar_disabled] actionbar [{"translate": "You can't use Golden Sea Blade in the Nether! - 40/40"}]
 

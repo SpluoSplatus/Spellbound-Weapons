@@ -34,19 +34,19 @@ execute if score @s[tag=spellbound_magmus_charger_arrow_max_blue] spellbound_cou
 execute if score @s spellbound_count matches 101.. run particle large_smoke ~ ~ ~ .3 .3 .3 .2 10 force @a[distance=..128]
 execute if score @s spellbound_count matches 101..115 run playsound minecraft:entity.blaze.hurt player @a[distance=..64] ~ ~ ~ 3 .95
 
-execute if score @s[tag=!spellbound_magmus_charger_arrow_max_blue] spellbound_count matches 101 run summon firework_rocket ~ ~.35 ~
-execute if score @s[tag=!spellbound_magmus_charger_arrow_max_blue] spellbound_count matches 103 run summon firework_rocket ~ ~.35 ~ {FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;15627074]}]}}}}
-execute if score @s[tag=!spellbound_magmus_charger_arrow_max_blue] spellbound_count matches 105 run summon firework_rocket ~ ~.35 ~ {FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;16765764]}]}}}}
+execute if score @s[tag=!spellbound_magmus_charger_arrow_max_blue] spellbound_count matches 101 run summon firework_rocket ~ ~.4 ~
+execute if score @s[tag=!spellbound_magmus_charger_arrow_max_blue] spellbound_count matches 103 run summon firework_rocket ~ ~.4 ~ {FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;15627074]}]}}}}
+execute if score @s[tag=!spellbound_magmus_charger_arrow_max_blue] spellbound_count matches 105 run summon firework_rocket ~ ~.4 ~ {FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;16765764]}]}}}}
 
 #blue
-execute if score @s[tag=spellbound_magmus_charger_arrow_max_blue] spellbound_count matches 101 run summon firework_rocket ~ ~.35 ~ {FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;4877311]}]}}}}
-execute if score @s[tag=spellbound_magmus_charger_arrow_max_blue] spellbound_count matches 103 run summon firework_rocket ~ ~.35 ~ {FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;4367342]}]}}}}
-execute if score @s[tag=spellbound_magmus_charger_arrow_max_blue] spellbound_count matches 105 run summon firework_rocket ~ ~.35 ~ {FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;4517119]}]}}}}
+execute if score @s[tag=spellbound_magmus_charger_arrow_max_blue] spellbound_count matches 101 run summon firework_rocket ~ ~.4 ~ {FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;4877311]}]}}}}
+execute if score @s[tag=spellbound_magmus_charger_arrow_max_blue] spellbound_count matches 103 run summon firework_rocket ~ ~.4 ~ {FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;4367342]}]}}}}
+execute if score @s[tag=spellbound_magmus_charger_arrow_max_blue] spellbound_count matches 105 run summon firework_rocket ~ ~.4 ~ {FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;4517119]}]}}}}
 
 execute if score @s spellbound_count matches 101 run data modify entity @e[limit=1,sort=nearest,type=firework_rocket] Owner set from entity @s data.Owner
 execute if score @s spellbound_count matches 104 run data modify entity @e[limit=1,sort=nearest,type=firework_rocket] Owner set from entity @s data.Owner
 execute if score @s spellbound_count matches 108 run data modify entity @e[limit=1,sort=nearest,type=firework_rocket] Owner set from entity @s data.Owner
 
-execute if score @s spellbound_count matches 110.. run particle flash ~ ~ ~ 0 0 0 0 5 force @a[distance=..128]
-execute if score @s spellbound_count matches 111.. run function spellbound_weapons:magmus_charger/arrow/max_hit
-execute if score @s spellbound_count matches 111.. run kill @s
+execute if score @s spellbound_count matches 108.. run particle flash ~ ~ ~ 0 0 0 0 5 force @a[distance=..128]
+execute if score @s spellbound_count matches 110 run function spellbound_weapons:magmus_charger/arrow/max_hit
+execute if score @s spellbound_count matches 113.. run kill @s

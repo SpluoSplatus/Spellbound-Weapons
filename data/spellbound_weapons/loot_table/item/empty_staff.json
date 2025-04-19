@@ -18,11 +18,11 @@
                     "EmptyStaff": 1
                   },
                 
-                 "attribute_modifiers": {"modifiers":[]},
- "item_name": "{\"translate\":\"Empty Staff\",\"color\":\"#bcbccf\",\"italic\":false}",
- "custom_name": "{\"translate\":\"Empty Staff\",\"color\":\"#bcbccf\",\"italic\":false}",
+                 "attribute_modifiers": [],
+ "item_name": {"translate":"Empty Staff","color":"#bcbccf","italic":false},
+ "custom_name": {"translate":"Empty Staff","color":"#bcbccf","italic":false},
 
-                  "lore": ["[{\"text\":\"\"}]","[{\"translate\":\"This staff is empty\",\"color\":\"gray\",\"italic\": false}]","[{\"translate\":\"  Drop this item on top of a crafting table block with\",\"color\":\"blue\",\"italic\": false}]","[{\"translate\":\"  either a fire charge, packed ice, or glowstone\",\"color\":\"blue\",\"italic\": false}]","[{\"translate\":\"  to power it into a fire, ice, or electric staff\",\"color\":\"blue\",\"italic\": false}]","[{\"text\":\"\"}]","[{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}]"]
+                  "lore": [ [{"text":""}],[{"translate":"This staff is empty","color":"gray","italic": false}],[{"translate":"  Drop this item on top of a crafting table block with","color":"blue","italic": false}],[{"translate":"  either a fire charge, packed ice, or glowstone","color":"blue","italic": false}],[{"translate":"  to power it into a fire, ice, or electric staff","color":"blue","italic": false}],[{"text":""}],[{"translate":"Spellbound Weapons","color":"#676e75","italic": true}]]
                   
 
                  

@@ -1,1 +1,1 @@
-execute if score spellbound_tips spellbound_settings matches 1 run title @s[tag=!1_splatus_actionbar_disabled] actionbar [{"translate":"You can also release Fang Line from a distance by pressing "},{"keybind":"key.sneak"}]
+execute if score spellbound_tips spellbound_settings matches 1 run title @s[tag=!1_splatus_actionbar_disabled] actionbar [{"translate":"You can also release Fang Line from a distance by pressing "},{"keybind":"key.sneak","color":"yellow"}]

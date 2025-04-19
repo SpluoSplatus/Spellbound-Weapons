@@ -9,8 +9,8 @@ particle squid_ink ~ ~.75 ~ 0 0 0 .02 2 force @a[distance=..32]
 
 data modify entity @s Item.components.minecraft:custom_data.CrucibleDye set value 16b
 data modify entity @s Item.components.minecraft:custom_model_data set value {"floats":[47216]}
-data modify entity @s Item.components.minecraft:custom_name set value "{\"translate\":\"Crucible\",\"color\":\"#848c9c\",\"italic\":false}"
-data modify entity @s Item.components.minecraft:lore set value ["{\"translate\":\"Color: Black\",\"color\":\"gray\",\"italic\":false}","[ {\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false}]","[{\"translate\":\"  \",\"color\":\"gray\",\"italic\": false},{\"color\":\"blue\",\"italic\": false,\"translate\":\"item.minecraft.diamond_sword\"}]","{\"translate\":\"Spellbound Weapons\",\"color\":\"#676E75\",\"italic\":true}"]
+data modify entity @s Item.components.minecraft:custom_name set value {"translate":"Crucible","color":"#848c9c","italic":false}
+data modify entity @s Item.components.minecraft:lore set value [{"translate":"Color: Black","color":"gray","italic":false},[ {"translate":"Grindstone Repair: ","color":"gray","italic": false}],[{"translate":"  ","color":"gray","italic": false},{"color":"blue","italic": false,"translate":"item.minecraft.diamond_sword"}],{"translate":"Spellbound Weapons","color":"#676E75","italic":true}]
 
 
 kill @e[sort=nearest,type=item,nbt={Item:{id:"minecraft:black_dye"}},limit=1]

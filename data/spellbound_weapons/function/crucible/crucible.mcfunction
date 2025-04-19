@@ -19,7 +19,7 @@ execute if score @s spellbound_crucible_dye matches 2 positioned ^-.25 ^ ^.5 run
 execute if score @s spellbound_crucible_dye matches 3 positioned ^-.25 ^ ^.5 run particle dust_color_transition{from_color:[1.000,0.839,0.027],scale:1,to_color:[1.000,0.824,0.761]} ~ ~1 ~ .4 .4 .4 0 1 force @a[distance=..64]
 execute if score @s spellbound_crucible_dye matches 4 positioned ^-.25 ^ ^.5 run particle dust_color_transition{from_color:[0.506,1.000,0.012],scale:1,to_color:[1.000,0.867,0.188]} ~ ~1 ~ .4 .4 .4 0 1 force @a[distance=..64]
 execute if score @s spellbound_crucible_dye matches 5 positioned ^-.25 ^ ^.5 run particle dust_color_transition{from_color:[0.114,0.941,0.525],scale:1,to_color:[0.710,1.000,0.329]} ~ ~1 ~ .4 .4 .4 0 1 force @a[distance=..64]
-execute if score @s spellbound_crucible_dye matches 6 positioned ^-.25 ^ ^.5 run particle dust_color_transition{from_color:[0.471,1.000,0.875],scale:1,to_color:[0.000,0.663,0.831]} ~ ~1 ~ .4 .4 .4 0 1 force @a[distance=..64]
+execute if score @s spellbound_crucible_dye matches 6 positioned ^-.25 ^ ^.5 run particle dust_color_transition{from_color:[0.000,0.765,0.851],scale:1,to_color:[0.000,0.506,0.659]} ~ ~1 ~ .4 .4 .4 0 1 force @a[distance=..64]
 execute if score @s spellbound_crucible_dye matches 7 positioned ^-.25 ^ ^.5 run particle dust_color_transition{from_color:[0.631,0.890,1.000],scale:1,to_color:[0.169,0.694,1.000]} ~ ~1 ~ .4 .4 .4 0 1 force @a[distance=..64]
 execute if score @s spellbound_crucible_dye matches 8 positioned ^-.25 ^ ^.5 run particle dust_color_transition{from_color:[0.000,0.200,1.000],scale:1,to_color:[0.000,0.667,1.000]} ~ ~1 ~ .4 .4 .4 0 1 force @a[distance=..64]
 execute if score @s spellbound_crucible_dye matches 9 positioned ^-.25 ^ ^.5 run particle dust_color_transition{from_color:[0.702,0.000,1.000],scale:1,to_color:[0.035,0.071,1.000]} ~ ~1 ~ .4 .4 .4 0 1 force @a[distance=..64]
@@ -55,10 +55,10 @@ execute if score @s[tag=!spellbound_player_crucible1] spellbound_crucible_energy
 
 execute if score @s spellbound_crucible_energy matches 500.. positioned ~ ~.8 ~ rotated ~ 0 run particle electric_spark ^-.2 ^ ^1 .4 .4 .4 .15 2 force @a[distance=..64]
 
-execute if score @s spellbound_crucible_energy matches 500.. run title @s[tag=!1_splatus_actionbar_disabled] actionbar [{"translate": "Energy Maxed! Press "},{"keybind":"key.sneak"},{"translate":" to release stored energy - 500"},{"translate": "/500"}]
+execute if score @s spellbound_crucible_energy matches 500.. run title @s[tag=!1_splatus_actionbar_disabled] actionbar [{"translate": "Press "},{"keybind":"key.sneak","color":"yellow"},{"translate":" to release stored energy - 500"},{"translate": "/500"}]
 
 
-# Press "},{"keybind":"key.sneak"},{"translate":" and release!!!
+# Press "},{"keybind":"key.sneak","color":"yellow"},{"translate":" and release!!!
 execute if score @s spellbound_crucible_energy matches 500.. if entity @s[predicate=spellbound_weapons:sneaking] run function spellbound_weapons:crucible/release_energy
 
 

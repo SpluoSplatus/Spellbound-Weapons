@@ -31,6 +31,9 @@
                   [
                     {
                       
+                      "display": {
+                        "type": "default"
+                      },
                       "type": "minecraft:attack_damage",
                       "amount": 5.5,
                       "operation": "add_value",
@@ -39,6 +42,9 @@
                     }
                   ,
                     {
+                      "display": {
+                        "type": "default"
+                      },
                       "type": "minecraft:attack_speed",
                       "amount": -2.5,
                       "operation": "add_value",
@@ -47,9 +53,9 @@
                     }
                   ],
                 
- "item_name": "{\"translate\":\"Thorn Blossom\",\"color\":\"#c0e3b3\",\"italic\":false}",
+ "item_name": {"translate":"Thorn Blossom","color":"#c0e3b3","italic":false},
 
-                  "lore": ["[ {\"translate\":\"Grindstone Repair: \",\"color\":\"gray\",\"italic\": false}]","[{\"translate\":\"  \",\"color\":\"gray\",\"italic\": false},{\"color\":\"blue\",\"italic\": false,\"translate\":\"item.minecraft.iron_sword\"}]","{\"translate\":\"Spellbound Weapons\",\"color\":\"#676e75\",\"italic\": true}"]
+                  "lore": [ [ {"translate":"Grindstone Repair: ","color":"gray","italic": false}],[{"translate":"  ","color":"gray","italic": false},{"color":"blue","italic": false,"translate":"item.minecraft.iron_sword"}],{"translate":"Spellbound Weapons","color":"#676e75","italic": true}]
                   
                
                  

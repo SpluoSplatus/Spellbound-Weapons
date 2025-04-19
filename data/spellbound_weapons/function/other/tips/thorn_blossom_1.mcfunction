@@ -1,1 +1,1 @@
-execute if score spellbound_tips spellbound_settings matches 1 run title @s[tag=!1_splatus_actionbar_disabled] actionbar [{"translate":"Press "},{"keybind":"key.sneak"},{"translate":" to grapple and release thorns where you land"}]
+execute if score spellbound_tips spellbound_settings matches 1 run title @s[tag=!1_splatus_actionbar_disabled] actionbar [{"translate":"Press "},{"keybind":"key.sneak","color":"yellow"},{"translate":" to grapple and release thorns where you land"}]
